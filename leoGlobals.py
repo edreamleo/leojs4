@@ -5316,6 +5316,7 @@ class GitIssueController:
     #@+node:ekr.20180126043719.3: *5* git.get_one_issue
     def get_one_issue(self, label, state, limit=20):
         """Create a list of issues with the given label."""
+        # __pragma__ ('skip')
         import requests
         root = self.root.insertAsLastChild()
         page, total = 1, 0
@@ -5344,6 +5345,7 @@ class GitIssueController:
             root.h = f"{total} {state} {label} issues for milestone {self.milestone}"
         else:
             root.h = f"{total} {state} {label} issues"
+        # __pragma__ ('noskip')
     #@+node:ekr.20180126043719.4: *5* git.get_one_page
     def get_one_page(self, label, page, r, root):
 
