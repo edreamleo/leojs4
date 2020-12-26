@@ -1,4 +1,4 @@
-// Transcrypt'ed from Python, 2020-12-25 05:32:31
+// Transcrypt'ed from Python, 2020-12-26 06:28:06
 var inspect = {};
 var re = {};
 var sys = {};

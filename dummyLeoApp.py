@@ -18,15 +18,8 @@ from leo.core import leoNodes
 from leo.core import leoUndo
 # Tell pyflakes to chill.
 assert g and leoFind and leoMenu and leoNodes and leoUndo
-
-def main():
-    console.log('dummyLeoApp.py:', __file__)
-    test()
     
 def test():
     g.trace('=====')
-    
-if __name__ == '__main__':
-    main()
 
 .. @-leo

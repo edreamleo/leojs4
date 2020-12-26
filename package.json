@@ -2,7 +2,7 @@
     "name": "leojs",
     "description": "leojs, based on minimal hello world example",
     "version": "0.0.1",
-    "publisher": "edreamleo@gmail.com",
+    "publisher": "edreamleo",
     "repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-minimal-sample",
     "engines": {
         "vscode": "^1.32.0"
