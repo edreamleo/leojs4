@@ -1,0 +1,19 @@
+{
+    "type": "module",
+    "name": "leojs-modules",
+    "description": "leojs modules",
+    "version": "0.0.1",
+    "publisher": "edreamleo",
+    "repository": "None",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "activationEvents": [
+    ],
+    "main": "./leo_module.js",
+    "contributes": {},
+    "scripts": {},
+    "devDependencies": {
+        "@types/vscode": "^1.32.0"
+    }
+}
