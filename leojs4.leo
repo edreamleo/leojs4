@@ -33,6 +33,7 @@
 <v t="ekr.20201227092409.9"><vh>function activate</vh></v>
 </v>
 <v t="ekr.20201227092409.12"><vh>@path src</vh>
+<v t="ekr.20201227093049.1"><vh> library</vh>
 <v t="ekr.20201227092409.13"><vh>@clean inspect.js</vh>
 <v t="ekr.20201227092409.14"><vh>export var isclass</vh></v>
 </v>
@@ -55,6 +56,369 @@
 <v t="ekr.20201227092409.32"><vh>export var permutations</vh></v>
 <v t="ekr.20201227092409.33"><vh>export var combinations</vh></v>
 <v t="ekr.20201227092409.35"><vh>export var combinations_with_replacement</vh></v>
+</v>
+<v t="ekr.20201227092411.455"><vh>@clean logging.js</vh>
+<v t="ekr.20201227092411.456"><vh>export var getLevelName</vh></v>
+<v t="ekr.20201227092411.457"><vh>export var addLevelName</vh></v>
+<v t="ekr.20201227092411.458"><vh>export var currentframe</vh></v>
+<v t="ekr.20201227092411.459"><vh>export var _checkLevel</vh></v>
+<v t="ekr.20201227092411.460"><vh>export var _acquireLock</vh></v>
+<v t="ekr.20201227092411.461"><vh>export var _releaseLock</vh></v>
+<v t="ekr.20201227092411.462"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.463"><vh>get getMessage() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.464"><vh>get toDict() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.465"><vh>get __str__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.466"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.467"><vh>export var setLogRecordFactory</vh></v>
+<v t="ekr.20201227092411.468"><vh>export var getLogRecordFactory</vh></v>
+<v t="ekr.20201227092411.469"><vh>export var makeLogRecord</vh></v>
+<v t="ekr.20201227092411.470"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.471"><vh>get usesTime() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.472"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.473"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.474"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.475"><vh>get usesTime() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.476"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.477"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.478"><vh>get formatTime() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.479"><vh>get formatException() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.480"><vh>get usesTime() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.481"><vh>get formatMessage() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.482"><vh>get formatStack() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.483"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.484"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.485"><vh>get formatHeader() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.486"><vh>get formatFooter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.487"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.488"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.489"><vh>get filter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.490"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.491"><vh>get addFilter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.492"><vh>get removeFilter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.493"><vh>get filter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.494"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.495"><vh>get write() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.496"><vh>export var _removeHandlerRef</vh></v>
+<v t="ekr.20201227092411.497"><vh>export var _addHandlerRef</vh></v>
+<v t="ekr.20201227092411.498"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.499"><vh>get get_name() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.500"><vh>get set_name() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.501"><vh>get createLock() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.502"><vh>get acquire() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.503"><vh>get release() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.504"><vh>get setLevel() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.505"><vh>get format() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.506"><vh>get emit() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.507"><vh>get handle() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.508"><vh>get setFormatter() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.509"><vh>get flush() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.510"><vh>get close() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.511"><vh>get handleError() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.512"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.513"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.514"><vh>get flush() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.515"><vh>get emit() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.516"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.517"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.518"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.519"><vh>get _getStream() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.520"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.521"><vh>get append() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.522"><vh>export var setLoggerClass</vh></v>
+<v t="ekr.20201227092411.523"><vh>export var getLoggerClass</vh></v>
+<v t="ekr.20201227092411.524"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.525"><vh>get getLogger() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.526"><vh>get setLoggerClass() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.527"><vh>get setLogRecordFactory() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.528"><vh>get _fixupParents() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.529"><vh>get _fixupChildren() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.530"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.531"><vh>get setLevel() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.532"><vh>get debug() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.533"><vh>get info() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.534"><vh>get warning() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.535"><vh>get warn() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.536"><vh>get error() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.537"><vh>get exception() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.538"><vh>get critical() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.539"><vh>get log() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.540"><vh>get findCaller() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.541"><vh>get makeRecord() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.542"><vh>get _log() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.543"><vh>get handle() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.544"><vh>get addHandler() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.545"><vh>get removeHandler() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.546"><vh>get hasHandlers() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.547"><vh>get callHandlers() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.548"><vh>get getEffectiveLevel() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.549"><vh>get isEnabledFor() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.550"><vh>get getChild() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.551"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.552"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.553"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.554"><vh>get process() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.555"><vh>get debug() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.556"><vh>get info() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.557"><vh>get warning() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.558"><vh>get warn() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.559"><vh>get error() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.560"><vh>get exception() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.561"><vh>get critical() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.562"><vh>get log() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.563"><vh>get isEnabledFor() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.564"><vh>get setLevel() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.565"><vh>get getEffectiveLevel() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.566"><vh>get hasHandlers() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.567"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.568"><vh>export var _resetLogging</vh></v>
+<v t="ekr.20201227092411.569"><vh>export var basicConfig</vh></v>
+<v t="ekr.20201227092411.570"><vh>export var getLogger</vh></v>
+<v t="ekr.20201227092411.571"><vh>export var critical</vh></v>
+<v t="ekr.20201227092411.572"><vh>export var error</vh></v>
+<v t="ekr.20201227092411.573"><vh>export var exception</vh></v>
+<v t="ekr.20201227092411.574"><vh>export var warning</vh></v>
+<v t="ekr.20201227092411.575"><vh>export var warn</vh></v>
+<v t="ekr.20201227092411.576"><vh>export var info</vh></v>
+<v t="ekr.20201227092411.577"><vh>export var debug</vh></v>
+<v t="ekr.20201227092411.578"><vh>export var log</vh></v>
+<v t="ekr.20201227092411.579"><vh>export var disable</vh></v>
+<v t="ekr.20201227092411.580"><vh>export var shutdown</vh></v>
+<v t="ekr.20201227092411.581"><vh>get handle() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.582"><vh>get emit() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.583"><vh>get createLock() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.584"><vh>export var _showwarning</vh></v>
+<v t="ekr.20201227092411.585"><vh>export var captureWarnings</vh></v>
+</v>
+<v t="ekr.20201227092411.586"><vh>@clean org.transcrypt.__runtime__.js</vh>
+<v t="ekr.20201227092411.587"><vh>var cls</vh></v>
+<v t="ekr.20201227092411.588"><vh>__PyIterator__.prototype.__next__</vh></v>
+<v t="ekr.20201227092411.589"><vh>__JsIterator__.prototype.next</vh></v>
+<v t="ekr.20201227092411.590"><vh>function</vh></v>
+<v t="ekr.20201227092411.591"><vh>function</vh></v>
+<v t="ekr.20201227092411.593"><vh>Array.prototype.__getslice__</vh></v>
+<v t="ekr.20201227092411.594"><vh>Array.prototype.__setslice__</vh></v>
+<v t="ekr.20201227092411.595"><vh>Array.prototype.__repr__</vh></v>
+<v t="ekr.20201227092411.596"><vh>Array.prototype.append</vh></v>
+<v t="ekr.20201227092411.597"><vh>Array.prototype.py_clear</vh></v>
+<v t="ekr.20201227092411.598"><vh>Array.prototype.extend</vh></v>
+<v t="ekr.20201227092411.599"><vh>Array.prototype.insert</vh></v>
+<v t="ekr.20201227092411.600"><vh>Array.prototype.remove</vh></v>
+<v t="ekr.20201227092411.601"><vh>Array.prototype.index</vh></v>
+<v t="ekr.20201227092411.602"><vh>Array.prototype.py_pop</vh></v>
+<v t="ekr.20201227092411.603"><vh>Array.prototype.py_sort</vh></v>
+<v t="ekr.20201227092411.604"><vh>Array.prototype.__add__</vh></v>
+<v t="ekr.20201227092411.605"><vh>Array.prototype.__mul__</vh></v>
+<v t="ekr.20201227092411.606"><vh>Array.prototype.__bindexOf__</vh></v>
+<v t="ekr.20201227092411.607"><vh>Array.prototype.add</vh></v>
+<v t="ekr.20201227092411.608"><vh>Array.prototype.discard</vh></v>
+<v t="ekr.20201227092411.609"><vh>Array.prototype.isdisjoint</vh></v>
+<v t="ekr.20201227092411.610"><vh>Array.prototype.issuperset</vh></v>
+<v t="ekr.20201227092411.611"><vh>Array.prototype.issubset</vh></v>
+<v t="ekr.20201227092411.612"><vh>Array.prototype.union</vh></v>
+<v t="ekr.20201227092411.613"><vh>Array.prototype.intersection</vh></v>
+<v t="ekr.20201227092411.614"><vh>Array.prototype.difference</vh></v>
+<v t="ekr.20201227092411.615"><vh>Array.prototype.symmetric_difference</vh></v>
+<v t="ekr.20201227092411.616"><vh>Array.prototype.py_update</vh></v>
+<v t="ekr.20201227092411.617"><vh>Array.prototype.__eq__</vh></v>
+<v t="ekr.20201227092411.618"><vh>Array.prototype.__ne__</vh></v>
+<v t="ekr.20201227092411.619"><vh>Array.prototype.__le__</vh></v>
+<v t="ekr.20201227092411.620"><vh>Array.prototype.__ge__</vh></v>
+<v t="ekr.20201227092411.621"><vh>Array.prototype.__lt__</vh></v>
+<v t="ekr.20201227092411.622"><vh>Array.prototype.__gt__</vh></v>
+<v t="ekr.20201227092411.623"><vh>Uint8Array.prototype.__add__</vh></v>
+<v t="ekr.20201227092411.624"><vh>Uint8Array.prototype.__mul__</vh></v>
+<v t="ekr.20201227092411.625"><vh>String.prototype.__repr__</vh></v>
+<v t="ekr.20201227092411.626"><vh>String.prototype.__str__</vh></v>
+<v t="ekr.20201227092411.627"><vh>String.prototype.capitalize</vh></v>
+<v t="ekr.20201227092411.628"><vh>String.prototype.endswith</vh></v>
+<v t="ekr.20201227092411.629"><vh>String.prototype.find</vh></v>
+<v t="ekr.20201227092411.630"><vh>String.prototype.__getslice__</vh></v>
+<v t="ekr.20201227092411.631"><vh>get: function</vh></v>
+<v t="ekr.20201227092411.633"><vh>String.prototype.isalnum</vh></v>
+<v t="ekr.20201227092411.634"><vh>String.prototype.isalpha</vh></v>
+<v t="ekr.20201227092411.635"><vh>String.prototype.isdecimal</vh></v>
+<v t="ekr.20201227092411.636"><vh>String.prototype.isdigit</vh></v>
+<v t="ekr.20201227092411.637"><vh>String.prototype.islower</vh></v>
+<v t="ekr.20201227092411.638"><vh>String.prototype.isupper</vh></v>
+<v t="ekr.20201227092411.639"><vh>String.prototype.isspace</vh></v>
+<v t="ekr.20201227092411.640"><vh>String.prototype.isnumeric</vh></v>
+<v t="ekr.20201227092411.641"><vh>String.prototype.join</vh></v>
+<v t="ekr.20201227092411.642"><vh>String.prototype.lower</vh></v>
+<v t="ekr.20201227092411.643"><vh>String.prototype.py_replace</vh></v>
+<v t="ekr.20201227092411.644"><vh>String.prototype.lstrip</vh></v>
+<v t="ekr.20201227092411.645"><vh>String.prototype.rfind</vh></v>
+<v t="ekr.20201227092411.646"><vh>String.prototype.rsplit</vh></v>
+<v t="ekr.20201227092411.647"><vh>String.prototype.rstrip</vh></v>
+<v t="ekr.20201227092411.648"><vh>String.prototype.py_split</vh></v>
+<v t="ekr.20201227092411.649"><vh>String.prototype.startswith</vh></v>
+<v t="ekr.20201227092411.650"><vh>String.prototype.strip</vh></v>
+<v t="ekr.20201227092411.651"><vh>String.prototype.upper</vh></v>
+<v t="ekr.20201227092411.652"><vh>String.prototype.__mul__</vh></v>
+<v t="ekr.20201227092411.653"><vh>function __contains__</vh></v>
+<v t="ekr.20201227092411.654"><vh>function __keys__</vh></v>
+<v t="ekr.20201227092411.655"><vh>function __items__</vh></v>
+<v t="ekr.20201227092411.656"><vh>function __del__</vh></v>
+<v t="ekr.20201227092411.657"><vh>function __clear__</vh></v>
+<v t="ekr.20201227092411.658"><vh>function __getdefault__</vh></v>
+<v t="ekr.20201227092411.659"><vh>function __setdefault__</vh></v>
+<v t="ekr.20201227092411.660"><vh>function __pop__</vh></v>
+<v t="ekr.20201227092411.661"><vh>function __popitem__</vh></v>
+<v t="ekr.20201227092411.662"><vh>function __update__</vh></v>
+<v t="ekr.20201227092411.663"><vh>function __values__</vh></v>
+<v t="ekr.20201227092411.664"><vh>function __dgetitem__</vh></v>
+<v t="ekr.20201227092411.665"><vh>function __dsetitem__</vh></v>
+<v t="ekr.20201227092411.666"><vh>function __setdoc__</vh></v>
+<v t="ekr.20201227092411.667"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.668"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.669"><vh>get __str__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.670"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.671"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.672"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.673"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.674"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.675"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.676"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.677"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.678"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092411.679"><vh>export var __sort__</vh></v>
+<v t="ekr.20201227092412.2"><vh>export var sorted</vh></v>
+<v t="ekr.20201227092412.3"><vh>export var map</vh></v>
+<v t="ekr.20201227092412.5"><vh>export var filter</vh></v>
+<v t="ekr.20201227092412.7"><vh>export var divmod</vh></v>
+<v t="ekr.20201227092412.8"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.9"><vh>get print() {return __get__(this, function</vh>
+<v t="ekr.20201227092412.10"><vh>self.buffer = '{}{}{}'.format(self.buffer, sep.join function</vh></v>
+<v t="ekr.20201227092412.11"><vh>console.log(sep.join function</vh></v>
+</v>
+<v t="ekr.20201227092412.12"><vh>get input() {return __get__(this, function</vh></v>
+</v>
+<v t="ekr.20201227092412.13"><vh>@clean re.js</vh>
+<v t="ekr.20201227092412.14"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.15"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.16"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.17"><vh>get _getPos() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.18"><vh>get _setPos() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.19"><vh>get _getEndPos() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.20"><vh>get _setEndPos() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.21"><vh>get _getRe() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.22"><vh>get _setRe() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.23"><vh>get _getString() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.24"><vh>get _setString() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.25"><vh>get _getLastGroup() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.26"><vh>get _setLastGroup() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.27"><vh>get _getLastIndex() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.28"><vh>get _setLastIndex() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.29"><vh>get _lastMatchGroup() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.30"><vh>get expand() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.31"><vh>get group() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.32"><vh>get groups() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.34"><vh>get groupdict() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.35"><vh>get start() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.36"><vh>get end() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.37"><vh>get span() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.38"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.39"><vh>get _getPattern() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.40"><vh>get _setPattern() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.41"><vh>get _getFlags() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.42"><vh>get _setFlags() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.43"><vh>get _getGroups() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.44"><vh>get _setGroups() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.45"><vh>get _getGroupIndex() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.46"><vh>get _setGroupIndex() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.47"><vh>get _compileWrapper() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.48"><vh>get _convertFlags() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.50"><vh>get _getTargetStr() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.51"><vh>get _patternHasCaptures() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.52"><vh>get search() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.53"><vh>get match() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.54"><vh>get fullmatch() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.55"><vh>get py_split() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.56"><vh>get _findAllMatches() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.57"><vh>get findall() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.59"><vh>get finditer() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.61"><vh>get sub() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.62"><vh>get subn() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.63"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.64"><vh>export var compile</vh></v>
+<v t="ekr.20201227092412.65"><vh>export var search</vh></v>
+<v t="ekr.20201227092412.66"><vh>export var match</vh></v>
+<v t="ekr.20201227092412.67"><vh>export var fullmatch</vh></v>
+<v t="ekr.20201227092412.68"><vh>export var py_split</vh></v>
+<v t="ekr.20201227092412.69"><vh>export var findall</vh></v>
+<v t="ekr.20201227092412.70"><vh>export var finditer</vh></v>
+<v t="ekr.20201227092412.71"><vh>export var sub</vh></v>
+<v t="ekr.20201227092412.72"><vh>export var subn</vh></v>
+<v t="ekr.20201227092412.73"><vh>export var escape</vh></v>
+<v t="ekr.20201227092412.75"><vh>export var purge</vh></v>
+</v>
+<v t="ekr.20201227092412.76"><vh>@clean re.translate.js</vh>
+<v t="ekr.20201227092412.77"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.78"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.79"><vh>export var generateGroupSpans</vh></v>
+<v t="ekr.20201227092412.80"><vh>export var countCaptureGroups</vh></v>
+<v t="ekr.20201227092412.81"><vh>export var getCaptureGroup</vh></v>
+<v t="ekr.20201227092412.82"><vh>export var splitIfElse</vh></v>
+<v t="ekr.20201227092412.83"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.84"><vh>get __repr__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.85"><vh>get resolve() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.86"><vh>export var shift</vh></v>
+<v t="ekr.20201227092412.87"><vh>export var shiftReduce</vh></v>
+<v t="ekr.20201227092412.88"><vh>export var translate</vh></v>
+</v>
+<v t="ekr.20201227092412.89"><vh>@clean sys.js</vh></v>
+<v t="ekr.20201227092412.90"><vh>@clean time.js</vh>
+<v t="ekr.20201227092412.91"><vh>export var __debugGetLanguage</vh></v>
+<v t="ekr.20201227092412.92"><vh>export var __adapt__</vh></v>
+<v t="ekr.20201227092412.93"><vh>export var _lsplit</vh></v>
+<v t="ekr.20201227092412.94"><vh>export var _local_time_tuple</vh></v>
+<v t="ekr.20201227092412.95"><vh>export var _utc_time_tuple</vh></v>
+<v t="ekr.20201227092412.96"><vh>export var _day_of_year</vh></v>
+<v t="ekr.20201227092412.97"><vh>export var _is_leap</vh></v>
+<v t="ekr.20201227092412.98"><vh>export var __jan_jun_tz</vh></v>
+<v t="ekr.20201227092412.99"><vh>export var _daylight</vh></v>
+<v t="ekr.20201227092412.100"><vh>export var _daylight_in_effect</vh></v>
+<v t="ekr.20201227092412.101"><vh>export var _timezone</vh></v>
+<v t="ekr.20201227092412.102"><vh>export var __tzn</vh></v>
+<v t="ekr.20201227092412.103"><vh>export var _tzname</vh></v>
+<v t="ekr.20201227092412.104"><vh>export var time</vh></v>
+<v t="ekr.20201227092412.105"><vh>export var asctime</vh></v>
+<v t="ekr.20201227092412.106"><vh>export var mktime</vh></v>
+<v t="ekr.20201227092412.107"><vh>export var ctime</vh></v>
+<v t="ekr.20201227092412.108"><vh>export var localtime</vh></v>
+<v t="ekr.20201227092412.109"><vh>export var gmtime</vh></v>
+<v t="ekr.20201227092412.110"><vh>export var strptime</vh>
+<v t="ekr.20201227092412.111"><vh>var get_next</vh>
+<v t="ekr.20201227092412.112"><vh>var get_sep</vh></v>
+</v>
+</v>
+<v t="ekr.20201227092412.113"><vh>export var strftime</vh></v>
+</v>
+<v t="ekr.20201227092412.115"><vh>@clean warnings.js</vh>
+<v t="ekr.20201227092412.116"><vh>export var ActionSet = set function</vh></v>
+<v t="ekr.20201227092412.117"><vh>export var _filters_mutated</vh></v>
+<v t="ekr.20201227092412.118"><vh>export var showwarning</vh></v>
+<v t="ekr.20201227092412.119"><vh>export var formatwarning</vh></v>
+<v t="ekr.20201227092412.120"><vh>export var _showwarnmsg_impl</vh></v>
+<v t="ekr.20201227092412.121"><vh>export var _formatwarnmsg_impl</vh></v>
+<v t="ekr.20201227092412.122"><vh>export var setShowWarning</vh></v>
+<v t="ekr.20201227092412.123"><vh>export var _showwarnmsg</vh></v>
+<v t="ekr.20201227092412.124"><vh>export var _formatwarnmsg</vh></v>
+<v t="ekr.20201227092412.125"><vh>export var addWarningCategory</vh></v>
+<v t="ekr.20201227092412.126"><vh>export var filterwarnings</vh></v>
+<v t="ekr.20201227092412.127"><vh>export var simplefilter</vh></v>
+<v t="ekr.20201227092412.128"><vh>export var _add_filter</vh></v>
+<v t="ekr.20201227092412.129"><vh>export var resetwarnings</vh></v>
+<v t="ekr.20201227092412.130"><vh>export var _checkCatMatch</vh></v>
+<v t="ekr.20201227092412.131"><vh>export var warn_explicit</vh></v>
+<v t="ekr.20201227092412.132"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.133"><vh>get __str__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.134"><vh>get __init__() {return __get__(this, function</vh></v>
+<v t="ekr.20201227092412.135"><vh>export var setWarningOptions</vh></v>
+<v t="ekr.20201227092412.136"><vh>export var _processoptions</vh></v>
+<v t="ekr.20201227092412.137"><vh>export var _setoption</vh></v>
+<v t="ekr.20201227092412.139"><vh>export var _getaction</vh></v>
+<v t="ekr.20201227092412.140"><vh>export var _getcategory</vh></v>
+</v>
 </v>
 <v t="ekr.20201227092409.37"><vh>@clean leo.commands.js</vh></v>
 <v t="ekr.20201227092409.38"><vh>@clean leo.core.js</vh></v>
@@ -1450,368 +1814,6 @@
 </v>
 <v t="ekr.20201227092411.453"><vh>@clean leo_module.js</vh>
 <v t="ekr.20201227092411.454"><vh>var test</vh></v>
-</v>
-<v t="ekr.20201227092411.455"><vh>@clean logging.js</vh>
-<v t="ekr.20201227092411.456"><vh>export var getLevelName</vh></v>
-<v t="ekr.20201227092411.457"><vh>export var addLevelName</vh></v>
-<v t="ekr.20201227092411.458"><vh>export var currentframe</vh></v>
-<v t="ekr.20201227092411.459"><vh>export var _checkLevel</vh></v>
-<v t="ekr.20201227092411.460"><vh>export var _acquireLock</vh></v>
-<v t="ekr.20201227092411.461"><vh>export var _releaseLock</vh></v>
-<v t="ekr.20201227092411.462"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.463"><vh>get getMessage() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.464"><vh>get toDict() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.465"><vh>get __str__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.466"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.467"><vh>export var setLogRecordFactory</vh></v>
-<v t="ekr.20201227092411.468"><vh>export var getLogRecordFactory</vh></v>
-<v t="ekr.20201227092411.469"><vh>export var makeLogRecord</vh></v>
-<v t="ekr.20201227092411.470"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.471"><vh>get usesTime() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.472"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.473"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.474"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.475"><vh>get usesTime() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.476"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.477"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.478"><vh>get formatTime() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.479"><vh>get formatException() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.480"><vh>get usesTime() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.481"><vh>get formatMessage() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.482"><vh>get formatStack() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.483"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.484"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.485"><vh>get formatHeader() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.486"><vh>get formatFooter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.487"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.488"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.489"><vh>get filter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.490"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.491"><vh>get addFilter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.492"><vh>get removeFilter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.493"><vh>get filter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.494"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.495"><vh>get write() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.496"><vh>export var _removeHandlerRef</vh></v>
-<v t="ekr.20201227092411.497"><vh>export var _addHandlerRef</vh></v>
-<v t="ekr.20201227092411.498"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.499"><vh>get get_name() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.500"><vh>get set_name() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.501"><vh>get createLock() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.502"><vh>get acquire() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.503"><vh>get release() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.504"><vh>get setLevel() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.505"><vh>get format() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.506"><vh>get emit() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.507"><vh>get handle() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.508"><vh>get setFormatter() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.509"><vh>get flush() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.510"><vh>get close() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.511"><vh>get handleError() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.512"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.513"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.514"><vh>get flush() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.515"><vh>get emit() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.516"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.517"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.518"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.519"><vh>get _getStream() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.520"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.521"><vh>get append() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.522"><vh>export var setLoggerClass</vh></v>
-<v t="ekr.20201227092411.523"><vh>export var getLoggerClass</vh></v>
-<v t="ekr.20201227092411.524"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.525"><vh>get getLogger() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.526"><vh>get setLoggerClass() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.527"><vh>get setLogRecordFactory() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.528"><vh>get _fixupParents() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.529"><vh>get _fixupChildren() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.530"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.531"><vh>get setLevel() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.532"><vh>get debug() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.533"><vh>get info() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.534"><vh>get warning() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.535"><vh>get warn() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.536"><vh>get error() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.537"><vh>get exception() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.538"><vh>get critical() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.539"><vh>get log() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.540"><vh>get findCaller() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.541"><vh>get makeRecord() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.542"><vh>get _log() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.543"><vh>get handle() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.544"><vh>get addHandler() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.545"><vh>get removeHandler() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.546"><vh>get hasHandlers() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.547"><vh>get callHandlers() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.548"><vh>get getEffectiveLevel() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.549"><vh>get isEnabledFor() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.550"><vh>get getChild() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.551"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.552"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.553"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.554"><vh>get process() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.555"><vh>get debug() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.556"><vh>get info() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.557"><vh>get warning() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.558"><vh>get warn() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.559"><vh>get error() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.560"><vh>get exception() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.561"><vh>get critical() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.562"><vh>get log() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.563"><vh>get isEnabledFor() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.564"><vh>get setLevel() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.565"><vh>get getEffectiveLevel() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.566"><vh>get hasHandlers() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.567"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.568"><vh>export var _resetLogging</vh></v>
-<v t="ekr.20201227092411.569"><vh>export var basicConfig</vh></v>
-<v t="ekr.20201227092411.570"><vh>export var getLogger</vh></v>
-<v t="ekr.20201227092411.571"><vh>export var critical</vh></v>
-<v t="ekr.20201227092411.572"><vh>export var error</vh></v>
-<v t="ekr.20201227092411.573"><vh>export var exception</vh></v>
-<v t="ekr.20201227092411.574"><vh>export var warning</vh></v>
-<v t="ekr.20201227092411.575"><vh>export var warn</vh></v>
-<v t="ekr.20201227092411.576"><vh>export var info</vh></v>
-<v t="ekr.20201227092411.577"><vh>export var debug</vh></v>
-<v t="ekr.20201227092411.578"><vh>export var log</vh></v>
-<v t="ekr.20201227092411.579"><vh>export var disable</vh></v>
-<v t="ekr.20201227092411.580"><vh>export var shutdown</vh></v>
-<v t="ekr.20201227092411.581"><vh>get handle() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.582"><vh>get emit() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.583"><vh>get createLock() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.584"><vh>export var _showwarning</vh></v>
-<v t="ekr.20201227092411.585"><vh>export var captureWarnings</vh></v>
-</v>
-<v t="ekr.20201227092411.586"><vh>@clean org.transcrypt.__runtime__.js</vh>
-<v t="ekr.20201227092411.587"><vh>var cls</vh></v>
-<v t="ekr.20201227092411.588"><vh>__PyIterator__.prototype.__next__</vh></v>
-<v t="ekr.20201227092411.589"><vh>__JsIterator__.prototype.next</vh></v>
-<v t="ekr.20201227092411.590"><vh>function</vh></v>
-<v t="ekr.20201227092411.591"><vh>function</vh></v>
-<v t="ekr.20201227092411.593"><vh>Array.prototype.__getslice__</vh></v>
-<v t="ekr.20201227092411.594"><vh>Array.prototype.__setslice__</vh></v>
-<v t="ekr.20201227092411.595"><vh>Array.prototype.__repr__</vh></v>
-<v t="ekr.20201227092411.596"><vh>Array.prototype.append</vh></v>
-<v t="ekr.20201227092411.597"><vh>Array.prototype.py_clear</vh></v>
-<v t="ekr.20201227092411.598"><vh>Array.prototype.extend</vh></v>
-<v t="ekr.20201227092411.599"><vh>Array.prototype.insert</vh></v>
-<v t="ekr.20201227092411.600"><vh>Array.prototype.remove</vh></v>
-<v t="ekr.20201227092411.601"><vh>Array.prototype.index</vh></v>
-<v t="ekr.20201227092411.602"><vh>Array.prototype.py_pop</vh></v>
-<v t="ekr.20201227092411.603"><vh>Array.prototype.py_sort</vh></v>
-<v t="ekr.20201227092411.604"><vh>Array.prototype.__add__</vh></v>
-<v t="ekr.20201227092411.605"><vh>Array.prototype.__mul__</vh></v>
-<v t="ekr.20201227092411.606"><vh>Array.prototype.__bindexOf__</vh></v>
-<v t="ekr.20201227092411.607"><vh>Array.prototype.add</vh></v>
-<v t="ekr.20201227092411.608"><vh>Array.prototype.discard</vh></v>
-<v t="ekr.20201227092411.609"><vh>Array.prototype.isdisjoint</vh></v>
-<v t="ekr.20201227092411.610"><vh>Array.prototype.issuperset</vh></v>
-<v t="ekr.20201227092411.611"><vh>Array.prototype.issubset</vh></v>
-<v t="ekr.20201227092411.612"><vh>Array.prototype.union</vh></v>
-<v t="ekr.20201227092411.613"><vh>Array.prototype.intersection</vh></v>
-<v t="ekr.20201227092411.614"><vh>Array.prototype.difference</vh></v>
-<v t="ekr.20201227092411.615"><vh>Array.prototype.symmetric_difference</vh></v>
-<v t="ekr.20201227092411.616"><vh>Array.prototype.py_update</vh></v>
-<v t="ekr.20201227092411.617"><vh>Array.prototype.__eq__</vh></v>
-<v t="ekr.20201227092411.618"><vh>Array.prototype.__ne__</vh></v>
-<v t="ekr.20201227092411.619"><vh>Array.prototype.__le__</vh></v>
-<v t="ekr.20201227092411.620"><vh>Array.prototype.__ge__</vh></v>
-<v t="ekr.20201227092411.621"><vh>Array.prototype.__lt__</vh></v>
-<v t="ekr.20201227092411.622"><vh>Array.prototype.__gt__</vh></v>
-<v t="ekr.20201227092411.623"><vh>Uint8Array.prototype.__add__</vh></v>
-<v t="ekr.20201227092411.624"><vh>Uint8Array.prototype.__mul__</vh></v>
-<v t="ekr.20201227092411.625"><vh>String.prototype.__repr__</vh></v>
-<v t="ekr.20201227092411.626"><vh>String.prototype.__str__</vh></v>
-<v t="ekr.20201227092411.627"><vh>String.prototype.capitalize</vh></v>
-<v t="ekr.20201227092411.628"><vh>String.prototype.endswith</vh></v>
-<v t="ekr.20201227092411.629"><vh>String.prototype.find</vh></v>
-<v t="ekr.20201227092411.630"><vh>String.prototype.__getslice__</vh></v>
-<v t="ekr.20201227092411.631"><vh>get: function</vh></v>
-<v t="ekr.20201227092411.633"><vh>String.prototype.isalnum</vh></v>
-<v t="ekr.20201227092411.634"><vh>String.prototype.isalpha</vh></v>
-<v t="ekr.20201227092411.635"><vh>String.prototype.isdecimal</vh></v>
-<v t="ekr.20201227092411.636"><vh>String.prototype.isdigit</vh></v>
-<v t="ekr.20201227092411.637"><vh>String.prototype.islower</vh></v>
-<v t="ekr.20201227092411.638"><vh>String.prototype.isupper</vh></v>
-<v t="ekr.20201227092411.639"><vh>String.prototype.isspace</vh></v>
-<v t="ekr.20201227092411.640"><vh>String.prototype.isnumeric</vh></v>
-<v t="ekr.20201227092411.641"><vh>String.prototype.join</vh></v>
-<v t="ekr.20201227092411.642"><vh>String.prototype.lower</vh></v>
-<v t="ekr.20201227092411.643"><vh>String.prototype.py_replace</vh></v>
-<v t="ekr.20201227092411.644"><vh>String.prototype.lstrip</vh></v>
-<v t="ekr.20201227092411.645"><vh>String.prototype.rfind</vh></v>
-<v t="ekr.20201227092411.646"><vh>String.prototype.rsplit</vh></v>
-<v t="ekr.20201227092411.647"><vh>String.prototype.rstrip</vh></v>
-<v t="ekr.20201227092411.648"><vh>String.prototype.py_split</vh></v>
-<v t="ekr.20201227092411.649"><vh>String.prototype.startswith</vh></v>
-<v t="ekr.20201227092411.650"><vh>String.prototype.strip</vh></v>
-<v t="ekr.20201227092411.651"><vh>String.prototype.upper</vh></v>
-<v t="ekr.20201227092411.652"><vh>String.prototype.__mul__</vh></v>
-<v t="ekr.20201227092411.653"><vh>function __contains__</vh></v>
-<v t="ekr.20201227092411.654"><vh>function __keys__</vh></v>
-<v t="ekr.20201227092411.655"><vh>function __items__</vh></v>
-<v t="ekr.20201227092411.656"><vh>function __del__</vh></v>
-<v t="ekr.20201227092411.657"><vh>function __clear__</vh></v>
-<v t="ekr.20201227092411.658"><vh>function __getdefault__</vh></v>
-<v t="ekr.20201227092411.659"><vh>function __setdefault__</vh></v>
-<v t="ekr.20201227092411.660"><vh>function __pop__</vh></v>
-<v t="ekr.20201227092411.661"><vh>function __popitem__</vh></v>
-<v t="ekr.20201227092411.662"><vh>function __update__</vh></v>
-<v t="ekr.20201227092411.663"><vh>function __values__</vh></v>
-<v t="ekr.20201227092411.664"><vh>function __dgetitem__</vh></v>
-<v t="ekr.20201227092411.665"><vh>function __dsetitem__</vh></v>
-<v t="ekr.20201227092411.666"><vh>function __setdoc__</vh></v>
-<v t="ekr.20201227092411.667"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.668"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.669"><vh>get __str__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.670"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.671"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.672"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.673"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.674"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.675"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.676"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.677"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.678"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092411.679"><vh>export var __sort__</vh></v>
-<v t="ekr.20201227092412.2"><vh>export var sorted</vh></v>
-<v t="ekr.20201227092412.3"><vh>export var map</vh></v>
-<v t="ekr.20201227092412.5"><vh>export var filter</vh></v>
-<v t="ekr.20201227092412.7"><vh>export var divmod</vh></v>
-<v t="ekr.20201227092412.8"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.9"><vh>get print() {return __get__(this, function</vh>
-<v t="ekr.20201227092412.10"><vh>self.buffer = '{}{}{}'.format(self.buffer, sep.join function</vh></v>
-<v t="ekr.20201227092412.11"><vh>console.log(sep.join function</vh></v>
-</v>
-<v t="ekr.20201227092412.12"><vh>get input() {return __get__(this, function</vh></v>
-</v>
-<v t="ekr.20201227092412.13"><vh>@clean re.js</vh>
-<v t="ekr.20201227092412.14"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.15"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.16"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.17"><vh>get _getPos() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.18"><vh>get _setPos() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.19"><vh>get _getEndPos() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.20"><vh>get _setEndPos() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.21"><vh>get _getRe() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.22"><vh>get _setRe() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.23"><vh>get _getString() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.24"><vh>get _setString() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.25"><vh>get _getLastGroup() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.26"><vh>get _setLastGroup() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.27"><vh>get _getLastIndex() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.28"><vh>get _setLastIndex() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.29"><vh>get _lastMatchGroup() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.30"><vh>get expand() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.31"><vh>get group() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.32"><vh>get groups() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.34"><vh>get groupdict() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.35"><vh>get start() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.36"><vh>get end() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.37"><vh>get span() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.38"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.39"><vh>get _getPattern() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.40"><vh>get _setPattern() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.41"><vh>get _getFlags() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.42"><vh>get _setFlags() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.43"><vh>get _getGroups() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.44"><vh>get _setGroups() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.45"><vh>get _getGroupIndex() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.46"><vh>get _setGroupIndex() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.47"><vh>get _compileWrapper() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.48"><vh>get _convertFlags() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.50"><vh>get _getTargetStr() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.51"><vh>get _patternHasCaptures() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.52"><vh>get search() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.53"><vh>get match() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.54"><vh>get fullmatch() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.55"><vh>get py_split() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.56"><vh>get _findAllMatches() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.57"><vh>get findall() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.59"><vh>get finditer() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.61"><vh>get sub() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.62"><vh>get subn() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.63"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.64"><vh>export var compile</vh></v>
-<v t="ekr.20201227092412.65"><vh>export var search</vh></v>
-<v t="ekr.20201227092412.66"><vh>export var match</vh></v>
-<v t="ekr.20201227092412.67"><vh>export var fullmatch</vh></v>
-<v t="ekr.20201227092412.68"><vh>export var py_split</vh></v>
-<v t="ekr.20201227092412.69"><vh>export var findall</vh></v>
-<v t="ekr.20201227092412.70"><vh>export var finditer</vh></v>
-<v t="ekr.20201227092412.71"><vh>export var sub</vh></v>
-<v t="ekr.20201227092412.72"><vh>export var subn</vh></v>
-<v t="ekr.20201227092412.73"><vh>export var escape</vh></v>
-<v t="ekr.20201227092412.75"><vh>export var purge</vh></v>
-</v>
-<v t="ekr.20201227092412.76"><vh>@clean re.translate.js</vh>
-<v t="ekr.20201227092412.77"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.78"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.79"><vh>export var generateGroupSpans</vh></v>
-<v t="ekr.20201227092412.80"><vh>export var countCaptureGroups</vh></v>
-<v t="ekr.20201227092412.81"><vh>export var getCaptureGroup</vh></v>
-<v t="ekr.20201227092412.82"><vh>export var splitIfElse</vh></v>
-<v t="ekr.20201227092412.83"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.84"><vh>get __repr__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.85"><vh>get resolve() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.86"><vh>export var shift</vh></v>
-<v t="ekr.20201227092412.87"><vh>export var shiftReduce</vh></v>
-<v t="ekr.20201227092412.88"><vh>export var translate</vh></v>
-</v>
-<v t="ekr.20201227092412.89"><vh>@clean sys.js</vh></v>
-<v t="ekr.20201227092412.90"><vh>@clean time.js</vh>
-<v t="ekr.20201227092412.91"><vh>export var __debugGetLanguage</vh></v>
-<v t="ekr.20201227092412.92"><vh>export var __adapt__</vh></v>
-<v t="ekr.20201227092412.93"><vh>export var _lsplit</vh></v>
-<v t="ekr.20201227092412.94"><vh>export var _local_time_tuple</vh></v>
-<v t="ekr.20201227092412.95"><vh>export var _utc_time_tuple</vh></v>
-<v t="ekr.20201227092412.96"><vh>export var _day_of_year</vh></v>
-<v t="ekr.20201227092412.97"><vh>export var _is_leap</vh></v>
-<v t="ekr.20201227092412.98"><vh>export var __jan_jun_tz</vh></v>
-<v t="ekr.20201227092412.99"><vh>export var _daylight</vh></v>
-<v t="ekr.20201227092412.100"><vh>export var _daylight_in_effect</vh></v>
-<v t="ekr.20201227092412.101"><vh>export var _timezone</vh></v>
-<v t="ekr.20201227092412.102"><vh>export var __tzn</vh></v>
-<v t="ekr.20201227092412.103"><vh>export var _tzname</vh></v>
-<v t="ekr.20201227092412.104"><vh>export var time</vh></v>
-<v t="ekr.20201227092412.105"><vh>export var asctime</vh></v>
-<v t="ekr.20201227092412.106"><vh>export var mktime</vh></v>
-<v t="ekr.20201227092412.107"><vh>export var ctime</vh></v>
-<v t="ekr.20201227092412.108"><vh>export var localtime</vh></v>
-<v t="ekr.20201227092412.109"><vh>export var gmtime</vh></v>
-<v t="ekr.20201227092412.110"><vh>export var strptime</vh>
-<v t="ekr.20201227092412.111"><vh>var get_next</vh>
-<v t="ekr.20201227092412.112"><vh>var get_sep</vh></v>
-</v>
-</v>
-<v t="ekr.20201227092412.113"><vh>export var strftime</vh></v>
-</v>
-<v t="ekr.20201227092412.115"><vh>@clean warnings.js</vh>
-<v t="ekr.20201227092412.116"><vh>export var ActionSet = set function</vh></v>
-<v t="ekr.20201227092412.117"><vh>export var _filters_mutated</vh></v>
-<v t="ekr.20201227092412.118"><vh>export var showwarning</vh></v>
-<v t="ekr.20201227092412.119"><vh>export var formatwarning</vh></v>
-<v t="ekr.20201227092412.120"><vh>export var _showwarnmsg_impl</vh></v>
-<v t="ekr.20201227092412.121"><vh>export var _formatwarnmsg_impl</vh></v>
-<v t="ekr.20201227092412.122"><vh>export var setShowWarning</vh></v>
-<v t="ekr.20201227092412.123"><vh>export var _showwarnmsg</vh></v>
-<v t="ekr.20201227092412.124"><vh>export var _formatwarnmsg</vh></v>
-<v t="ekr.20201227092412.125"><vh>export var addWarningCategory</vh></v>
-<v t="ekr.20201227092412.126"><vh>export var filterwarnings</vh></v>
-<v t="ekr.20201227092412.127"><vh>export var simplefilter</vh></v>
-<v t="ekr.20201227092412.128"><vh>export var _add_filter</vh></v>
-<v t="ekr.20201227092412.129"><vh>export var resetwarnings</vh></v>
-<v t="ekr.20201227092412.130"><vh>export var _checkCatMatch</vh></v>
-<v t="ekr.20201227092412.131"><vh>export var warn_explicit</vh></v>
-<v t="ekr.20201227092412.132"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.133"><vh>get __str__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.134"><vh>get __init__() {return __get__(this, function</vh></v>
-<v t="ekr.20201227092412.135"><vh>export var setWarningOptions</vh></v>
-<v t="ekr.20201227092412.136"><vh>export var _processoptions</vh></v>
-<v t="ekr.20201227092412.137"><vh>export var _setoption</vh></v>
-<v t="ekr.20201227092412.139"><vh>export var _getaction</vh></v>
-<v t="ekr.20201227092412.140"><vh>export var _getcategory</vh></v>
 </v>
 </v>
 </vnodes>
@@ -13803,220 +13805,220 @@ import * as leoFrame from './leo.core.leoFrame.js';
 import * as g from './leo.core.leoGlobals.js';
 var __name__ = 'leo.core.leoGui';
 export var LeoGui =  __class__ ('LeoGui', [object], {
-    __module__: __name__,
+	__module__: __name__,
     @others
 @language javascript
 @tabwidth -4
 </t>
-<t tx="ekr.20201227092410.579">get __init__ () {return __get__ (this, function (self, guiName) {
-    self.active = null;
-    self.consoleOnly = true;
-    self.globalFindTabManager = null;
-    self.globalFindTab = null;
-    self.idleTimeClass = null;
-    self.isNullGui = false;
-    self.lastFrame = null;
-    self.leoIcon = null;
-    self.mGuiName = guiName;
-    self.mainLoop = null;
-    self.plainTextWidget = null;
-    self.root = null;
-    self.script = null;
-    self.splashScreen = null;
-    self.utils = null;
-    self.ScriptingControllerClass = NullScriptingControllerClass;
-    self.ignoreChars = [];
-    self.FKeys = [];
-    self.specialChars = [];
-});},
+<t tx="ekr.20201227092410.579">	get __init__ () {return __get__ (this, function (self, guiName) {
+		self.active = null;
+		self.consoleOnly = true;
+		self.globalFindTabManager = null;
+		self.globalFindTab = null;
+		self.idleTimeClass = null;
+		self.isNullGui = false;
+		self.lastFrame = null;
+		self.leoIcon = null;
+		self.mGuiName = guiName;
+		self.mainLoop = null;
+		self.plainTextWidget = null;
+		self.root = null;
+		self.script = null;
+		self.splashScreen = null;
+		self.utils = null;
+		self.ScriptingControllerClass = NullScriptingControllerClass;
+		self.ignoreChars = [];
+		self.FKeys = [];
+		self.specialChars = [];
+	});},
 </t>
 <t tx="ekr.20201227092410.58">get lower () {return __get__ (this, function (self) {
     return self.s.lower ();
 });},
 </t>
-<t tx="ekr.20201227092410.580">get create_key_event () {return __get__ (this, function (self, c, binding, char, event, w, x, x_root, y, y_root) {
-    if (typeof binding == 'undefined' || (binding != null &amp;&amp; binding.hasOwnProperty ("__kwargtrans__"))) {;
-        var binding = null;
-    };
-    if (typeof char == 'undefined' || (char != null &amp;&amp; char.hasOwnProperty ("__kwargtrans__"))) {;
-        var char = null;
-    };
-    if (typeof event == 'undefined' || (event != null &amp;&amp; event.hasOwnProperty ("__kwargtrans__"))) {;
-        var event = null;
-    };
-    if (typeof w == 'undefined' || (w != null &amp;&amp; w.hasOwnProperty ("__kwargtrans__"))) {;
-        var w = null;
-    };
-    if (typeof x == 'undefined' || (x != null &amp;&amp; x.hasOwnProperty ("__kwargtrans__"))) {;
-        var x = null;
-    };
-    if (typeof x_root == 'undefined' || (x_root != null &amp;&amp; x_root.hasOwnProperty ("__kwargtrans__"))) {;
-        var x_root = null;
-    };
-    if (typeof y == 'undefined' || (y != null &amp;&amp; y.hasOwnProperty ("__kwargtrans__"))) {;
-        var y = null;
-    };
-    if (typeof y_root == 'undefined' || (y_root != null &amp;&amp; y_root.hasOwnProperty ("__kwargtrans__"))) {;
-        var y_root = null;
-    };
-    return LeoKeyEvent (c, char, event, binding, w, x, y, x_root, y_root);
-});},
+<t tx="ekr.20201227092410.580">	get create_key_event () {return __get__ (this, function (self, c, binding, char, event, w, x, x_root, y, y_root) {
+		if (typeof binding == 'undefined' || (binding != null &amp;&amp; binding.hasOwnProperty ("__kwargtrans__"))) {;
+			var binding = null;
+		};
+		if (typeof char == 'undefined' || (char != null &amp;&amp; char.hasOwnProperty ("__kwargtrans__"))) {;
+			var char = null;
+		};
+		if (typeof event == 'undefined' || (event != null &amp;&amp; event.hasOwnProperty ("__kwargtrans__"))) {;
+			var event = null;
+		};
+		if (typeof w == 'undefined' || (w != null &amp;&amp; w.hasOwnProperty ("__kwargtrans__"))) {;
+			var w = null;
+		};
+		if (typeof x == 'undefined' || (x != null &amp;&amp; x.hasOwnProperty ("__kwargtrans__"))) {;
+			var x = null;
+		};
+		if (typeof x_root == 'undefined' || (x_root != null &amp;&amp; x_root.hasOwnProperty ("__kwargtrans__"))) {;
+			var x_root = null;
+		};
+		if (typeof y == 'undefined' || (y != null &amp;&amp; y.hasOwnProperty ("__kwargtrans__"))) {;
+			var y = null;
+		};
+		if (typeof y_root == 'undefined' || (y_root != null &amp;&amp; y_root.hasOwnProperty ("__kwargtrans__"))) {;
+			var y_root = null;
+		};
+		return LeoKeyEvent (c, char, event, binding, w, x, y, x_root, y_root);
+	});},
 </t>
-<t tx="ekr.20201227092410.581">get guiName () {return __get__ (this, function (self) {
-    try {
-        return self.mGuiName;
-    }
-    catch (__except0__) {
-        if (isinstance (__except0__, Exception)) {
-            return 'invalid gui name';
-        }
-        else {
-            throw __except0__;
-        }
-    }
-});},
+<t tx="ekr.20201227092410.581">	get guiName () {return __get__ (this, function (self) {
+		try {
+			return self.mGuiName;
+		}
+		catch (__except0__) {
+			if (isinstance (__except0__, Exception)) {
+return 'invalid gui name';
+			}
+			else {
+throw __except0__;
+			}
+		}
+	});},
 </t>
-<t tx="ekr.20201227092410.582">get setScript () {return __get__ (this, function (self, script, scriptFileName) {
-    if (typeof script == 'undefined' || (script != null &amp;&amp; script.hasOwnProperty ("__kwargtrans__"))) {;
-        var script = null;
-    };
-    if (typeof scriptFileName == 'undefined' || (scriptFileName != null &amp;&amp; scriptFileName.hasOwnProperty ("__kwargtrans__"))) {;
-        var scriptFileName = null;
-    };
-    self.script = script;
-    self.scriptFileName = scriptFileName;
-});},
+<t tx="ekr.20201227092410.582">	get setScript () {return __get__ (this, function (self, script, scriptFileName) {
+		if (typeof script == 'undefined' || (script != null &amp;&amp; script.hasOwnProperty ("__kwargtrans__"))) {;
+			var script = null;
+		};
+		if (typeof scriptFileName == 'undefined' || (scriptFileName != null &amp;&amp; scriptFileName.hasOwnProperty ("__kwargtrans__"))) {;
+			var scriptFileName = null;
+		};
+		self.script = script;
+		self.scriptFileName = scriptFileName;
+	});},
 </t>
-<t tx="ekr.20201227092410.583">get event_generate () {return __get__ (this, function (self, c, char, shortcut, w) {
-    var event = self.create_key_event (c, __kwargtrans__ ({binding: shortcut, char: char, w: w}));
-    c.k.masterKeyHandler (event);
-    c.outerUpdate ();
-});},
+<t tx="ekr.20201227092410.583">	get event_generate () {return __get__ (this, function (self, c, char, shortcut, w) {
+		var event = self.create_key_event (c, __kwargtrans__ ({binding: shortcut, char: char, w: w}));
+		c.k.masterKeyHandler (event);
+		c.outerUpdate ();
+	});},
 </t>
-<t tx="ekr.20201227092410.584">get destroySelf () {return __get__ (this, function (self) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.584">	get destroySelf () {return __get__ (this, function (self) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.585">get runAboutLeoDialog () {return __get__ (this, function (self, c, version, theCopyright, url, email) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.585">	get runAboutLeoDialog () {return __get__ (this, function (self, c, version, theCopyright, url, email) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.586">get runAskLeoIDDialog () {return __get__ (this, function (self) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.586">	get runAskLeoIDDialog () {return __get__ (this, function (self) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.587">get runAskOkDialog () {return __get__ (this, function (self, c, title, message, text) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof text == 'undefined' || (text != null &amp;&amp; text.hasOwnProperty ("__kwargtrans__"))) {;
-        var text = 'Ok';
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.587">	get runAskOkDialog () {return __get__ (this, function (self, c, title, message, text) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof text == 'undefined' || (text != null &amp;&amp; text.hasOwnProperty ("__kwargtrans__"))) {;
+			var text = 'Ok';
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.588">get runAskOkCancelNumberDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText) {
-    if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelButtonText = null;
-    };
-    if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var okButtonText = null;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.588">	get runAskOkCancelNumberDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText) {
+		if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelButtonText = null;
+		};
+		if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var okButtonText = null;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.589">get runAskOkCancelStringDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText, py_default, wide) {
-    if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelButtonText = null;
-    };
-    if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var okButtonText = null;
-    };
-    if (typeof py_default == 'undefined' || (py_default != null &amp;&amp; py_default.hasOwnProperty ("__kwargtrans__"))) {;
-        var py_default = '';
-    };
-    if (typeof wide == 'undefined' || (wide != null &amp;&amp; wide.hasOwnProperty ("__kwargtrans__"))) {;
-        var wide = false;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.589">	get runAskOkCancelStringDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText, py_default, wide) {
+		if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelButtonText = null;
+		};
+		if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var okButtonText = null;
+		};
+		if (typeof py_default == 'undefined' || (py_default != null &amp;&amp; py_default.hasOwnProperty ("__kwargtrans__"))) {;
+			var py_default = '';
+		};
+		if (typeof wide == 'undefined' || (wide != null &amp;&amp; wide.hasOwnProperty ("__kwargtrans__"))) {;
+			var wide = false;
+		};
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092410.59">get startswith () {return __get__ (this, function (self, s) {
     return self.s.startswith (s);
 });},
 </t>
-<t tx="ekr.20201227092410.590">get runAskYesNoDialog () {return __get__ (this, function (self, c, title, message, yes_all, no_all) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof yes_all == 'undefined' || (yes_all != null &amp;&amp; yes_all.hasOwnProperty ("__kwargtrans__"))) {;
-        var yes_all = false;
-    };
-    if (typeof no_all == 'undefined' || (no_all != null &amp;&amp; no_all.hasOwnProperty ("__kwargtrans__"))) {;
-        var no_all = false;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.590">	get runAskYesNoDialog () {return __get__ (this, function (self, c, title, message, yes_all, no_all) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof yes_all == 'undefined' || (yes_all != null &amp;&amp; yes_all.hasOwnProperty ("__kwargtrans__"))) {;
+			var yes_all = false;
+		};
+		if (typeof no_all == 'undefined' || (no_all != null &amp;&amp; no_all.hasOwnProperty ("__kwargtrans__"))) {;
+			var no_all = false;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.591">get runAskYesNoCancelDialog () {return __get__ (this, function (self, c, title, message, yesMessage, noMessage, yesToAllMessage, defaultButton, cancelMessage) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof yesMessage == 'undefined' || (yesMessage != null &amp;&amp; yesMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var yesMessage = 'Yes';
-    };
-    if (typeof noMessage == 'undefined' || (noMessage != null &amp;&amp; noMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var noMessage = 'No';
-    };
-    if (typeof yesToAllMessage == 'undefined' || (yesToAllMessage != null &amp;&amp; yesToAllMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var yesToAllMessage = null;
-    };
-    if (typeof defaultButton == 'undefined' || (defaultButton != null &amp;&amp; defaultButton.hasOwnProperty ("__kwargtrans__"))) {;
-        var defaultButton = 'Yes';
-    };
-    if (typeof cancelMessage == 'undefined' || (cancelMessage != null &amp;&amp; cancelMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelMessage = null;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.591">	get runAskYesNoCancelDialog () {return __get__ (this, function (self, c, title, message, yesMessage, noMessage, yesToAllMessage, defaultButton, cancelMessage) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof yesMessage == 'undefined' || (yesMessage != null &amp;&amp; yesMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var yesMessage = 'Yes';
+		};
+		if (typeof noMessage == 'undefined' || (noMessage != null &amp;&amp; noMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var noMessage = 'No';
+		};
+		if (typeof yesToAllMessage == 'undefined' || (yesToAllMessage != null &amp;&amp; yesToAllMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var yesToAllMessage = null;
+		};
+		if (typeof defaultButton == 'undefined' || (defaultButton != null &amp;&amp; defaultButton.hasOwnProperty ("__kwargtrans__"))) {;
+			var defaultButton = 'Yes';
+		};
+		if (typeof cancelMessage == 'undefined' || (cancelMessage != null &amp;&amp; cancelMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelMessage = null;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.592">get runPropertiesDialog () {return __get__ (this, function (self, title, data, callback, buttons) {
-    if (typeof title == 'undefined' || (title != null &amp;&amp; title.hasOwnProperty ("__kwargtrans__"))) {;
-        var title = 'Properties';
-    };
-    if (typeof data == 'undefined' || (data != null &amp;&amp; data.hasOwnProperty ("__kwargtrans__"))) {;
-        var data = null;
-    };
-    if (typeof callback == 'undefined' || (callback != null &amp;&amp; callback.hasOwnProperty ("__kwargtrans__"))) {;
-        var callback = null;
-    };
-    if (typeof buttons == 'undefined' || (buttons != null &amp;&amp; buttons.hasOwnProperty ("__kwargtrans__"))) {;
-        var buttons = null;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.592">	get runPropertiesDialog () {return __get__ (this, function (self, title, data, callback, buttons) {
+		if (typeof title == 'undefined' || (title != null &amp;&amp; title.hasOwnProperty ("__kwargtrans__"))) {;
+			var title = 'Properties';
+		};
+		if (typeof data == 'undefined' || (data != null &amp;&amp; data.hasOwnProperty ("__kwargtrans__"))) {;
+			var data = null;
+		};
+		if (typeof callback == 'undefined' || (callback != null &amp;&amp; callback.hasOwnProperty ("__kwargtrans__"))) {;
+			var callback = null;
+		};
+		if (typeof buttons == 'undefined' || (buttons != null &amp;&amp; buttons.hasOwnProperty ("__kwargtrans__"))) {;
+			var buttons = null;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.593">get runOpenFileDialog () {return __get__ (this, function (self, c, title, filetypes, defaultextension, multiple, startpath) {
-    if (typeof multiple == 'undefined' || (multiple != null &amp;&amp; multiple.hasOwnProperty ("__kwargtrans__"))) {;
-        var multiple = false;
-    };
-    if (typeof startpath == 'undefined' || (startpath != null &amp;&amp; startpath.hasOwnProperty ("__kwargtrans__"))) {;
-        var startpath = null;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.593">	get runOpenFileDialog () {return __get__ (this, function (self, c, title, filetypes, defaultextension, multiple, startpath) {
+		if (typeof multiple == 'undefined' || (multiple != null &amp;&amp; multiple.hasOwnProperty ("__kwargtrans__"))) {;
+			var multiple = false;
+		};
+		if (typeof startpath == 'undefined' || (startpath != null &amp;&amp; startpath.hasOwnProperty ("__kwargtrans__"))) {;
+			var startpath = null;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.594">get runSaveFileDialog () {return __get__ (this, function (self, c, initialfile, title, filetypes, defaultextension) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.594">	get runSaveFileDialog () {return __get__ (this, function (self, c, initialfile, title, filetypes, defaultextension) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.595">get createColorPanel () {return __get__ (this, function (self, c) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.595">	get createColorPanel () {return __get__ (this, function (self, c) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092410.596">get createComparePanel () {return __get__ (this, function (self, c) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092410.596">	get createComparePanel () {return __get__ (this, function (self, c) {
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092410.6">    get __call__ () {return __get__ (this, function (self, func) {
         global_commands_dict [self.py_name] = func;
@@ -14777,13 +14779,13 @@ export var RedirectClass =  __class__ ('RedirectClass', [object], {
     }
 });},
 </t>
-<t tx="ekr.20201227092411.1">get createFindTab () {return __get__ (this, function (self, c, parentFrame) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.1">	get createFindTab () {return __get__ (this, function (self, c, parentFrame) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.10">get get_window_info () {return __get__ (this, function (self, window) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.10">	get get_window_info () {return __get__ (this, function (self, window) {
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.100">get canonicalizeTranslatedMenuName () {return __get__ (this, function (self, py_name) {
     if (g.isascii (py_name)) {
@@ -14896,10 +14898,10 @@ return dynamic_menu_callback;
     return commandName;
 });},
 </t>
-<t tx="ekr.20201227092411.11">get get_focus () {return __get__ (this, function (self) {
-    var args = tuple ([].slice.apply (arguments).slice (1));
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.11">	get get_focus () {return __get__ (this, function (self) {
+		var args = tuple ([].slice.apply (arguments).slice (1));
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.110">get getMenuEntryInfo () {return __get__ (this, function (self, data, menu) {
     var done = false;
@@ -15159,9 +15161,9 @@ return dynamic_menu_callback;
     }
 });},
 </t>
-<t tx="ekr.20201227092411.12">get set_focus () {return __get__ (this, function (self, commander, widget) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.12">	get set_focus () {return __get__ (this, function (self, commander, widget) {
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.120">get deleteMenuItem () {return __get__ (this, function (self, itemName, menuName) {
     if (typeof menuName == 'undefined' || (menuName != null &amp;&amp; menuName.hasOwnProperty ("__kwargtrans__"))) {;
@@ -15242,12 +15244,12 @@ return dynamic_menu_callback;
     self.oops ();
 });},
 </t>
-<t tx="ekr.20201227092411.13">get getFontFromParams () {return __get__ (this, function (self, family, size, slant, weight, defaultSize) {
-    if (typeof defaultSize == 'undefined' || (defaultSize != null &amp;&amp; defaultSize.hasOwnProperty ("__kwargtrans__"))) {;
-        var defaultSize = 12;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.13">	get getFontFromParams () {return __get__ (this, function (self, family, size, slant, weight, defaultSize) {
+		if (typeof defaultSize == 'undefined' || (defaultSize != null &amp;&amp; defaultSize.hasOwnProperty ("__kwargtrans__"))) {;
+			var defaultSize = 12;
+		};
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.130">get delete () {return __get__ (this, function (self, menu, realItemName) {
     self.oops ();
@@ -15298,12 +15300,12 @@ return dynamic_menu_callback;
     self.oops ();
 });},
 </t>
-<t tx="ekr.20201227092411.14">get getFullVersion () {return __get__ (this, function (self, c) {
-    if (typeof c == 'undefined' || (c != null &amp;&amp; c.hasOwnProperty ("__kwargtrans__"))) {;
-        var c = null;
-    };
-    return 'LeoGui: dummy version';
-});},
+<t tx="ekr.20201227092411.14">	get getFullVersion () {return __get__ (this, function (self, c) {
+		if (typeof c == 'undefined' || (c != null &amp;&amp; c.hasOwnProperty ("__kwargtrans__"))) {;
+			var c = null;
+		};
+		return 'LeoGui: dummy version';
+	});},
 </t>
 <t tx="ekr.20201227092411.140">get disableMenu () {return __get__ (this, function (self, menu, py_name) {
     self.oops ();
@@ -15359,2177 +15361,2177 @@ import * as __module_itertools__ from './itertools.js';
 __nest__ (itertools, '', __module_itertools__);
 var __name__ = 'leo.core.leoNodes';
 export var NodeIndices =  __class__ ('NodeIndices', [object], {
-    __module__: __name__,
+	__module__: __name__,
     @others
 @language javascript
 @tabwidth -4
 </t>
-<t tx="ekr.20201227092411.148">get __init__ () {return __get__ (this, function (self, id_) {
-    self.defaultId = id_;
-    self.lastIndex = 0;
-    self.stack = [];
-    self.timeString = '';
-    self.userId = id_;
-    self.setTimeStamp ();
-});},
+<t tx="ekr.20201227092411.148">	get __init__ () {return __get__ (this, function (self, id_) {
+		self.defaultId = id_;
+		self.lastIndex = 0;
+		self.stack = [];
+		self.timeString = '';
+		self.userId = id_;
+		self.setTimeStamp ();
+	});},
 </t>
-<t tx="ekr.20201227092411.149">get check_gnx () {return __get__ (this, function (self, c, gnx, v) {
-    var fc = c.fileCommands;
-    if (gnx == 'hidden-root-vnode-gnx') {
-        return ;
-    }
-    var v2 = fc.gnxDict.py_get (gnx);
-    if (v2 &amp;&amp; v2 != v) {
-        g.internalError ('getNewIndex: gnx clash {}\n          v: {}\n         v2: {}'.format (gnx, v, v2));
-    }
-});},
+<t tx="ekr.20201227092411.149">	get check_gnx () {return __get__ (this, function (self, c, gnx, v) {
+		var fc = c.fileCommands;
+		if (gnx == 'hidden-root-vnode-gnx') {
+			return ;
+		}
+		var v2 = fc.gnxDict.py_get (gnx);
+		if (v2 &amp;&amp; v2 != v) {
+			g.internalError ('getNewIndex: gnx clash {}\n          v: {}\n         v2: {}'.format (gnx, v, v2));
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.15">get makeScriptButton () {return __get__ (this, function (self, c, args, p, script, buttonText, balloonText, shortcut, bg, define_g, define_name, silent) {
-    if (typeof args == 'undefined' || (args != null &amp;&amp; args.hasOwnProperty ("__kwargtrans__"))) {;
-        var args = null;
-    };
-    if (typeof p == 'undefined' || (p != null &amp;&amp; p.hasOwnProperty ("__kwargtrans__"))) {;
-        var p = null;
-    };
-    if (typeof script == 'undefined' || (script != null &amp;&amp; script.hasOwnProperty ("__kwargtrans__"))) {;
-        var script = null;
-    };
-    if (typeof buttonText == 'undefined' || (buttonText != null &amp;&amp; buttonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var buttonText = null;
-    };
-    if (typeof balloonText == 'undefined' || (balloonText != null &amp;&amp; balloonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var balloonText = 'Script Button';
-    };
-    if (typeof shortcut == 'undefined' || (shortcut != null &amp;&amp; shortcut.hasOwnProperty ("__kwargtrans__"))) {;
-        var shortcut = null;
-    };
-    if (typeof bg == 'undefined' || (bg != null &amp;&amp; bg.hasOwnProperty ("__kwargtrans__"))) {;
-        var bg = 'LightSteelBlue1';
-    };
-    if (typeof define_g == 'undefined' || (define_g != null &amp;&amp; define_g.hasOwnProperty ("__kwargtrans__"))) {;
-        var define_g = true;
-    };
-    if (typeof define_name == 'undefined' || (define_name != null &amp;&amp; define_name.hasOwnProperty ("__kwargtrans__"))) {;
-        var define_name = '__main__';
-    };
-    if (typeof silent == 'undefined' || (silent != null &amp;&amp; silent.hasOwnProperty ("__kwargtrans__"))) {;
-        var silent = false;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.15">	get makeScriptButton () {return __get__ (this, function (self, c, args, p, script, buttonText, balloonText, shortcut, bg, define_g, define_name, silent) {
+		if (typeof args == 'undefined' || (args != null &amp;&amp; args.hasOwnProperty ("__kwargtrans__"))) {;
+			var args = null;
+		};
+		if (typeof p == 'undefined' || (p != null &amp;&amp; p.hasOwnProperty ("__kwargtrans__"))) {;
+			var p = null;
+		};
+		if (typeof script == 'undefined' || (script != null &amp;&amp; script.hasOwnProperty ("__kwargtrans__"))) {;
+			var script = null;
+		};
+		if (typeof buttonText == 'undefined' || (buttonText != null &amp;&amp; buttonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var buttonText = null;
+		};
+		if (typeof balloonText == 'undefined' || (balloonText != null &amp;&amp; balloonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var balloonText = 'Script Button';
+		};
+		if (typeof shortcut == 'undefined' || (shortcut != null &amp;&amp; shortcut.hasOwnProperty ("__kwargtrans__"))) {;
+			var shortcut = null;
+		};
+		if (typeof bg == 'undefined' || (bg != null &amp;&amp; bg.hasOwnProperty ("__kwargtrans__"))) {;
+			var bg = 'LightSteelBlue1';
+		};
+		if (typeof define_g == 'undefined' || (define_g != null &amp;&amp; define_g.hasOwnProperty ("__kwargtrans__"))) {;
+			var define_g = true;
+		};
+		if (typeof define_name == 'undefined' || (define_name != null &amp;&amp; define_name.hasOwnProperty ("__kwargtrans__"))) {;
+			var define_name = '__main__';
+		};
+		if (typeof silent == 'undefined' || (silent != null &amp;&amp; silent.hasOwnProperty ("__kwargtrans__"))) {;
+			var silent = false;
+		};
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.150">get compute_last_index () {return __get__ (this, function (self, c) {
-    var ni = self;
-    for (var v of c.all_unique_nodes ()) {
-        var gnx = v.fileIndex;
-        if (gnx) {
-            var __left0__ = self.scanGnx (gnx);
-            var id_ = __left0__ [0];
-            var t = __left0__ [1];
-            var n = __left0__ [2];
-            if (t == ni.timeString &amp;&amp; n !== null) {
-                try {
-                    var n = int (n);
-                    self.lastIndex = max (self.lastIndex, n);
-                }
-                catch (__except0__) {
-                    if (isinstance (__except0__, Exception)) {
-                        g.es_exception ();
-                        self.lastIndex++;
-                    }
-                    else {
-                        throw __except0__;
-                    }
-                }
-            }
-        }
-    }
-});},
+<t tx="ekr.20201227092411.150">	get compute_last_index () {return __get__ (this, function (self, c) {
+		var ni = self;
+		for (var v of c.all_unique_nodes ()) {
+			var gnx = v.fileIndex;
+			if (gnx) {
+var __left0__ = self.scanGnx (gnx);
+var id_ = __left0__ [0];
+var t = __left0__ [1];
+var n = __left0__ [2];
+if (t == ni.timeString &amp;&amp; n !== null) {
+	try {
+		var n = int (n);
+		self.lastIndex = max (self.lastIndex, n);
+	}
+	catch (__except0__) {
+		if (isinstance (__except0__, Exception)) {
+			g.es_exception ();
+			self.lastIndex++;
+		}
+		else {
+			throw __except0__;
+		}
+	}
+}
+			}
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.151">get computeNewIndex () {return __get__ (this, function (self) {
-    var t_s = self.py_update ();
-    var gnx = g.toUnicode ('{}.{}.{}'.format (self.userId, t_s, self.lastIndex));
-    return gnx;
-});},
+<t tx="ekr.20201227092411.151">	get computeNewIndex () {return __get__ (this, function (self) {
+		var t_s = self.py_update ();
+		var gnx = g.toUnicode ('{}.{}.{}'.format (self.userId, t_s, self.lastIndex));
+		return gnx;
+	});},
 </t>
-<t tx="ekr.20201227092411.152">get getDefaultId () {return __get__ (this, function (self) {
-    return self.defaultId;
-});},
+<t tx="ekr.20201227092411.152">	get getDefaultId () {return __get__ (this, function (self) {
+		return self.defaultId;
+	});},
 </t>
-<t tx="ekr.20201227092411.153">get setDefaultId () {return __get__ (this, function (self, theId) {
-    self.defaultId = theId;
-});},
+<t tx="ekr.20201227092411.153">	get setDefaultId () {return __get__ (this, function (self, theId) {
+		self.defaultId = theId;
+	});},
 </t>
-<t tx="ekr.20201227092411.154">get getNewIndex () {return __get__ (this, function (self, v, cached) {
-    if (typeof cached == 'undefined' || (cached != null &amp;&amp; cached.hasOwnProperty ("__kwargtrans__"))) {;
-        var cached = false;
-    };
-    if (v === null) {
-        g.internalError ('getNewIndex: v is None');
-        return '';
-    }
-    var c = v.context;
-    var fc = c.fileCommands;
-    var t_s = self.py_update ();
-    var gnx = g.toUnicode ('{}.{}.{}'.format (self.userId, t_s, self.lastIndex));
-    v.fileIndex = gnx;
-    self.check_gnx (c, gnx, v);
-    fc.gnxDict [gnx] = v;
-    return gnx;
-});},
+<t tx="ekr.20201227092411.154">	get getNewIndex () {return __get__ (this, function (self, v, cached) {
+		if (typeof cached == 'undefined' || (cached != null &amp;&amp; cached.hasOwnProperty ("__kwargtrans__"))) {;
+			var cached = false;
+		};
+		if (v === null) {
+			g.internalError ('getNewIndex: v is None');
+			return '';
+		}
+		var c = v.context;
+		var fc = c.fileCommands;
+		var t_s = self.py_update ();
+		var gnx = g.toUnicode ('{}.{}.{}'.format (self.userId, t_s, self.lastIndex));
+		v.fileIndex = gnx;
+		self.check_gnx (c, gnx, v);
+		fc.gnxDict [gnx] = v;
+		return gnx;
+	});},
 </t>
-<t tx="ekr.20201227092411.155">get new_vnode_helper () {return __get__ (this, function (self, c, gnx, v) {
-    var ni = self;
-    if (gnx) {
-        v.fileIndex = gnx;
-        ni.check_gnx (c, gnx, v);
-        c.fileCommands.gnxDict [gnx] = v;
-    }
-    else {
-        v.fileIndex = ni.getNewIndex (v);
-    }
-});},
+<t tx="ekr.20201227092411.155">	get new_vnode_helper () {return __get__ (this, function (self, c, gnx, v) {
+		var ni = self;
+		if (gnx) {
+			v.fileIndex = gnx;
+			ni.check_gnx (c, gnx, v);
+			c.fileCommands.gnxDict [gnx] = v;
+		}
+		else {
+			v.fileIndex = ni.getNewIndex (v);
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.156">get scanGnx () {return __get__ (this, function (self, s, i) {
-    if (typeof i == 'undefined' || (i != null &amp;&amp; i.hasOwnProperty ("__kwargtrans__"))) {;
-        var i = 0;
-    };
-    if (!(isinstance (s, str))) {
-        g.error ('scanGnx: unexpected index type:', py_typeof (s), '', s);
-        return tuple ([null, null, null]);
-    }
-    var s = s.strip ();
-    var __left0__ = tuple ([null, null, null]);
-    var theId = __left0__ [0];
-    var t = __left0__ [1];
-    var n = __left0__ [2];
-    var __left0__ = g.skip_to_char (s, i, '.');
-    var i = __left0__ [0];
-    var theId = __left0__ [1];
-    if (g.match (s, i, '.')) {
-        var __left0__ = g.skip_to_char (s, i + 1, '.');
-        var i = __left0__ [0];
-        var t = __left0__ [1];
-        if (g.match (s, i, '.')) {
-            var __left0__ = g.skip_to_char (s, i + 1, '.');
-            var i = __left0__ [0];
-            var n = __left0__ [1];
-        }
-    }
-    if (!(theId)) {
-        var theId = self.defaultId;
-    }
-    return tuple ([theId, t, n]);
-});},
+<t tx="ekr.20201227092411.156">	get scanGnx () {return __get__ (this, function (self, s, i) {
+		if (typeof i == 'undefined' || (i != null &amp;&amp; i.hasOwnProperty ("__kwargtrans__"))) {;
+			var i = 0;
+		};
+		if (!(isinstance (s, str))) {
+			g.error ('scanGnx: unexpected index type:', py_typeof (s), '', s);
+			return tuple ([null, null, null]);
+		}
+		var s = s.strip ();
+		var __left0__ = tuple ([null, null, null]);
+		var theId = __left0__ [0];
+		var t = __left0__ [1];
+		var n = __left0__ [2];
+		var __left0__ = g.skip_to_char (s, i, '.');
+		var i = __left0__ [0];
+		var theId = __left0__ [1];
+		if (g.match (s, i, '.')) {
+			var __left0__ = g.skip_to_char (s, i + 1, '.');
+			var i = __left0__ [0];
+			var t = __left0__ [1];
+			if (g.match (s, i, '.')) {
+var __left0__ = g.skip_to_char (s, i + 1, '.');
+var i = __left0__ [0];
+var n = __left0__ [1];
+			}
+		}
+		if (!(theId)) {
+			var theId = self.defaultId;
+		}
+		return tuple ([theId, t, n]);
+	});},
 </t>
-<t tx="ekr.20201227092411.157">get setTimestamp () {return __get__ (this, function (self) {
-    self.timeString = time.strftime ('%Y%m%d%H%M%S', time.localtime ());
-});},
-setTimeStamp: setTimestamp,
+<t tx="ekr.20201227092411.157">	get setTimestamp () {return __get__ (this, function (self) {
+		self.timeString = time.strftime ('%Y%m%d%H%M%S', time.localtime ());
+	});},
+	setTimeStamp: setTimestamp,
 </t>
-<t tx="ekr.20201227092411.158">get tupleToString () {return __get__ (this, function (self, aTuple) {
-    var __left0__ = aTuple;
-    var theId = __left0__ [0];
-    var t = __left0__ [1];
-    var n = __left0__ [2];
-    if (__in__ (n, tuple ([null, 0, '']))) {
-        var s = '{}.{}'.format (theId, t);
-    }
-    else {
-        var s = '{}.{}.{}'.format (theId, t, n);
-    }
-    return g.toUnicode (s);
-});},
+<t tx="ekr.20201227092411.158">	get tupleToString () {return __get__ (this, function (self, aTuple) {
+		var __left0__ = aTuple;
+		var theId = __left0__ [0];
+		var t = __left0__ [1];
+		var n = __left0__ [2];
+		if (__in__ (n, tuple ([null, 0, '']))) {
+			var s = '{}.{}'.format (theId, t);
+		}
+		else {
+			var s = '{}.{}.{}'.format (theId, t, n);
+		}
+		return g.toUnicode (s);
+	});},
 </t>
-<t tx="ekr.20201227092411.159">get py_update () {return __get__ (this, function (self) {
-    var t_s = time.strftime ('%Y%m%d%H%M%S', time.localtime ());
-    if (self.timeString == t_s) {
-        self.lastIndex++;
-    }
-    else {
-        self.lastIndex = 1;
-        self.timeString = t_s;
-    }
-    return t_s;
-});},
+<t tx="ekr.20201227092411.159">	get py_update () {return __get__ (this, function (self) {
+		var t_s = time.strftime ('%Y%m%d%H%M%S', time.localtime ());
+		if (self.timeString == t_s) {
+			self.lastIndex++;
+		}
+		else {
+			self.lastIndex = 1;
+			self.timeString = t_s;
+		}
+		return t_s;
+	});},
 </t>
-<t tx="ekr.20201227092411.16">get dismiss_splash_screen () {return __get__ (this, function (self) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.16">	get dismiss_splash_screen () {return __get__ (this, function (self) {
+		// pass;
+	});},
 </t>
-<t tx="ekr.20201227092411.160">    get updateLastIndex () {return __get__ (this, function (self, gnx) {
-        var __left0__ = self.scanGnx (gnx);
-        var id_ = __left0__ [0];
-        var t = __left0__ [1];
-        var n = __left0__ [2];
-        if (!(id_) || n != 0 &amp;&amp; !(n)) {
-            return ;
-        }
-        if (id_ == self.userId &amp;&amp; t == self.timeString) {
-            try {
-                var n = int (n);
-                if (n &gt; self.lastIndex) {
-                    self.lastIndex = n;
-                    g.trace (gnx, '--&gt;', n);
-                }
-            }
-            catch (__except0__) {
-                if (isinstance (__except0__, Exception)) {
-                    g.trace ('can not happen', repr (n));
-                }
-                else {
-                    throw __except0__;
-                }
-            }
-        }
-    });}
+<t tx="ekr.20201227092411.160">	get updateLastIndex () {return __get__ (this, function (self, gnx) {
+		var __left0__ = self.scanGnx (gnx);
+		var id_ = __left0__ [0];
+		var t = __left0__ [1];
+		var n = __left0__ [2];
+		if (!(id_) || n != 0 &amp;&amp; !(n)) {
+			return ;
+		}
+		if (id_ == self.userId &amp;&amp; t == self.timeString) {
+			try {
+var n = int (n);
+if (n &gt; self.lastIndex) {
+	self.lastIndex = n;
+	g.trace (gnx, '--&gt;', n);
+}
+			}
+			catch (__except0__) {
+if (isinstance (__except0__, Exception)) {
+	g.trace ('can not happen', repr (n));
+}
+else {
+	throw __except0__;
+}
+			}
+		}
+	});}
 });
 export var Position =  __class__ ('Position', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.161">get __init__ () {return __get__ (this, function (self, v, childIndex, stack) {
-    if (typeof childIndex == 'undefined' || (childIndex != null &amp;&amp; childIndex.hasOwnProperty ("__kwargtrans__"))) {;
-        var childIndex = 0;
-    };
-    if (typeof stack == 'undefined' || (stack != null &amp;&amp; stack.hasOwnProperty ("__kwargtrans__"))) {;
-        var stack = null;
-    };
-    self._childIndex = childIndex;
-    self.v = v;
-    if (stack) {
-        self.stack = stack.__getslice__ (0, null, 1);
-    }
-    else {
-        self.stack = [];
-    }
-    g.app.positions++;
-});},
+<t tx="ekr.20201227092411.161">	get __init__ () {return __get__ (this, function (self, v, childIndex, stack) {
+		if (typeof childIndex == 'undefined' || (childIndex != null &amp;&amp; childIndex.hasOwnProperty ("__kwargtrans__"))) {;
+			var childIndex = 0;
+		};
+		if (typeof stack == 'undefined' || (stack != null &amp;&amp; stack.hasOwnProperty ("__kwargtrans__"))) {;
+			var stack = null;
+		};
+		self._childIndex = childIndex;
+		self.v = v;
+		if (stack) {
+			self.stack = stack.__getslice__ (0, null, 1);
+		}
+		else {
+			self.stack = [];
+		}
+		g.app.positions++;
+	});},
 </t>
-<t tx="ekr.20201227092411.162">get __eq__ () {return __get__ (this, function (self, p2) {
-    var p1 = self;
-    if (!(isinstance (p2, Position))) {
-        return false;
-    }
-    if (p2 === null || p2.v === null) {
-        return p1.v === null;
-    }
-    return p1.v == p2.v &amp;&amp; p1._childIndex == p2._childIndex &amp;&amp; p1.stack == p2.stack;
-});},
+<t tx="ekr.20201227092411.162">	get __eq__ () {return __get__ (this, function (self, p2) {
+		var p1 = self;
+		if (!(isinstance (p2, Position))) {
+			return false;
+		}
+		if (p2 === null || p2.v === null) {
+			return p1.v === null;
+		}
+		return p1.v == p2.v &amp;&amp; p1._childIndex == p2._childIndex &amp;&amp; p1.stack == p2.stack;
+	});},
 </t>
-<t tx="ekr.20201227092411.163">get __ne__ () {return __get__ (this, function (self, p2) {
-    return !(self.__eq__ (p2));
-});},
+<t tx="ekr.20201227092411.163">	get __ne__ () {return __get__ (this, function (self, p2) {
+		return !(self.__eq__ (p2));
+	});},
 </t>
-<t tx="ekr.20201227092411.164">get __ge__ () {return __get__ (this, function (self, other) {
-    return self.__eq__ (other) || self.__gt__ (other);
-});},
+<t tx="ekr.20201227092411.164">	get __ge__ () {return __get__ (this, function (self, other) {
+		return self.__eq__ (other) || self.__gt__ (other);
+	});},
 </t>
-<t tx="ekr.20201227092411.165">get __le__ () {return __get__ (this, function (self, other) {
-    return self.__eq__ (other) || self.__lt__ (other);
-});},
+<t tx="ekr.20201227092411.165">	get __le__ () {return __get__ (this, function (self, other) {
+		return self.__eq__ (other) || self.__lt__ (other);
+	});},
 </t>
-<t tx="ekr.20201227092411.166">get __lt__ () {return __get__ (this, function (self, other) {
-    return !(self.__eq__ (other)) &amp;&amp; !(self.__gt__ (other));
-});},
+<t tx="ekr.20201227092411.166">	get __lt__ () {return __get__ (this, function (self, other) {
+		return !(self.__eq__ (other)) &amp;&amp; !(self.__gt__ (other));
+	});},
 </t>
-<t tx="ekr.20201227092411.167">get __gt__ () {return __get__ (this, function (self, other) {
-    var __left0__ = tuple ([self.stack, other.stack]);
-    var stack1 = __left0__ [0];
-    var stack2 = __left0__ [1];
-    var __left0__ = tuple ([len (stack1), len (stack2)]);
-    var n1 = __left0__ [0];
-    var n2 = __left0__ [1];
-    var n = min (n1, n2);
-    for (var [item1, item2] of zip (stack1, stack2)) {
-        var __left0__ = item1;
-        var v1 = __left0__ [0];
-        var x1 = __left0__ [1];
-        var __left0__ = item2;
-        var v2 = __left0__ [0];
-        var x2 = __left0__ [1];
-        if (x1 &gt; x2) {
-            return true;
-        }
-        if (x1 &lt; x2) {
-            return false;
-        }
-    }
-    if (n1 == n2) {
-        var __left0__ = tuple ([self._childIndex, other._childIndex]);
-        var x1 = __left0__ [0];
-        var x2 = __left0__ [1];
-        return x1 &gt; x2;
-    }
-    if (n1 &lt; n2) {
-        var x1 = self._childIndex;
-        var __left0__ = other.stack [n];
-        var v2 = __left0__ [0];
-        var x2 = __left0__ [1];
-        return x1 &gt; x2;
-    }
-    var x1 = other._childIndex;
-    var __left0__ = self.stack [n];
-    var v2 = __left0__ [0];
-    var x2 = __left0__ [1];
-    return x2 &gt;= x1;
-});},
+<t tx="ekr.20201227092411.167">	get __gt__ () {return __get__ (this, function (self, other) {
+		var __left0__ = tuple ([self.stack, other.stack]);
+		var stack1 = __left0__ [0];
+		var stack2 = __left0__ [1];
+		var __left0__ = tuple ([len (stack1), len (stack2)]);
+		var n1 = __left0__ [0];
+		var n2 = __left0__ [1];
+		var n = min (n1, n2);
+		for (var [item1, item2] of zip (stack1, stack2)) {
+			var __left0__ = item1;
+			var v1 = __left0__ [0];
+			var x1 = __left0__ [1];
+			var __left0__ = item2;
+			var v2 = __left0__ [0];
+			var x2 = __left0__ [1];
+			if (x1 &gt; x2) {
+return true;
+			}
+			if (x1 &lt; x2) {
+return false;
+			}
+		}
+		if (n1 == n2) {
+			var __left0__ = tuple ([self._childIndex, other._childIndex]);
+			var x1 = __left0__ [0];
+			var x2 = __left0__ [1];
+			return x1 &gt; x2;
+		}
+		if (n1 &lt; n2) {
+			var x1 = self._childIndex;
+			var __left0__ = other.stack [n];
+			var v2 = __left0__ [0];
+			var x2 = __left0__ [1];
+			return x1 &gt; x2;
+		}
+		var x1 = other._childIndex;
+		var __left0__ = self.stack [n];
+		var v2 = __left0__ [0];
+		var x2 = __left0__ [1];
+		return x2 &gt;= x1;
+	});},
 </t>
-<t tx="ekr.20201227092411.168">get __bool__ () {return __get__ (this, function (self) {
-    return self.v !== null;
-});},
+<t tx="ekr.20201227092411.168">	get __bool__ () {return __get__ (this, function (self) {
+		return self.v !== null;
+	});},
 </t>
-<t tx="ekr.20201227092411.169">get __str__ () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v) {
-        return '&lt;pos {} childIndex: {} lvl: {} key: {} {}&gt;'.format (id (p), p._childIndex, p.level (), p.key (), p.h);
-    }
-    return '&lt;pos {} [{}] None&gt;'.format (id (p), len (p.stack));
-});},
-__repr__: __str__,
+<t tx="ekr.20201227092411.169">	get __str__ () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v) {
+			return '&lt;pos {} childIndex: {} lvl: {} key: {} {}&gt;'.format (id (p), p._childIndex, p.level (), p.key (), p.h);
+		}
+		return '&lt;pos {} [{}] None&gt;'.format (id (p), len (p.stack));
+	});},
+	__repr__: __str__,
 </t>
-<t tx="ekr.20201227092411.17">get ensure_commander_visible () {return __get__ (this, function (self, c) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.17">	get ensure_commander_visible () {return __get__ (this, function (self, c) {
+		// pass;
+	});},
 </t>
-<t tx="ekr.20201227092411.170">get archivedPosition () {return __get__ (this, function (self, root_p) {
-    if (typeof root_p == 'undefined' || (root_p != null &amp;&amp; root_p.hasOwnProperty ("__kwargtrans__"))) {;
-        var root_p = null;
-    };
-    var p = self;
-    if (root_p === null) {
-        var aList = (function () {
-            var __accu0__ = [];
-            for (var z of p.self_and_parents ()) {
-                __accu0__.append (z._childIndex);
-            }
-            return __accu0__;
-        }) ();
-    }
-    else {
-        var aList = [];
-        for (var z of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-            if (z == root_p) {
-                aList.append (0);
-                break;
-            }
-            else {
-                aList.append (z._childIndex);
-            }
-        }
-    }
-    aList.reverse ();
-    return aList;
-});},
+<t tx="ekr.20201227092411.170">	get archivedPosition () {return __get__ (this, function (self, root_p) {
+		if (typeof root_p == 'undefined' || (root_p != null &amp;&amp; root_p.hasOwnProperty ("__kwargtrans__"))) {;
+			var root_p = null;
+		};
+		var p = self;
+		if (root_p === null) {
+			var aList = (function () {
+var __accu0__ = [];
+for (var z of p.self_and_parents ()) {
+	__accu0__.append (z._childIndex);
+}
+return __accu0__;
+			}) ();
+		}
+		else {
+			var aList = [];
+			for (var z of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+if (z == root_p) {
+	aList.append (0);
+	break;
+}
+else {
+	aList.append (z._childIndex);
+}
+			}
+		}
+		aList.reverse ();
+		return aList;
+	});},
 </t>
-<t tx="ekr.20201227092411.172">get dumpLink () {return __get__ (this, function (self, link) {
-    return (link ? link : '&lt;none&gt;');
-});},
+<t tx="ekr.20201227092411.172">	get dumpLink () {return __get__ (this, function (self, link) {
+		return (link ? link : '&lt;none&gt;');
+	});},
 </t>
-<t tx="ekr.20201227092411.173">get dump () {return __get__ (this, function (self, label) {
-    if (typeof label == 'undefined' || (label != null &amp;&amp; label.hasOwnProperty ("__kwargtrans__"))) {;
-        var label = '';
-    };
-    var p = self;
-    if (p.v) {
-        p.v.dump ();
-    }
-});},
+<t tx="ekr.20201227092411.173">	get dump () {return __get__ (this, function (self, label) {
+		if (typeof label == 'undefined' || (label != null &amp;&amp; label.hasOwnProperty ("__kwargtrans__"))) {;
+			var label = '';
+		};
+		var p = self;
+		if (p.v) {
+			p.v.dump ();
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.174">get key () {return __get__ (this, function (self) {
-    var p = self;
-    var result = [];
-    for (var z of p.stack) {
-        var __left0__ = z;
-        var v = __left0__ [0];
-        var childIndex = __left0__ [1];
-        result.append ('{}:{}'.format (id (v), childIndex));
-    }
-    result.append ('{}:{}'.format (id (p.v), p._childIndex));
-    return '.'.join (result);
-});},
+<t tx="ekr.20201227092411.174">	get key () {return __get__ (this, function (self) {
+		var p = self;
+		var result = [];
+		for (var z of p.stack) {
+			var __left0__ = z;
+			var v = __left0__ [0];
+			var childIndex = __left0__ [1];
+			result.append ('{}:{}'.format (id (v), childIndex));
+		}
+		result.append ('{}:{}'.format (id (p.v), p._childIndex));
+		return '.'.join (result);
+	});},
 </t>
-<t tx="ekr.20201227092411.175">get sort_key () {return __get__ (this, function (self, p) {
-    return (function () {
-        var __accu0__ = [];
-        for (var s of p.key ().py_split ('.')) {
-            __accu0__.append (int (s.py_split (':') [1]));
-        }
-        return __accu0__;
-    }) ();
-});},
-__hash__: null,
+<t tx="ekr.20201227092411.175">	get sort_key () {return __get__ (this, function (self, p) {
+		return (function () {
+			var __accu0__ = [];
+			for (var s of p.key ().py_split ('.')) {
+__accu0__.append (int (s.py_split (':') [1]));
+			}
+			return __accu0__;
+		}) ();
+	});},
+	__hash__: null,
 </t>
-<t tx="ekr.20201227092411.177">get convertTreeToString () {return __get__ (this, function (self) {
-    var p = self;
-    var level1 = p.level ();
-    var array = [];
-    for (var p of p.self_and_subtree (__kwargtrans__ ({copy: false}))) {
-        array.append (p.moreHead (level1) + '\n');
-        var body = p.moreBody ();
-        if (body) {
-            array.append (body + '\n');
-        }
-    }
-    return ''.join (array);
-});},
+<t tx="ekr.20201227092411.177">	get convertTreeToString () {return __get__ (this, function (self) {
+		var p = self;
+		var level1 = p.level ();
+		var array = [];
+		for (var p of p.self_and_subtree (__kwargtrans__ ({copy: false}))) {
+			array.append (p.moreHead (level1) + '\n');
+			var body = p.moreBody ();
+			if (body) {
+array.append (body + '\n');
+			}
+		}
+		return ''.join (array);
+	});},
 </t>
-<t tx="ekr.20201227092411.178">get moreHead () {return __get__ (this, function (self, firstLevel, useVerticalBar) {
-    if (typeof useVerticalBar == 'undefined' || (useVerticalBar != null &amp;&amp; useVerticalBar.hasOwnProperty ("__kwargtrans__"))) {;
-        var useVerticalBar = false;
-    };
-    var p = self;
-    var level = self.level () - firstLevel;
-    var plusMinus = (p.hasChildren () ? '+' : '-');
-    var pad = '\t' * level;
-    return '{}{} {}'.format (pad, plusMinus, p.h);
-});},
+<t tx="ekr.20201227092411.178">	get moreHead () {return __get__ (this, function (self, firstLevel, useVerticalBar) {
+		if (typeof useVerticalBar == 'undefined' || (useVerticalBar != null &amp;&amp; useVerticalBar.hasOwnProperty ("__kwargtrans__"))) {;
+			var useVerticalBar = false;
+		};
+		var p = self;
+		var level = self.level () - firstLevel;
+		var plusMinus = (p.hasChildren () ? '+' : '-');
+		var pad = '\t' * level;
+		return '{}{} {}'.format (pad, plusMinus, p.h);
+	});},
 </t>
-<t tx="ekr.20201227092411.179">get moreBody () {return __get__ (this, function (self) {
-    var p = self;
-    var array = [];
-    var lines = p.b.py_split ('\n');
-    for (var s of lines) {
-        var i = g.skip_ws (s, 0);
-        if (i &lt; len (s) &amp;&amp; __in__ (s [i], tuple (['+', '-', '\\']))) {
-            var s = (s.__getslice__ (0, i, 1) + '\\') + s.__getslice__ (i, null, 1);
-        }
-        array.append (s);
-    }
-    return '\n'.join (array);
-});},
+<t tx="ekr.20201227092411.179">	get moreBody () {return __get__ (this, function (self) {
+		var p = self;
+		var array = [];
+		var lines = p.b.py_split ('\n');
+		for (var s of lines) {
+			var i = g.skip_ws (s, 0);
+			if (i &lt; len (s) &amp;&amp; __in__ (s [i], tuple (['+', '-', '\\']))) {
+var s = (s.__getslice__ (0, i, 1) + '\\') + s.__getslice__ (i, null, 1);
+			}
+			array.append (s);
+		}
+		return '\n'.join (array);
+	});},
 </t>
-<t tx="ekr.20201227092411.18">get finishCreate () {return __get__ (this, function (self) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.18">	get finishCreate () {return __get__ (this, function (self) {
+		// pass;
+	});},
 </t>
-<t tx="ekr.20201227092411.180">get children () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.firstChild ();
-    while (p) {
-        yield (copy ? p.copy () : p);
-        p.moveToNext ();
-    }
-    });},
-children_iter: children,
+<t tx="ekr.20201227092411.180">	get children () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.firstChild ();
+		while (p) {
+			yield (copy ? p.copy () : p);
+			p.moveToNext ();
+		}
+		});},
+	children_iter: children,
 </t>
-<t tx="ekr.20201227092411.181">get following_siblings () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.py_next ();
-    while (p) {
-        yield (copy ? p.copy () : p);
-        p.moveToNext ();
-    }
-    });},
-following_siblings_iter: following_siblings,
+<t tx="ekr.20201227092411.181">	get following_siblings () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.py_next ();
+		while (p) {
+			yield (copy ? p.copy () : p);
+			p.moveToNext ();
+		}
+		});},
+	following_siblings_iter: following_siblings,
 </t>
-<t tx="ekr.20201227092411.182">get nearest_roots () {return __get__ (this, function* (self, copy, predicate) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    if (typeof predicate == 'undefined' || (predicate != null &amp;&amp; predicate.hasOwnProperty ("__kwargtrans__"))) {;
-        var predicate = null;
-    };
-    if (predicate === null) {
-        var predicate = function (p) {
-            return p.isAnyAtFileNode ();
-        };
-    }
-    var p1 = self;
-    for (var p of p1.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (predicate (p)) {
-            yield (copy ? p.copy () : p);
-            return ;
-        }
-    }
-    var after = p1.nodeAfterTree ();
-    var p = p1;
-    while (p &amp;&amp; p != after) {
-        if (predicate (p)) {
-            yield (copy ? p.copy () : p);
-            p.moveToNodeAfterTree ();
-        }
-        else {
-            p.moveToThreadNext ();
-        }
-    }
-    });},
+<t tx="ekr.20201227092411.182">	get nearest_roots () {return __get__ (this, function* (self, copy, predicate) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		if (typeof predicate == 'undefined' || (predicate != null &amp;&amp; predicate.hasOwnProperty ("__kwargtrans__"))) {;
+			var predicate = null;
+		};
+		if (predicate === null) {
+			var predicate = function (p) {
+return p.isAnyAtFileNode ();
+			};
+		}
+		var p1 = self;
+		for (var p of p1.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (predicate (p)) {
+yield (copy ? p.copy () : p);
+return ;
+			}
+		}
+		var after = p1.nodeAfterTree ();
+		var p = p1;
+		while (p &amp;&amp; p != after) {
+			if (predicate (p)) {
+yield (copy ? p.copy () : p);
+p.moveToNodeAfterTree ();
+			}
+			else {
+p.moveToThreadNext ();
+			}
+		}
+		});},
 </t>
-<t tx="ekr.20201227092411.184">get nearest_unique_roots () {return __get__ (this, function* (self, copy, predicate) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    if (typeof predicate == 'undefined' || (predicate != null &amp;&amp; predicate.hasOwnProperty ("__kwargtrans__"))) {;
-        var predicate = null;
-    };
-    if (predicate === null) {
-        var predicate = function (p) {
-            return p.isAnyAtFileNode ();
-        };
-    }
-    var p1 = self;
-    for (var p of p1.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (predicate (p)) {
-            yield (copy ? p.copy () : p);
-            return ;
-        }
-    }
-    var seen = set ();
-    var after = p1.nodeAfterTree ();
-    var p = p1;
-    while (p &amp;&amp; p != after) {
-        if (predicate (p)) {
-            if (!__in__ (p.v, seen)) {
-                seen.add (p.v);
-                yield (copy ? p.copy () : p);
-            }
-            p.moveToNodeAfterTree ();
-        }
-        else {
-            p.moveToThreadNext ();
-        }
-    }
-    });},
-nearest: nearest_unique_roots,
+<t tx="ekr.20201227092411.184">	get nearest_unique_roots () {return __get__ (this, function* (self, copy, predicate) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		if (typeof predicate == 'undefined' || (predicate != null &amp;&amp; predicate.hasOwnProperty ("__kwargtrans__"))) {;
+			var predicate = null;
+		};
+		if (predicate === null) {
+			var predicate = function (p) {
+return p.isAnyAtFileNode ();
+			};
+		}
+		var p1 = self;
+		for (var p of p1.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (predicate (p)) {
+yield (copy ? p.copy () : p);
+return ;
+			}
+		}
+		var seen = set ();
+		var after = p1.nodeAfterTree ();
+		var p = p1;
+		while (p &amp;&amp; p != after) {
+			if (predicate (p)) {
+if (!__in__ (p.v, seen)) {
+	seen.add (p.v);
+	yield (copy ? p.copy () : p);
+}
+p.moveToNodeAfterTree ();
+			}
+			else {
+p.moveToThreadNext ();
+			}
+		}
+		});},
+	nearest: nearest_unique_roots,
 </t>
-<t tx="ekr.20201227092411.186">get nodes () {return __get__ (this, function* (self) {
-    var p = self;
-    var p = p.copy ();
-    var after = p.nodeAfterTree ();
-    while (p &amp;&amp; p != after) {
-        yield p.v;
-        p.moveToThreadNext ();
-    }
-    });},
-tnodes_iter: nodes,
-vnodes_iter: nodes,
+<t tx="ekr.20201227092411.186">	get nodes () {return __get__ (this, function* (self) {
+		var p = self;
+		var p = p.copy ();
+		var after = p.nodeAfterTree ();
+		while (p &amp;&amp; p != after) {
+			yield p.v;
+			p.moveToThreadNext ();
+		}
+		});},
+	tnodes_iter: nodes,
+	vnodes_iter: nodes,
 </t>
-<t tx="ekr.20201227092411.187">get parents () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.parent ();
-    while (p) {
-        yield (copy ? p.copy () : p);
-        p.moveToParent ();
-    }
-    });},
-parents_iter: parents,
+<t tx="ekr.20201227092411.187">	get parents () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.parent ();
+		while (p) {
+			yield (copy ? p.copy () : p);
+			p.moveToParent ();
+		}
+		});},
+	parents_iter: parents,
 </t>
-<t tx="ekr.20201227092411.188">get self_and_parents () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.copy ();
-    while (p) {
-        yield (copy ? p.copy () : p);
-        p.moveToParent ();
-    }
-    });},
-self_and_parents_iter: self_and_parents,
+<t tx="ekr.20201227092411.188">	get self_and_parents () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.copy ();
+		while (p) {
+			yield (copy ? p.copy () : p);
+			p.moveToParent ();
+		}
+		});},
+	self_and_parents_iter: self_and_parents,
 </t>
-<t tx="ekr.20201227092411.189">get self_and_siblings () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.copy ();
-    while (p.hasBack ()) {
-        p.moveToBack ();
-    }
-    while (p) {
-        yield (copy ? p.copy () : p);
-        p.moveToNext ();
-    }
-    });},
-self_and_siblings_iter: self_and_siblings,
+<t tx="ekr.20201227092411.189">	get self_and_siblings () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.copy ();
+		while (p.hasBack ()) {
+			p.moveToBack ();
+		}
+		while (p) {
+			yield (copy ? p.copy () : p);
+			p.moveToNext ();
+		}
+		});},
+	self_and_siblings_iter: self_and_siblings,
 </t>
-<t tx="ekr.20201227092411.19">get postPopupMenu () {return __get__ (this, function (self) {
-    var args = tuple ([].slice.apply (arguments).slice (1));
-    // pass;
-});},
+<t tx="ekr.20201227092411.19">	get postPopupMenu () {return __get__ (this, function (self) {
+		var args = tuple ([].slice.apply (arguments).slice (1));
+		// pass;
+	});},
 </t>
-<t tx="ekr.20201227092411.190">get self_and_subtree () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.copy ();
-    var after = p.nodeAfterTree ();
-    while (p &amp;&amp; p != after) {
-        yield (copy ? p.copy () : p);
-        p.moveToThreadNext ();
-    }
-    });},
-self_and_subtree_iter: self_and_subtree,
+<t tx="ekr.20201227092411.190">	get self_and_subtree () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.copy ();
+		var after = p.nodeAfterTree ();
+		while (p &amp;&amp; p != after) {
+			yield (copy ? p.copy () : p);
+			p.moveToThreadNext ();
+		}
+		});},
+	self_and_subtree_iter: self_and_subtree,
 </t>
-<t tx="ekr.20201227092411.191">get subtree () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var p = p.copy ();
-    var after = p.nodeAfterTree ();
-    p.moveToThreadNext ();
-    while (p &amp;&amp; p != after) {
-        yield (copy ? p.copy () : p);
-        p.moveToThreadNext ();
-    }
-    });},
-subtree_iter: subtree,
+<t tx="ekr.20201227092411.191">	get subtree () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var p = p.copy ();
+		var after = p.nodeAfterTree ();
+		p.moveToThreadNext ();
+		while (p &amp;&amp; p != after) {
+			yield (copy ? p.copy () : p);
+			p.moveToThreadNext ();
+		}
+		});},
+	subtree_iter: subtree,
 </t>
-<t tx="ekr.20201227092411.192">get unique_nodes () {return __get__ (this, function* (self) {
-    var p = self;
-    var seen = set ();
-    for (var p of p.self_and_subtree (__kwargtrans__ ({copy: false}))) {
-        if (!__in__ (p.v, seen)) {
-            seen.add (p.v);
-            yield p.v;
-        }
-    }
-    });},
-unique_tnodes_iter: unique_nodes,
-unique_vnodes_iter: unique_nodes,
+<t tx="ekr.20201227092411.192">	get unique_nodes () {return __get__ (this, function* (self) {
+		var p = self;
+		var seen = set ();
+		for (var p of p.self_and_subtree (__kwargtrans__ ({copy: false}))) {
+			if (!__in__ (p.v, seen)) {
+seen.add (p.v);
+yield p.v;
+			}
+		}
+		});},
+	unique_tnodes_iter: unique_nodes,
+	unique_vnodes_iter: unique_nodes,
 </t>
-<t tx="ekr.20201227092411.193">get unique_subtree () {return __get__ (this, function* (self, copy) {
-    if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
-        var copy = true;
-    };
-    var p = self;
-    var seen = set ();
-    for (var p of p.subtree ()) {
-        if (!__in__ (p.v, seen)) {
-            seen.add (p.v);
-            yield (copy ? p.copy () : p);
-        }
-    }
-    });},
-subtree_with_unique_tnodes_iter: unique_subtree,
-subtree_with_unique_vnodes_iter: unique_subtree,
+<t tx="ekr.20201227092411.193">	get unique_subtree () {return __get__ (this, function* (self, copy) {
+		if (typeof copy == 'undefined' || (copy != null &amp;&amp; copy.hasOwnProperty ("__kwargtrans__"))) {;
+			var copy = true;
+		};
+		var p = self;
+		var seen = set ();
+		for (var p of p.subtree ()) {
+			if (!__in__ (p.v, seen)) {
+seen.add (p.v);
+yield (copy ? p.copy () : p);
+			}
+		}
+		});},
+	subtree_with_unique_tnodes_iter: unique_subtree,
+	subtree_with_unique_vnodes_iter: unique_subtree,
 </t>
-<t tx="ekr.20201227092411.194">get anyAtFileNodeName () {return __get__ (this, function (self) {
-    return self.v.anyAtFileNodeName ();
-});},
+<t tx="ekr.20201227092411.194">	get anyAtFileNodeName () {return __get__ (this, function (self) {
+		return self.v.anyAtFileNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.195">get atAutoNodeName () {return __get__ (this, function (self) {
-    return self.v.atAutoNodeName ();
-});},
+<t tx="ekr.20201227092411.195">	get atAutoNodeName () {return __get__ (this, function (self) {
+		return self.v.atAutoNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.196">get atCleanNodeName () {return __get__ (this, function (self) {
-    return self.v.atCleanNodeName ();
-});},
+<t tx="ekr.20201227092411.196">	get atCleanNodeName () {return __get__ (this, function (self) {
+		return self.v.atCleanNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.197">get atEditNodeName () {return __get__ (this, function (self) {
-    return self.v.atEditNodeName ();
-});},
+<t tx="ekr.20201227092411.197">	get atEditNodeName () {return __get__ (this, function (self) {
+		return self.v.atEditNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.198">get atFileNodeName () {return __get__ (this, function (self) {
-    return self.v.atFileNodeName ();
-});},
+<t tx="ekr.20201227092411.198">	get atFileNodeName () {return __get__ (this, function (self) {
+		return self.v.atFileNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.199">get atNoSentinelsFileNodeName () {return __get__ (this, function (self) {
-    return self.v.atNoSentinelsFileNodeName ();
-});},
+<t tx="ekr.20201227092411.199">	get atNoSentinelsFileNodeName () {return __get__ (this, function (self) {
+		return self.v.atNoSentinelsFileNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.2">get createFontPanel () {return __get__ (this, function (self, c) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.2">	get createFontPanel () {return __get__ (this, function (self, c) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.20">get oops () {return __get__ (this, function (self) {
-    if (1) {
-        g.pr ('LeoGui oops', g.callers (4), 'should be overridden in subclass');
-    }
-});},
+<t tx="ekr.20201227092411.20">	get oops () {return __get__ (this, function (self) {
+		if (1) {
+			g.pr ('LeoGui oops', g.callers (4), 'should be overridden in subclass');
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.200">get atShadowFileNodeName () {return __get__ (this, function (self) {
-    return self.v.atShadowFileNodeName ();
-});},
+<t tx="ekr.20201227092411.200">	get atShadowFileNodeName () {return __get__ (this, function (self) {
+		return self.v.atShadowFileNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.201">get atSilentFileNodeName () {return __get__ (this, function (self) {
-    return self.v.atSilentFileNodeName ();
-});},
+<t tx="ekr.20201227092411.201">	get atSilentFileNodeName () {return __get__ (this, function (self) {
+		return self.v.atSilentFileNodeName ();
+	});},
 </t>
-<t tx="ekr.20201227092411.202">get atThinFileNodeName () {return __get__ (this, function (self) {
-    return self.v.atThinFileNodeName ();
-});},
-atNoSentFileNodeName: atNoSentinelsFileNodeName,
-atAsisFileNodeName: atSilentFileNodeName,
+<t tx="ekr.20201227092411.202">	get atThinFileNodeName () {return __get__ (this, function (self) {
+		return self.v.atThinFileNodeName ();
+	});},
+	atNoSentFileNodeName: atNoSentinelsFileNodeName,
+	atAsisFileNodeName: atSilentFileNodeName,
 </t>
-<t tx="ekr.20201227092411.203">get isAnyAtFileNode () {return __get__ (this, function (self) {
-    return self.v.isAnyAtFileNode ();
-});},
+<t tx="ekr.20201227092411.203">	get isAnyAtFileNode () {return __get__ (this, function (self) {
+		return self.v.isAnyAtFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.204">get isAtAllNode () {return __get__ (this, function (self) {
-    return self.v.isAtAllNode ();
-});},
+<t tx="ekr.20201227092411.204">	get isAtAllNode () {return __get__ (this, function (self) {
+		return self.v.isAtAllNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.205">get isAtAutoNode () {return __get__ (this, function (self) {
-    return self.v.isAtAutoNode ();
-});},
+<t tx="ekr.20201227092411.205">	get isAtAutoNode () {return __get__ (this, function (self) {
+		return self.v.isAtAutoNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.206">get isAtAutoRstNode () {return __get__ (this, function (self) {
-    return self.v.isAtAutoRstNode ();
-});},
+<t tx="ekr.20201227092411.206">	get isAtAutoRstNode () {return __get__ (this, function (self) {
+		return self.v.isAtAutoRstNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.207">get isAtCleanNode () {return __get__ (this, function (self) {
-    return self.v.isAtCleanNode ();
-});},
+<t tx="ekr.20201227092411.207">	get isAtCleanNode () {return __get__ (this, function (self) {
+		return self.v.isAtCleanNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.208">get isAtEditNode () {return __get__ (this, function (self) {
-    return self.v.isAtEditNode ();
-});},
+<t tx="ekr.20201227092411.208">	get isAtEditNode () {return __get__ (this, function (self) {
+		return self.v.isAtEditNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.209">get isAtFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtFileNode ();
-});},
+<t tx="ekr.20201227092411.209">	get isAtFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.21">get put_help () {return __get__ (this, function (self, c, s, short_title) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.21">	get put_help () {return __get__ (this, function (self, c, s, short_title) {
+		// pass;
+	});},
 </t>
-<t tx="ekr.20201227092411.210">get isAtIgnoreNode () {return __get__ (this, function (self) {
-    return self.v.isAtIgnoreNode ();
-});},
+<t tx="ekr.20201227092411.210">	get isAtIgnoreNode () {return __get__ (this, function (self) {
+		return self.v.isAtIgnoreNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.211">get isAtNoSentinelsFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtNoSentinelsFileNode ();
-});},
+<t tx="ekr.20201227092411.211">	get isAtNoSentinelsFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtNoSentinelsFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.212">get isAtOthersNode () {return __get__ (this, function (self) {
-    return self.v.isAtOthersNode ();
-});},
+<t tx="ekr.20201227092411.212">	get isAtOthersNode () {return __get__ (this, function (self) {
+		return self.v.isAtOthersNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.213">get isAtRstFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtRstFileNode ();
-});},
+<t tx="ekr.20201227092411.213">	get isAtRstFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtRstFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.214">get isAtSilentFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtSilentFileNode ();
-});},
+<t tx="ekr.20201227092411.214">	get isAtSilentFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtSilentFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.215">get isAtShadowFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtShadowFileNode ();
-});},
+<t tx="ekr.20201227092411.215">	get isAtShadowFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtShadowFileNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.216">get isAtThinFileNode () {return __get__ (this, function (self) {
-    return self.v.isAtThinFileNode ();
-});},
-isAtNoSentFileNode: isAtNoSentinelsFileNode,
-isAtAsisFileNode: isAtSilentFileNode,
+<t tx="ekr.20201227092411.216">	get isAtThinFileNode () {return __get__ (this, function (self) {
+		return self.v.isAtThinFileNode ();
+	});},
+	isAtNoSentFileNode: isAtNoSentinelsFileNode,
+	isAtAsisFileNode: isAtSilentFileNode,
 </t>
-<t tx="ekr.20201227092411.217">get matchHeadline () {return __get__ (this, function (self, pattern) {
-    return self.v.matchHeadline (pattern);
-});},
+<t tx="ekr.20201227092411.217">	get matchHeadline () {return __get__ (this, function (self, pattern) {
+		return self.v.matchHeadline (pattern);
+	});},
 </t>
-<t tx="ekr.20201227092411.218">get bodyString () {return __get__ (this, function (self) {
-    return self.v.bodyString ();
-});},
+<t tx="ekr.20201227092411.218">	get bodyString () {return __get__ (this, function (self) {
+		return self.v.bodyString ();
+	});},
 </t>
-<t tx="ekr.20201227092411.219">get headString () {return __get__ (this, function (self) {
-    return self.v.headString ();
-});},
+<t tx="ekr.20201227092411.219">	get headString () {return __get__ (this, function (self) {
+		return self.v.headString ();
+	});},
 </t>
-<t tx="ekr.20201227092411.22">    get widget_name () {return __get__ (this, function (self, w) {
-        if (!('w')) {
-            return '&lt;no widget&gt;';
-        }
-        if (hasattr (w, 'getName')) {
-            return w.getName ();
-        }
-        if (hasattr (w, '_name')) {
-            return w._name;
-        }
-        return repr (w);
-    });}
+<t tx="ekr.20201227092411.22">	get widget_name () {return __get__ (this, function (self, w) {
+		if (!('w')) {
+			return '&lt;no widget&gt;';
+		}
+		if (hasattr (w, 'getName')) {
+			return w.getName ();
+		}
+		if (hasattr (w, '_name')) {
+			return w._name;
+		}
+		return repr (w);
+	});}
 });
 export var LeoKeyEvent =  __class__ ('LeoKeyEvent', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.220">get cleanHeadString () {return __get__ (this, function (self) {
-    return self.v.cleanHeadString ();
-});},
+<t tx="ekr.20201227092411.220">	get cleanHeadString () {return __get__ (this, function (self) {
+		return self.v.cleanHeadString ();
+	});},
 </t>
-<t tx="ekr.20201227092411.221">get isDirty () {return __get__ (this, function (self) {
-    return self.v.isDirty ();
-});},
+<t tx="ekr.20201227092411.221">	get isDirty () {return __get__ (this, function (self) {
+		return self.v.isDirty ();
+	});},
 </t>
-<t tx="ekr.20201227092411.222">get isMarked () {return __get__ (this, function (self) {
-    return self.v.isMarked ();
-});},
+<t tx="ekr.20201227092411.222">	get isMarked () {return __get__ (this, function (self) {
+		return self.v.isMarked ();
+	});},
 </t>
-<t tx="ekr.20201227092411.223">get isOrphan () {return __get__ (this, function (self) {
-    return self.v.isOrphan ();
-});},
+<t tx="ekr.20201227092411.223">	get isOrphan () {return __get__ (this, function (self) {
+		return self.v.isOrphan ();
+	});},
 </t>
-<t tx="ekr.20201227092411.224">get isSelected () {return __get__ (this, function (self) {
-    return self.v.isSelected ();
-});},
+<t tx="ekr.20201227092411.224">	get isSelected () {return __get__ (this, function (self) {
+		return self.v.isSelected ();
+	});},
 </t>
-<t tx="ekr.20201227092411.225">get isTopBitSet () {return __get__ (this, function (self) {
-    return self.v.isTopBitSet ();
-});},
+<t tx="ekr.20201227092411.225">	get isTopBitSet () {return __get__ (this, function (self) {
+		return self.v.isTopBitSet ();
+	});},
 </t>
-<t tx="ekr.20201227092411.226">get isVisited () {return __get__ (this, function (self) {
-    return self.v.isVisited ();
-});},
+<t tx="ekr.20201227092411.226">	get isVisited () {return __get__ (this, function (self) {
+		return self.v.isVisited ();
+	});},
 </t>
-<t tx="ekr.20201227092411.227">get status () {return __get__ (this, function (self) {
-    return self.v.status ();
-});},
+<t tx="ekr.20201227092411.227">	get status () {return __get__ (this, function (self) {
+		return self.v.status ();
+	});},
 </t>
-<t tx="ekr.20201227092411.228">get childIndex () {return __get__ (this, function (self) {
-    var p = self;
-    return p._childIndex;
-});},
+<t tx="ekr.20201227092411.228">	get childIndex () {return __get__ (this, function (self) {
+		var p = self;
+		return p._childIndex;
+	});},
 </t>
-<t tx="ekr.20201227092411.229">get directParents () {return __get__ (this, function (self) {
-    return self.v.directParents ();
-});},
+<t tx="ekr.20201227092411.229">	get directParents () {return __get__ (this, function (self) {
+		return self.v.directParents ();
+	});},
 </t>
-<t tx="ekr.20201227092411.23">get __init__ () {return __get__ (this, function (self, c, char, event, binding, w, x, y, x_root, y_root) {
-    if (typeof x == 'undefined' || (x != null &amp;&amp; x.hasOwnProperty ("__kwargtrans__"))) {;
-        var x = null;
-    };
-    if (typeof y == 'undefined' || (y != null &amp;&amp; y.hasOwnProperty ("__kwargtrans__"))) {;
-        var y = null;
-    };
-    if (typeof x_root == 'undefined' || (x_root != null &amp;&amp; x_root.hasOwnProperty ("__kwargtrans__"))) {;
-        var x_root = null;
-    };
-    if (typeof y_root == 'undefined' || (y_root != null &amp;&amp; y_root.hasOwnProperty ("__kwargtrans__"))) {;
-        var y_root = null;
-    };
-    if (g.isStroke (binding)) {
-        g.trace ('***** (LeoKeyEvent) oops: already a stroke', binding, g.callers ());
-        var stroke = binding;
-    }
-    else {
-        var stroke = (binding ? g.KeyStroke (binding) : null);
-    }
-    if (0) {
-        if (__in__ ('keys', g.app.debug)) {
-            print ('LeoKeyEvent: binding: {}, stroke: {}, char: {}'.format (binding, stroke, char));
-        }
-    }
-    self.c = c;
-    self.char = char || '';
-    self.event = event;
-    self.stroke = stroke;
-    var __left0__ = w;
-    self.w = __left0__;
-    self.widget = __left0__;
-    self.x = x;
-    self.y = y;
-    self.x_root = x_root;
-    self.y_root = y_root;
-});},
+<t tx="ekr.20201227092411.23">	get __init__ () {return __get__ (this, function (self, c, char, event, binding, w, x, y, x_root, y_root) {
+		if (typeof x == 'undefined' || (x != null &amp;&amp; x.hasOwnProperty ("__kwargtrans__"))) {;
+			var x = null;
+		};
+		if (typeof y == 'undefined' || (y != null &amp;&amp; y.hasOwnProperty ("__kwargtrans__"))) {;
+			var y = null;
+		};
+		if (typeof x_root == 'undefined' || (x_root != null &amp;&amp; x_root.hasOwnProperty ("__kwargtrans__"))) {;
+			var x_root = null;
+		};
+		if (typeof y_root == 'undefined' || (y_root != null &amp;&amp; y_root.hasOwnProperty ("__kwargtrans__"))) {;
+			var y_root = null;
+		};
+		if (g.isStroke (binding)) {
+			g.trace ('***** (LeoKeyEvent) oops: already a stroke', binding, g.callers ());
+			var stroke = binding;
+		}
+		else {
+			var stroke = (binding ? g.KeyStroke (binding) : null);
+		}
+		if (0) {
+			if (__in__ ('keys', g.app.debug)) {
+print ('LeoKeyEvent: binding: {}, stroke: {}, char: {}'.format (binding, stroke, char));
+			}
+		}
+		self.c = c;
+		self.char = char || '';
+		self.event = event;
+		self.stroke = stroke;
+		var __left0__ = w;
+		self.w = __left0__;
+		self.widget = __left0__;
+		self.x = x;
+		self.y = y;
+		self.x_root = x_root;
+		self.y_root = y_root;
+	});},
 </t>
-<t tx="ekr.20201227092411.230">get hasChildren () {return __get__ (this, function (self) {
-    var p = self;
-    return len (p.v.children) &gt; 0;
-});},
-hasFirstChild: hasChildren,
+<t tx="ekr.20201227092411.230">	get hasChildren () {return __get__ (this, function (self) {
+		var p = self;
+		return len (p.v.children) &gt; 0;
+	});},
+	hasFirstChild: hasChildren,
 </t>
-<t tx="ekr.20201227092411.231">get numberOfChildren () {return __get__ (this, function (self) {
-    var p = self;
-    return len (p.v.children);
-});},
+<t tx="ekr.20201227092411.231">	get numberOfChildren () {return __get__ (this, function (self) {
+		var p = self;
+		return len (p.v.children);
+	});},
 </t>
-<t tx="ekr.20201227092411.232">get getBack () {return __get__ (this, function (self) {
-    return self.copy ().moveToBack ();
-});},
+<t tx="ekr.20201227092411.232">	get getBack () {return __get__ (this, function (self) {
+		return self.copy ().moveToBack ();
+	});},
 </t>
-<t tx="ekr.20201227092411.233">get getFirstChild () {return __get__ (this, function (self) {
-    return self.copy ().moveToFirstChild ();
-});},
+<t tx="ekr.20201227092411.233">	get getFirstChild () {return __get__ (this, function (self) {
+		return self.copy ().moveToFirstChild ();
+	});},
 </t>
-<t tx="ekr.20201227092411.234">get getLastChild () {return __get__ (this, function (self) {
-    return self.copy ().moveToLastChild ();
-});},
+<t tx="ekr.20201227092411.234">	get getLastChild () {return __get__ (this, function (self) {
+		return self.copy ().moveToLastChild ();
+	});},
 </t>
-<t tx="ekr.20201227092411.235">get getLastNode () {return __get__ (this, function (self) {
-    return self.copy ().moveToLastNode ();
-});},
+<t tx="ekr.20201227092411.235">	get getLastNode () {return __get__ (this, function (self) {
+		return self.copy ().moveToLastNode ();
+	});},
 </t>
-<t tx="ekr.20201227092411.236">get getNext () {return __get__ (this, function (self) {
-    return self.copy ().moveToNext ();
-});},
+<t tx="ekr.20201227092411.236">	get getNext () {return __get__ (this, function (self) {
+		return self.copy ().moveToNext ();
+	});},
 </t>
-<t tx="ekr.20201227092411.237">get getNodeAfterTree () {return __get__ (this, function (self) {
-    return self.copy ().moveToNodeAfterTree ();
-});},
+<t tx="ekr.20201227092411.237">	get getNodeAfterTree () {return __get__ (this, function (self) {
+		return self.copy ().moveToNodeAfterTree ();
+	});},
 </t>
-<t tx="ekr.20201227092411.238">get getNthChild () {return __get__ (this, function (self, n) {
-    return self.copy ().moveToNthChild (n);
-});},
+<t tx="ekr.20201227092411.238">	get getNthChild () {return __get__ (this, function (self, n) {
+		return self.copy ().moveToNthChild (n);
+	});},
 </t>
-<t tx="ekr.20201227092411.239">get getParent () {return __get__ (this, function (self) {
-    return self.copy ().moveToParent ();
-});},
+<t tx="ekr.20201227092411.239">	get getParent () {return __get__ (this, function (self) {
+		return self.copy ().moveToParent ();
+	});},
 </t>
-<t tx="ekr.20201227092411.24">get __repr__ () {return __get__ (this, function (self) {
-    var d = dict ({'c': self.c.shortFileName ()});
-    for (var ivar of tuple (['char', 'event', 'stroke', 'w'])) {
-        d [ivar] = getattr (self, ivar);
-    }
-    return 'LeoKeyEvent:\n{}'.format (g.objToString (d));
-});},
+<t tx="ekr.20201227092411.24">	get __repr__ () {return __get__ (this, function (self) {
+		var d = dict ({'c': self.c.shortFileName ()});
+		for (var ivar of tuple (['char', 'event', 'stroke', 'w'])) {
+			d [ivar] = getattr (self, ivar);
+		}
+		return 'LeoKeyEvent:\n{}'.format (g.objToString (d));
+	});},
 </t>
-<t tx="ekr.20201227092411.240">get getThreadBack () {return __get__ (this, function (self) {
-    return self.copy ().moveToThreadBack ();
-});},
+<t tx="ekr.20201227092411.240">	get getThreadBack () {return __get__ (this, function (self) {
+		return self.copy ().moveToThreadBack ();
+	});},
 </t>
-<t tx="ekr.20201227092411.241">get getThreadNext () {return __get__ (this, function (self) {
-    return self.copy ().moveToThreadNext ();
-});},
+<t tx="ekr.20201227092411.241">	get getThreadNext () {return __get__ (this, function (self) {
+		return self.copy ().moveToThreadNext ();
+	});},
 </t>
-<t tx="ekr.20201227092411.242">get getVisBack () {return __get__ (this, function (self, c) {
-    return self.copy ().moveToVisBack (c);
-});},
+<t tx="ekr.20201227092411.242">	get getVisBack () {return __get__ (this, function (self, c) {
+		return self.copy ().moveToVisBack (c);
+	});},
 </t>
-<t tx="ekr.20201227092411.243">get getVisNext () {return __get__ (this, function (self, c) {
-    return self.copy ().moveToVisNext (c);
-});},
-back: getBack,
-firstChild: getFirstChild,
-lastChild: getLastChild,
-lastNode: getLastNode,
-py_next: getNext,
-nodeAfterTree: getNodeAfterTree,
-nthChild: getNthChild,
-parent: getParent,
-threadBack: getThreadBack,
-threadNext: getThreadNext,
-visBack: getVisBack,
-visNext: getVisNext,
-hasVisBack: visBack,
-hasVisNext: visNext,
+<t tx="ekr.20201227092411.243">	get getVisNext () {return __get__ (this, function (self, c) {
+		return self.copy ().moveToVisNext (c);
+	});},
+	back: getBack,
+	firstChild: getFirstChild,
+	lastChild: getLastChild,
+	lastNode: getLastNode,
+	py_next: getNext,
+	nodeAfterTree: getNodeAfterTree,
+	nthChild: getNthChild,
+	parent: getParent,
+	threadBack: getThreadBack,
+	threadNext: getThreadNext,
+	visBack: getVisBack,
+	visNext: getVisNext,
+	hasVisBack: visBack,
+	hasVisNext: visNext,
 </t>
-<t tx="ekr.20201227092411.244">get get_UNL () {return __get__ (this, function (self, with_file, with_proto, with_index, with_count) {
-    if (typeof with_file == 'undefined' || (with_file != null &amp;&amp; with_file.hasOwnProperty ("__kwargtrans__"))) {;
-        var with_file = true;
-    };
-    if (typeof with_proto == 'undefined' || (with_proto != null &amp;&amp; with_proto.hasOwnProperty ("__kwargtrans__"))) {;
-        var with_proto = false;
-    };
-    if (typeof with_index == 'undefined' || (with_index != null &amp;&amp; with_index.hasOwnProperty ("__kwargtrans__"))) {;
-        var with_index = true;
-    };
-    if (typeof with_count == 'undefined' || (with_count != null &amp;&amp; with_count.hasOwnProperty ("__kwargtrans__"))) {;
-        var with_count = false;
-    };
-    var aList = [];
-    for (var i of self.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (with_index || with_count) {
-            var count = 0;
-            var ind = 0;
-            var p = i.copy ();
-            while (p.hasBack ()) {
-                var ind = ind + 1;
-                p.moveToBack ();
-                if (i.h == p.h) {
-                    var count = count + 1;
-                }
-            }
-            aList.append ((i.h.py_replace ('--&gt;', '--%3E') + ':') + str (ind));
-            if (count || with_count) {
-                aList [-(1)] = (aList [-(1)] + ',') + str (count);
-            }
-        }
-        else {
-            aList.append (i.h.py_replace ('--&gt;', '--%3E'));
-        }
-    }
-    var UNL = '--&gt;'.join (py_reversed (aList));
-    if (with_proto) {
-        var s = 'unl:' + '//{}#{}'.format (self.v.context.fileName (), UNL);
-        return s.py_replace (' ', '%20');
-    }
-    if (with_file) {
-        return '{}#{}'.format (self.v.context.fileName (), UNL);
-    }
-    return UNL;
-});},
+<t tx="ekr.20201227092411.244">	get get_UNL () {return __get__ (this, function (self, with_file, with_proto, with_index, with_count) {
+		if (typeof with_file == 'undefined' || (with_file != null &amp;&amp; with_file.hasOwnProperty ("__kwargtrans__"))) {;
+			var with_file = true;
+		};
+		if (typeof with_proto == 'undefined' || (with_proto != null &amp;&amp; with_proto.hasOwnProperty ("__kwargtrans__"))) {;
+			var with_proto = false;
+		};
+		if (typeof with_index == 'undefined' || (with_index != null &amp;&amp; with_index.hasOwnProperty ("__kwargtrans__"))) {;
+			var with_index = true;
+		};
+		if (typeof with_count == 'undefined' || (with_count != null &amp;&amp; with_count.hasOwnProperty ("__kwargtrans__"))) {;
+			var with_count = false;
+		};
+		var aList = [];
+		for (var i of self.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (with_index || with_count) {
+var count = 0;
+var ind = 0;
+var p = i.copy ();
+while (p.hasBack ()) {
+	var ind = ind + 1;
+	p.moveToBack ();
+	if (i.h == p.h) {
+		var count = count + 1;
+	}
+}
+aList.append ((i.h.py_replace ('--&gt;', '--%3E') + ':') + str (ind));
+if (count || with_count) {
+	aList [-(1)] = (aList [-(1)] + ',') + str (count);
+}
+			}
+			else {
+aList.append (i.h.py_replace ('--&gt;', '--%3E'));
+			}
+		}
+		var UNL = '--&gt;'.join (py_reversed (aList));
+		if (with_proto) {
+			var s = 'unl:' + '//{}#{}'.format (self.v.context.fileName (), UNL);
+			return s.py_replace (' ', '%20');
+		}
+		if (with_file) {
+			return '{}#{}'.format (self.v.context.fileName (), UNL);
+		}
+		return UNL;
+	});},
 </t>
-<t tx="ekr.20201227092411.245">get hasBack () {return __get__ (this, function (self) {
-    var p = self;
-    return p.v &amp;&amp; p._childIndex &gt; 0;
-});},
+<t tx="ekr.20201227092411.245">	get hasBack () {return __get__ (this, function (self) {
+		var p = self;
+		return p.v &amp;&amp; p._childIndex &gt; 0;
+	});},
 </t>
-<t tx="ekr.20201227092411.246">get hasNext () {return __get__ (this, function (self) {
-    var p = self;
-    try {
-        var parent_v = p._parentVnode ();
-        return p.v &amp;&amp; parent_v &amp;&amp; p._childIndex + 1 &lt; len (parent_v.children);
-    }
-    catch (__except0__) {
-        if (isinstance (__except0__, Exception)) {
-            g.trace ('*** Unexpected exception');
-            g.es_exception ();
-            return null;
-        }
-        else {
-            throw __except0__;
-        }
-    }
-});},
+<t tx="ekr.20201227092411.246">	get hasNext () {return __get__ (this, function (self) {
+		var p = self;
+		try {
+			var parent_v = p._parentVnode ();
+			return p.v &amp;&amp; parent_v &amp;&amp; p._childIndex + 1 &lt; len (parent_v.children);
+		}
+		catch (__except0__) {
+			if (isinstance (__except0__, Exception)) {
+g.trace ('*** Unexpected exception');
+g.es_exception ();
+return null;
+			}
+			else {
+throw __except0__;
+			}
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.247">get hasParent () {return __get__ (this, function (self) {
-    var p = self;
-    return p.v &amp;&amp; p.stack;
-});},
+<t tx="ekr.20201227092411.247">	get hasParent () {return __get__ (this, function (self) {
+		var p = self;
+		return p.v &amp;&amp; p.stack;
+	});},
 </t>
-<t tx="ekr.20201227092411.248">get hasThreadBack () {return __get__ (this, function (self) {
-    var p = self;
-    return p.hasParent () || p.hasBack ();
-});},
+<t tx="ekr.20201227092411.248">	get hasThreadBack () {return __get__ (this, function (self) {
+		var p = self;
+		return p.hasParent () || p.hasBack ();
+	});},
 </t>
-<t tx="ekr.20201227092411.249">get hasThreadNext () {return __get__ (this, function (self) {
-    var p = self;
-    if (!(p.v)) {
-        return false;
-    }
-    if (p.hasChildren () || p.hasNext ()) {
-        return true;
-    }
-    var n = len (p.stack) - 1;
-    while (n &gt;= 0) {
-        var __left0__ = p.stack [n];
-        var v = __left0__ [0];
-        var childIndex = __left0__ [1];
-        if (n == 0) {
-            var parent_v = v.context.hiddenRootNode;
-        }
-        else {
-            var __left0__ = p.stack [n - 1];
-            var parent_v = __left0__ [0];
-            var junk = __left0__ [1];
-        }
-        if (len (parent_v.children) &gt; childIndex + 1) {
-            return true;
-        }
-        n--;
-    }
-    return false;
-});},
+<t tx="ekr.20201227092411.249">	get hasThreadNext () {return __get__ (this, function (self) {
+		var p = self;
+		if (!(p.v)) {
+			return false;
+		}
+		if (p.hasChildren () || p.hasNext ()) {
+			return true;
+		}
+		var n = len (p.stack) - 1;
+		while (n &gt;= 0) {
+			var __left0__ = p.stack [n];
+			var v = __left0__ [0];
+			var childIndex = __left0__ [1];
+			if (n == 0) {
+var parent_v = v.context.hiddenRootNode;
+			}
+			else {
+var __left0__ = p.stack [n - 1];
+var parent_v = __left0__ [0];
+var junk = __left0__ [1];
+			}
+			if (len (parent_v.children) &gt; childIndex + 1) {
+return true;
+			}
+			n--;
+		}
+		return false;
+	});},
 </t>
-<t tx="ekr.20201227092411.25">get py_get () {return __get__ (this, function (self, attr) {
-    return getattr (self, attr, null);
-});},
+<t tx="ekr.20201227092411.25">	get py_get () {return __get__ (this, function (self, attr) {
+		return getattr (self, attr, null);
+	});},
 </t>
-<t tx="ekr.20201227092411.250">get findRootPosition () {return __get__ (this, function (self) {
-    var p = self;
-    var c = p.v.context;
-    return c.rootPosition ();
-});},
+<t tx="ekr.20201227092411.250">	get findRootPosition () {return __get__ (this, function (self) {
+		var p = self;
+		var c = p.v.context;
+		return c.rootPosition ();
+	});},
 </t>
-<t tx="ekr.20201227092411.251">get isAncestorOf () {return __get__ (this, function (self, p2) {
-    var p = self;
-    var c = p.v.context;
-    if (!(c.positionExists (p2))) {
-        return false;
-    }
-    for (var z of p2.stack) {
-        var __left0__ = z;
-        var parent_v = __left0__ [0];
-        var parent_childIndex = __left0__ [1];
-        if (parent_v == p.v &amp;&amp; parent_childIndex == p._childIndex) {
-            return true;
-        }
-    }
-    return false;
-});},
+<t tx="ekr.20201227092411.251">	get isAncestorOf () {return __get__ (this, function (self, p2) {
+		var p = self;
+		var c = p.v.context;
+		if (!(c.positionExists (p2))) {
+			return false;
+		}
+		for (var z of p2.stack) {
+			var __left0__ = z;
+			var parent_v = __left0__ [0];
+			var parent_childIndex = __left0__ [1];
+			if (parent_v == p.v &amp;&amp; parent_childIndex == p._childIndex) {
+return true;
+			}
+		}
+		return false;
+	});},
 </t>
-<t tx="ekr.20201227092411.252">get isCloned () {return __get__ (this, function (self) {
-    var p = self;
-    return p.v.isCloned ();
-});},
+<t tx="ekr.20201227092411.252">	get isCloned () {return __get__ (this, function (self) {
+		var p = self;
+		return p.v.isCloned ();
+	});},
 </t>
-<t tx="ekr.20201227092411.253">get isRoot () {return __get__ (this, function (self) {
-    var p = self;
-    return !(p.hasParent ()) &amp;&amp; !(p.hasBack ());
-});},
+<t tx="ekr.20201227092411.253">	get isRoot () {return __get__ (this, function (self) {
+		var p = self;
+		return !(p.hasParent ()) &amp;&amp; !(p.hasBack ());
+	});},
 </t>
-<t tx="ekr.20201227092411.254">get isVisible () {return __get__ (this, function (self, c) {
-    var p = self;
-    var visible = function (p, root) {
-        if (typeof root == 'undefined' || (root != null &amp;&amp; root.hasOwnProperty ("__kwargtrans__"))) {;
-            var root = null;
-        };
-        for (var parent of p.parents (__kwargtrans__ ({copy: false}))) {
-            if (parent &amp;&amp; parent == root) {
-                return true;
-            }
-            if (!(c.shouldBeExpanded (parent))) {
-                return false;
-            }
-        }
-        return true;
-    };
-    if (c.hoistStack) {
-        var root = c.hoistStack [-(1)].p;
-        if (p == root) {
-            return true;
-        }
-        return root.isAncestorOf (p) &amp;&amp; visible (p, __kwargtrans__ ({root: root}));
-    }
-    for (var root of c.rootPosition ().self_and_siblings (__kwargtrans__ ({copy: false}))) {
-        if (root == p || root.isAncestorOf (p)) {
-            return visible (p);
-        }
-    }
-    return false;
-});},
+<t tx="ekr.20201227092411.254">	get isVisible () {return __get__ (this, function (self, c) {
+		var p = self;
+		var visible = function (p, root) {
+			if (typeof root == 'undefined' || (root != null &amp;&amp; root.hasOwnProperty ("__kwargtrans__"))) {;
+var root = null;
+			};
+			for (var parent of p.parents (__kwargtrans__ ({copy: false}))) {
+if (parent &amp;&amp; parent == root) {
+	return true;
+}
+if (!(c.shouldBeExpanded (parent))) {
+	return false;
+}
+			}
+			return true;
+		};
+		if (c.hoistStack) {
+			var root = c.hoistStack [-(1)].p;
+			if (p == root) {
+return true;
+			}
+			return root.isAncestorOf (p) &amp;&amp; visible (p, __kwargtrans__ ({root: root}));
+		}
+		for (var root of c.rootPosition ().self_and_siblings (__kwargtrans__ ({copy: false}))) {
+			if (root == p || root.isAncestorOf (p)) {
+return visible (p);
+			}
+		}
+		return false;
+	});},
 </t>
-<t tx="ekr.20201227092411.256">get level () {return __get__ (this, function (self) {
-    var p = self;
-    return (p.v ? len (p.stack) : 0);
-});},
-simpleLevel: level,
+<t tx="ekr.20201227092411.256">	get level () {return __get__ (this, function (self) {
+		var p = self;
+		return (p.v ? len (p.stack) : 0);
+	});},
+	simpleLevel: level,
 </t>
-<t tx="ekr.20201227092411.257">get positionAfterDeletedTree () {return __get__ (this, function (self) {
-    var p = self;
-    var py_next = p.py_next ();
-    if (py_next) {
-        var p = p.copy ();
-        p.v = py_next.v;
-        return p;
-    }
-    return p.nodeAfterTree ();
-});},
+<t tx="ekr.20201227092411.257">	get positionAfterDeletedTree () {return __get__ (this, function (self) {
+		var p = self;
+		var py_next = p.py_next ();
+		if (py_next) {
+			var p = p.copy ();
+			p.v = py_next.v;
+			return p;
+		}
+		return p.nodeAfterTree ();
+	});},
 </t>
-<t tx="ekr.20201227092411.258">get textOffset () {return __get__ (this, function (self) {
-    var p = self;
-    var __left0__ = tuple ([false, 0]);
-    var found = __left0__ [0];
-    var offset = __left0__ [1];
-    for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (p.isAnyAtFileNode ()) {
-            var found = true;
-            break;
-        }
-        var parent = p.parent ();
-        if (!(parent)) {
-            break;
-        }
-        var h = p.h.strip ();
-        var i = h.find ('&lt;&lt;');
-        var j = h.find ('&gt;&gt;');
-        var target = ((-(1) &lt; i &amp;&amp; i &lt; j) ? h.__getslice__ (i, j + 2, 1) : '@others');
-        for (var s of parent.b.py_split ('\n')) {
-            if (s.find (target) &gt; -(1)) {
-                offset += g.skip_ws (s, 0);
-                break;
-            }
-        }
-    }
-    return (found ? offset : null);
-});},
+<t tx="ekr.20201227092411.258">	get textOffset () {return __get__ (this, function (self) {
+		var p = self;
+		var __left0__ = tuple ([false, 0]);
+		var found = __left0__ [0];
+		var offset = __left0__ [1];
+		for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (p.isAnyAtFileNode ()) {
+var found = true;
+break;
+			}
+			var parent = p.parent ();
+			if (!(parent)) {
+break;
+			}
+			var h = p.h.strip ();
+			var i = h.find ('&lt;&lt;');
+			var j = h.find ('&gt;&gt;');
+			var target = ((-(1) &lt; i &amp;&amp; i &lt; j) ? h.__getslice__ (i, j + 2, 1) : '@others');
+			for (var s of parent.b.py_split ('\n')) {
+if (s.find (target) &gt; -(1)) {
+	offset += g.skip_ws (s, 0);
+	break;
+}
+			}
+		}
+		return (found ? offset : null);
+	});},
 </t>
-<t tx="ekr.20201227092411.259">get isOutsideAnyAtFileTree () {return __get__ (this, function (self) {
-    var p = self;
-    for (var parent of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (parent.isAnyAtFileNode ()) {
-            return false;
-        }
-    }
-    return true;
-});},
+<t tx="ekr.20201227092411.259">	get isOutsideAnyAtFileTree () {return __get__ (this, function (self) {
+		var p = self;
+		for (var parent of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (parent.isAnyAtFileNode ()) {
+return false;
+			}
+		}
+		return true;
+	});},
 </t>
-<t tx="ekr.20201227092411.26">get __getitem__ () {return __get__ (this, function (self, attr) {
-    return getattr (self, attr, null);
-});},
+<t tx="ekr.20201227092411.26">	get __getitem__ () {return __get__ (this, function (self, attr) {
+		return getattr (self, attr, null);
+	});},
 </t>
-<t tx="ekr.20201227092411.260">get _adjustPositionBeforeUnlink () {return __get__ (this, function (self, p2) {
-    var p = self;
-    var sib = p.copy ();
-    while (sib.hasBack ()) {
-        sib.moveToBack ();
-        if (sib == p2) {
-            p._childIndex--;
-            return ;
-        }
-    }
-    var stack = [];
-    var changed = false;
-    var i = 0;
-    while (i &lt; len (p.stack)) {
-        var __left0__ = p.stack [i];
-        var v = __left0__ [0];
-        var childIndex = __left0__ [1];
-        var p3 = Position (__kwargtrans__ ({v: v, childIndex: childIndex, stack: stack.__getslice__ (0, i, 1)}));
-        var __break1__ = false;
-        while (p3) {
-            if (p2 == p3) {
-                stack.append (tuple ([v, childIndex - 1]));
-                var changed = true;
-                __break1__ = true;
-                break;
-            }
-            p3.moveToBack ();
-        }
-        if (!__break1__) {
-            stack.append (tuple ([v, childIndex]));
-        }
-        i++;
-    }
-    if (changed) {
-        p.stack = stack;
-    }
-});},
+<t tx="ekr.20201227092411.260">	get _adjustPositionBeforeUnlink () {return __get__ (this, function (self, p2) {
+		var p = self;
+		var sib = p.copy ();
+		while (sib.hasBack ()) {
+			sib.moveToBack ();
+			if (sib == p2) {
+p._childIndex--;
+return ;
+			}
+		}
+		var stack = [];
+		var changed = false;
+		var i = 0;
+		while (i &lt; len (p.stack)) {
+			var __left0__ = p.stack [i];
+			var v = __left0__ [0];
+			var childIndex = __left0__ [1];
+			var p3 = Position (__kwargtrans__ ({v: v, childIndex: childIndex, stack: stack.__getslice__ (0, i, 1)}));
+			var __break1__ = false;
+			while (p3) {
+if (p2 == p3) {
+	stack.append (tuple ([v, childIndex - 1]));
+	var changed = true;
+	__break1__ = true;
+	break;
+}
+p3.moveToBack ();
+			}
+			if (!__break1__) {
+stack.append (tuple ([v, childIndex]));
+			}
+			i++;
+		}
+		if (changed) {
+			p.stack = stack;
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.261">get _linkAfter () {return __get__ (this, function (self, p_after) {
-    var p = self;
-    var parent_v = p_after._parentVnode ();
-    p.stack = p_after.stack.__getslice__ (0, null, 1);
-    p._childIndex = p_after._childIndex + 1;
-    var child = p.v;
-    var n = p_after._childIndex + 1;
-    child._addLink (n, parent_v);
-});},
+<t tx="ekr.20201227092411.261">	get _linkAfter () {return __get__ (this, function (self, p_after) {
+		var p = self;
+		var parent_v = p_after._parentVnode ();
+		p.stack = p_after.stack.__getslice__ (0, null, 1);
+		p._childIndex = p_after._childIndex + 1;
+		var child = p.v;
+		var n = p_after._childIndex + 1;
+		child._addLink (n, parent_v);
+	});},
 </t>
-<t tx="ekr.20201227092411.262">get _linkCopiedAfter () {return __get__ (this, function (self, p_after) {
-    var p = self;
-    var parent_v = p_after._parentVnode ();
-    p.stack = p_after.stack.__getslice__ (0, null, 1);
-    p._childIndex = p_after._childIndex + 1;
-    var child = p.v;
-    var n = p_after._childIndex + 1;
-    child._addCopiedLink (n, parent_v);
-});},
+<t tx="ekr.20201227092411.262">	get _linkCopiedAfter () {return __get__ (this, function (self, p_after) {
+		var p = self;
+		var parent_v = p_after._parentVnode ();
+		p.stack = p_after.stack.__getslice__ (0, null, 1);
+		p._childIndex = p_after._childIndex + 1;
+		var child = p.v;
+		var n = p_after._childIndex + 1;
+		child._addCopiedLink (n, parent_v);
+	});},
 </t>
-<t tx="ekr.20201227092411.263">get _linkAsNthChild () {return __get__ (this, function (self, parent, n) {
-    var p = self;
-    var parent_v = parent.v;
-    p.stack = parent.stack.__getslice__ (0, null, 1);
-    p.stack.append (tuple ([parent_v, parent._childIndex]));
-    p._childIndex = n;
-    var child = p.v;
-    child._addLink (n, parent_v);
-});},
+<t tx="ekr.20201227092411.263">	get _linkAsNthChild () {return __get__ (this, function (self, parent, n) {
+		var p = self;
+		var parent_v = parent.v;
+		p.stack = parent.stack.__getslice__ (0, null, 1);
+		p.stack.append (tuple ([parent_v, parent._childIndex]));
+		p._childIndex = n;
+		var child = p.v;
+		child._addLink (n, parent_v);
+	});},
 </t>
-<t tx="ekr.20201227092411.264">get _linkCopiedAsNthChild () {return __get__ (this, function (self, parent, n) {
-    var p = self;
-    var parent_v = parent.v;
-    p.stack = parent.stack.__getslice__ (0, null, 1);
-    p.stack.append (tuple ([parent_v, parent._childIndex]));
-    p._childIndex = n;
-    var child = p.v;
-    child._addCopiedLink (n, parent_v);
-});},
+<t tx="ekr.20201227092411.264">	get _linkCopiedAsNthChild () {return __get__ (this, function (self, parent, n) {
+		var p = self;
+		var parent_v = parent.v;
+		p.stack = parent.stack.__getslice__ (0, null, 1);
+		p.stack.append (tuple ([parent_v, parent._childIndex]));
+		p._childIndex = n;
+		var child = p.v;
+		child._addCopiedLink (n, parent_v);
+	});},
 </t>
-<t tx="ekr.20201227092411.265">get _linkAsRoot () {return __get__ (this, function (self) {
-    var p = self;
-    var parent_v = p.v.context.hiddenRootNode;
-    p.stack = [];
-    p._childIndex = 0;
-    p.v._addLink (0, parent_v);
-    return p;
-});},
+<t tx="ekr.20201227092411.265">	get _linkAsRoot () {return __get__ (this, function (self) {
+		var p = self;
+		var parent_v = p.v.context.hiddenRootNode;
+		p.stack = [];
+		p._childIndex = 0;
+		p.v._addLink (0, parent_v);
+		return p;
+	});},
 </t>
-<t tx="ekr.20201227092411.266">get _parentVnode () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v) {
-        var data = p.stack &amp;&amp; p.stack [-(1)];
-        if (data) {
-            var __left0__ = data;
-            var v = __left0__ [0];
-            var junk = __left0__ [1];
-            return v;
-        }
-        return p.v.context.hiddenRootNode;
-    }
-    return null;
-});},
+<t tx="ekr.20201227092411.266">	get _parentVnode () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v) {
+			var data = p.stack &amp;&amp; p.stack [-(1)];
+			if (data) {
+var __left0__ = data;
+var v = __left0__ [0];
+var junk = __left0__ [1];
+return v;
+			}
+			return p.v.context.hiddenRootNode;
+		}
+		return null;
+	});},
 </t>
-<t tx="ekr.20201227092411.267">get _relinkAsCloneOf () {return __get__ (this, function (self, p2) {
-    var p = self;
-    var __left0__ = tuple ([p.v, p2.v]);
-    var v = __left0__ [0];
-    var v2 = __left0__ [1];
-    var parent_v = p._parentVnode ();
-    if (!(parent_v)) {
-        g.internalError ('no parent_v', p);
-        return ;
-    }
-    if (parent_v.children [p._childIndex] == v) {
-        parent_v.children [p._childIndex] = v2;
-        v2.parents.append (parent_v);
-    }
-    else {
-        g.internalError ('parent_v.children[childIndex] != v', p, parent_v.children, p._childIndex, v);
-    }
-});},
+<t tx="ekr.20201227092411.267">	get _relinkAsCloneOf () {return __get__ (this, function (self, p2) {
+		var p = self;
+		var __left0__ = tuple ([p.v, p2.v]);
+		var v = __left0__ [0];
+		var v2 = __left0__ [1];
+		var parent_v = p._parentVnode ();
+		if (!(parent_v)) {
+			g.internalError ('no parent_v', p);
+			return ;
+		}
+		if (parent_v.children [p._childIndex] == v) {
+			parent_v.children [p._childIndex] = v2;
+			v2.parents.append (parent_v);
+		}
+		else {
+			g.internalError ('parent_v.children[childIndex] != v', p, parent_v.children, p._childIndex, v);
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.268">get _unlink () {return __get__ (this, function (self) {
-    var p = self;
-    var n = p._childIndex;
-    var parent_v = p._parentVnode ();
-    var child = p.v;
-    if ((0 &lt;= n &amp;&amp; n &lt; len (parent_v.children)) &amp;&amp; parent_v.children [n] == child) {
-        child._cutLink (n, parent_v);
-    }
-    else {
-        self.badUnlink (parent_v, n, child);
-    }
-});},
+<t tx="ekr.20201227092411.268">	get _unlink () {return __get__ (this, function (self) {
+		var p = self;
+		var n = p._childIndex;
+		var parent_v = p._parentVnode ();
+		var child = p.v;
+		if ((0 &lt;= n &amp;&amp; n &lt; len (parent_v.children)) &amp;&amp; parent_v.children [n] == child) {
+			child._cutLink (n, parent_v);
+		}
+		else {
+			self.badUnlink (parent_v, n, child);
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.269">get badUnlink () {return __get__ (this, function (self, parent_v, n, child) {
-    if ((0 &lt;= n &amp;&amp; n &lt; len (parent_v.children))) {
-        g.trace ('**can not happen: children[{}] != p.v'.format (n));
-        g.trace ('parent_v.children...\n', g.listToString (parent_v.children));
-        g.trace ('parent_v', parent_v);
-        g.trace ('parent_v.children[n]', parent_v.children [n]);
-        g.trace ('child', child);
-        g.trace ('** callers:', g.callers ());
-        if (g.app.unitTesting) {
-        }
-    }
-    else {
-        g.trace ('**can not happen: bad child index: {}, len(children): {}'.format (n, len (parent_v.children)));
-        g.trace ('parent_v.children...\n', g.listToString (parent_v.children));
-        g.trace ('parent_v', parent_v, 'child', child);
-        g.trace ('** callers:', g.callers ());
-        if (g.app.unitTesting) {
-        }
-    }
-});},
+<t tx="ekr.20201227092411.269">	get badUnlink () {return __get__ (this, function (self, parent_v, n, child) {
+		if ((0 &lt;= n &amp;&amp; n &lt; len (parent_v.children))) {
+			g.trace ('**can not happen: children[{}] != p.v'.format (n));
+			g.trace ('parent_v.children...\n', g.listToString (parent_v.children));
+			g.trace ('parent_v', parent_v);
+			g.trace ('parent_v.children[n]', parent_v.children [n]);
+			g.trace ('child', child);
+			g.trace ('** callers:', g.callers ());
+			if (g.app.unitTesting) {
+			}
+		}
+		else {
+			g.trace ('**can not happen: bad child index: {}, len(children): {}'.format (n, len (parent_v.children)));
+			g.trace ('parent_v.children...\n', g.listToString (parent_v.children));
+			g.trace ('parent_v', parent_v, 'child', child);
+			g.trace ('** callers:', g.callers ());
+			if (g.app.unitTesting) {
+			}
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.27">    get py_metatype () {return __get__ (this, function (self) {
-        return 'LeoKeyEvent';
-    });}
+<t tx="ekr.20201227092411.27">	get py_metatype () {return __get__ (this, function (self) {
+		return 'LeoKeyEvent';
+	});}
 });
 export var NullGui =  __class__ ('NullGui', [LeoGui], {
-    __module__: __name__,
-</t>
-<t tx="ekr.20201227092411.270">get moveToBack () {return __get__ (this, function (self) {
-    var p = self;
-    var n = p._childIndex;
-    var parent_v = p._parentVnode ();
-    if (parent_v &amp;&amp; p.v &amp;&amp; (0 &lt; n &amp;&amp; n &lt;= len (parent_v.children))) {
-        p._childIndex--;
-        p.v = parent_v.children [n - 1];
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.271">get moveToFirstChild () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v &amp;&amp; p.v.children) {
-        p.stack.append (tuple ([p.v, p._childIndex]));
-        p.v = p.v.children [0];
-        p._childIndex = 0;
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.272">get moveToLastChild () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v &amp;&amp; p.v.children) {
-        p.stack.append (tuple ([p.v, p._childIndex]));
-        var n = len (p.v.children);
-        p.v = p.v.children [n - 1];
-        p._childIndex = n - 1;
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.273">get moveToLastNode () {return __get__ (this, function (self) {
-    var p = self;
-    while (p.hasChildren ()) {
-        p.moveToLastChild ();
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.274">get moveToNext () {return __get__ (this, function (self) {
-    var p = self;
-    var n = p._childIndex;
-    var parent_v = p._parentVnode ();
-    if (!(p.v)) {
-        g.trace ('no p.v:', p, g.callers ());
-    }
-    if (p.v &amp;&amp; parent_v &amp;&amp; len (parent_v.children) &gt; n + 1) {
-        p._childIndex = n + 1;
-        p.v = parent_v.children [n + 1];
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.275">get moveToNodeAfterTree () {return __get__ (this, function (self) {
-    var p = self;
-    while (p) {
-        if (p.hasNext ()) {
-            p.moveToNext ();
-            break;
-        }
-        p.moveToParent ();
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.276">get moveToNthChild () {return __get__ (this, function (self, n) {
-    var p = self;
-    if (p.v &amp;&amp; len (p.v.children) &gt; n) {
-        p.stack.append (tuple ([p.v, p._childIndex]));
-        p.v = p.v.children [n];
-        p._childIndex = n;
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.277">get moveToParent () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v &amp;&amp; p.stack) {
-        var __left0__ = p.stack.py_pop ();
-        p.v = __left0__ [0];
-        p._childIndex = __left0__ [1];
-    }
-    else {
-        p.v = null;
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.278">get moveToThreadBack () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.hasBack ()) {
-        p.moveToBack ();
-        p.moveToLastNode ();
-    }
-    else {
-        p.moveToParent ();
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.279">get moveToThreadNext () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v) {
-        if (p.v.children) {
-            p.moveToFirstChild ();
-        }
-        else if (p.hasNext ()) {
-            p.moveToNext ();
-        }
-        else {
-            p.moveToParent ();
-            while (p) {
-                if (p.hasNext ()) {
-                    p.moveToNext ();
-                    break;
-                }
-                p.moveToParent ();
-            }
-        }
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.28">get __init__ () {return __get__ (this, function (self, guiName) {
-    if (typeof guiName == 'undefined' || (guiName != null &amp;&amp; guiName.hasOwnProperty ("__kwargtrans__"))) {;
-        var guiName = 'nullGui';
-    };
-    __super__ (NullGui, '__init__') (self, guiName);
-    self.clipboardContents = '';
-    self.focusWidget = null;
-    self.script = null;
-    self.lastFrame = null;
-    self.isNullGui = true;
-    self.idleTimeClass = g.NullObject;
-});},
-</t>
-<t tx="ekr.20201227092411.280">get moveToVisBack () {return __get__ (this, function (self, c) {
-    var p = self;
-    var __left0__ = c.visLimit ();
-    var limit = __left0__ [0];
-    var limitIsVisible = __left0__ [1];
-    while (p) {
-        var back = p.back ();
-        if (back &amp;&amp; back.hasChildren () &amp;&amp; back.isExpanded ()) {
-            p.moveToThreadBack ();
-        }
-        else if (back) {
-            p.moveToBack ();
-        }
-        else {
-            p.moveToParent ();
-        }
-        if (p) {
-            if (limit) {
-                var __left0__ = self.checkVisBackLimit (limit, limitIsVisible, p);
-                var done = __left0__ [0];
-                var val = __left0__ [1];
-                if (done) {
-                    return val;
-                }
-            }
-            if (p.isVisible (c)) {
-                return p;
-            }
-        }
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.281">get checkVisBackLimit () {return __get__ (this, function (self, limit, limitIsVisible, p) {
-    var c = p.v.context;
-    if (limit == p) {
-        if (limitIsVisible &amp;&amp; p.isVisible (c)) {
-            return tuple ([true, p]);
-        }
-        return tuple ([true, null]);
-    }
-    if (limit.isAncestorOf (p)) {
-        return tuple ([false, null]);
-    }
-    return tuple ([true, null]);
-});},
-</t>
-<t tx="ekr.20201227092411.282">get moveToVisNext () {return __get__ (this, function (self, c) {
-    var p = self;
-    var __left0__ = c.visLimit ();
-    var limit = __left0__ [0];
-    var limitIsVisible = __left0__ [1];
-    while (p) {
-        if (p.hasChildren ()) {
-            if (p.isExpanded ()) {
-                p.moveToFirstChild ();
-            }
-            else {
-                p.moveToNodeAfterTree ();
-            }
-        }
-        else if (p.hasNext ()) {
-            p.moveToNext ();
-        }
-        else {
-            p.moveToThreadNext ();
-        }
-        if (p) {
-            if (limit &amp;&amp; self.checkVisNextLimit (limit, p)) {
-                return null;
-            }
-            if (p.isVisible (c)) {
-                return p;
-            }
-        }
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.283">get checkVisNextLimit () {return __get__ (this, function (self, limit, p) {
-    return limit != p &amp;&amp; !(limit.isAncestorOf (p));
-});},
-</t>
-<t tx="ekr.20201227092411.284">get safeMoveToThreadNext () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.v) {
-        var child_v = p.v.children &amp;&amp; p.v.children [0];
-        if (child_v) {
-            var __break0__ = false;
-            for (var parent of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-                if (child_v == parent.v) {
-                    g.app.structure_errors++;
-                    g.error ('vnode: {} is its own parent'.format (child_v));
-                    parent.v.children = (function () {
-                        var __accu0__ = [];
-                        for (var v2 of parent.v.children) {
-                            if (!(v2 == child_v)) {
-                                __accu0__.append (v2);
-                            }
-                        }
-                        return __accu0__;
-                    }) ();
-                    if (__in__ (parent.v, child_v.parents)) {
-                        child_v.parents.remove (parent.v);
-                    }
-                    p.moveToParent ();
-                    __break0__ = true;
-                    break;
-                }
-                else if (child_v.fileIndex == parent.v.fileIndex) {
-                    g.app.structure_errors++;
-                    g.error ('duplicate gnx: {} v: {} parent: {}'.format (child_v.fileIndex, child_v, parent.v));
-                    child_v.fileIndex = g.app.nodeIndices.getNewIndex (__kwargtrans__ ({v: child_v}));
-                    p.moveToFirstChild ();
-                    __break0__ = true;
-                    break;
-                }
-            }
-            if (!__break0__) {
-                p.moveToFirstChild ();
-            }
-        }
-        else if (p.hasNext ()) {
-            p.moveToNext ();
-        }
-        else {
-            p.moveToParent ();
-            while (p) {
-                if (p.hasNext ()) {
-                    p.moveToNext ();
-                    break;
-                }
-                p.moveToParent ();
-            }
-        }
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.286">get clone () {return __get__ (this, function (self) {
-    var p = self;
-    var p2 = p.copy ();
-    p2._linkAfter (p);
-    return p2;
-});},
-</t>
-<t tx="ekr.20201227092411.287">get copy () {return __get__ (this, function (self) {
-    return Position (self.v, self._childIndex, self.stack);
-});},
-</t>
-<t tx="ekr.20201227092411.288">get copyTreeAfter () {return __get__ (this, function (self, copyGnxs) {
-    if (typeof copyGnxs == 'undefined' || (copyGnxs != null &amp;&amp; copyGnxs.hasOwnProperty ("__kwargtrans__"))) {;
-        var copyGnxs = false;
-    };
-    var p = self;
-    var p2 = p.insertAfter ();
-    p.copyTreeFromSelfTo (p2, __kwargtrans__ ({copyGnxs: copyGnxs}));
-    return p2;
-});},
-</t>
-<t tx="ekr.20201227092411.289">get copyTreeFromSelfTo () {return __get__ (this, function (self, p2, copyGnxs) {
-    if (typeof copyGnxs == 'undefined' || (copyGnxs != null &amp;&amp; copyGnxs.hasOwnProperty ("__kwargtrans__"))) {;
-        var copyGnxs = false;
-    };
-    var p = self;
-    p2.v._headString = g.toUnicode (p.h, __kwargtrans__ ({reportErrors: true}));
-    p2.v._bodyString = g.toUnicode (p.b, __kwargtrans__ ({reportErrors: true}));
-    if (copyGnxs) {
-        p2.v.fileIndex = p.v.fileIndex;
-    }
-    for (var child of p.children ()) {
-        var child2 = p2.insertAsLastChild ();
-        child.copyTreeFromSelfTo (child2, __kwargtrans__ ({copyGnxs: copyGnxs}));
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.29">get runAboutLeoDialog () {return __get__ (this, function (self, c, version, theCopyright, url, email) {
-    return self.simulateDialog ('aboutLeoDialog', null);
-});},
-</t>
-<t tx="ekr.20201227092411.290">get copyWithNewVnodes () {return __get__ (this, function (self, copyMarked) {
-    if (typeof copyMarked == 'undefined' || (copyMarked != null &amp;&amp; copyMarked.hasOwnProperty ("__kwargtrans__"))) {;
-        var copyMarked = false;
-    };
-    var p = self;
-    return Position (__kwargtrans__ ({v: p.v.copyTree (copyMarked)}));
-});},
-</t>
-<t tx="ekr.20201227092411.291">get createNodeHierarchy () {return __get__ (this, function (self, heads, forcecreate) {
-    if (typeof forcecreate == 'undefined' || (forcecreate != null &amp;&amp; forcecreate.hasOwnProperty ("__kwargtrans__"))) {;
-        var forcecreate = false;
-    };
-    var c = self.v.context;
-    return c.createNodeHierarchy (heads, __kwargtrans__ ({parent: self, forcecreate: forcecreate}));
-});},
-</t>
-<t tx="ekr.20201227092411.292">get deleteAllChildren () {return __get__ (this, function (self) {
-    var p = self;
-    p.setDirty ();
-    while (p.hasChildren ()) {
-        p.firstChild ().doDelete ();
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.293">get doDelete () {return __get__ (this, function (self, newNode) {
-    if (typeof newNode == 'undefined' || (newNode != null &amp;&amp; newNode.hasOwnProperty ("__kwargtrans__"))) {;
-        var newNode = null;
-    };
-    var p = self;
-    p.setDirty ();
-    var sib = p.copy ();
-    while (sib.hasNext ()) {
-        sib.moveToNext ();
-        if (sib == newNode) {
-            newNode._childIndex--;
-            break;
-        }
-    }
-    p._unlink ();
-});},
-</t>
-<t tx="ekr.20201227092411.294">get insertAfter () {return __get__ (this, function (self) {
-    var p = self;
-    var context = p.v.context;
-    var p2 = self.copy ();
-    p2.v = VNode (__kwargtrans__ ({context: context}));
-    p2.v.iconVal = 0;
-    p2._linkAfter (p);
-    return p2;
-});},
-</t>
-<t tx="ekr.20201227092411.295">get insertAsLastChild () {return __get__ (this, function (self) {
-    var p = self;
-    var n = p.numberOfChildren ();
-    return p.insertAsNthChild (n);
-});},
-</t>
-<t tx="ekr.20201227092411.296">get insertAsNthChild () {return __get__ (this, function (self, n) {
-    var p = self;
-    var context = p.v.context;
-    var p2 = self.copy ();
-    p2.v = VNode (__kwargtrans__ ({context: context}));
-    p2.v.iconVal = 0;
-    p2._linkAsNthChild (p, n);
-    return p2;
-});},
-</t>
-<t tx="ekr.20201227092411.297">get insertBefore () {return __get__ (this, function (self) {
-    var p = self;
-    var parent = p.parent ();
-    if (p.hasBack ()) {
-        var back = p.getBack ();
-        var p = back.insertAfter ();
-    }
-    else if (parent) {
-        var p = parent.insertAsNthChild (0);
-    }
-    else {
-        var p = p.insertAfter ();
-        p.moveToRoot ();
-    }
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.298">get invalidOutline () {return __get__ (this, function (self, message) {
-    var p = self;
-    if (p.hasParent ()) {
-        var node = p.parent ();
-    }
-    else {
-        var node = p;
-    }
-    p.v.context.alert ('invalid outline: {}\n{}'.format (message, node));
-});},
-</t>
-<t tx="ekr.20201227092411.299">get moveAfter () {return __get__ (this, function (self, a) {
-    var p = self;
-    a._adjustPositionBeforeUnlink (p);
-    p._unlink ();
-    p._linkAfter (a);
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.3">get createLeoFrame () {return __get__ (this, function (self, c, title) {
-    self.oops ();
-});},
-</t>
-<t tx="ekr.20201227092411.30">get runAskLeoIDDialog () {return __get__ (this, function (self) {
-    return self.simulateDialog ('leoIDDialog', null);
-});},
-</t>
-<t tx="ekr.20201227092411.300">get moveToFirstChildOf () {return __get__ (this, function (self, parent) {
-    var p = self;
-    return p.moveToNthChildOf (parent, 0);
-});},
-</t>
-<t tx="ekr.20201227092411.301">get moveToLastChildOf () {return __get__ (this, function (self, parent) {
-    var p = self;
-    var n = parent.numberOfChildren ();
-    if (p.parent () == parent) {
-        n--;
-    }
-    return p.moveToNthChildOf (parent, n);
-});},
-</t>
-<t tx="ekr.20201227092411.302">get moveToNthChildOf () {return __get__ (this, function (self, parent, n) {
-    var p = self;
-    parent._adjustPositionBeforeUnlink (p);
-    p._unlink ();
-    p._linkAsNthChild (parent, n);
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.303">get moveToRoot () {return __get__ (this, function (self) {
-    var p = self;
-    p._unlink ();
-    p._linkAsRoot ();
-    return p;
-});},
-</t>
-<t tx="ekr.20201227092411.304">get promote () {return __get__ (this, function (self) {
-    var p = self;
-    var parent_v = p._parentVnode ();
-    var children = p.v.children;
-    var n = p.childIndex () + 1;
-    var z = parent_v.children.__getslice__ (0, null, 1);
-    parent_v.children = z.__getslice__ (0, n, 1);
-    parent_v.children.extend (children);
-    parent_v.children.extend (z.__getslice__ (n, null, 1));
-    p.v.children = [];
-    for (var child of children) {
-        child.parents.remove (p.v);
-        child.parents.append (parent_v);
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.305">get validateOutlineWithParent () {return __get__ (this, function (self, pv) {
-    var p = self;
-    var result = true;
-    var parent = p.getParent ();
-    var childIndex = p._childIndex;
-    if (parent != pv) {
-        p.invalidOutline ('Invalid parent link: ' + repr (parent));
-    }
-    if (pv) {
-        if (childIndex &lt; 0) {
-            p.invalidOutline ('missing childIndex' + childIndex);
-        }
-        else if (childIndex &gt;= pv.numberOfChildren ()) {
-            p.invalidOutline ('missing children entry for index: ' + childIndex);
-        }
-    }
-    else if (childIndex &lt; 0) {
-        p.invalidOutline ('negative childIndex' + childIndex);
-    }
-    if (!(p.v) &amp;&amp; pv) {
-        self.invalidOutline ('Empty t');
-    }
-    for (var child of p.children ()) {
-        var r = child.validateOutlineWithParent (p);
-        if (!(r)) {
-            var result = false;
-        }
-    }
-    return result;
-});},
-</t>
-<t tx="ekr.20201227092411.306">get __get_b () {return __get__ (this, function (self) {
-    var p = self;
-    return p.bodyString ();
-});},
-</t>
-<t tx="ekr.20201227092411.307">get __set_b () {return __get__ (this, function (self, val) {
-    var p = self;
-    var c = p.v &amp;&amp; p.v.context;
-    if (c) {
-        c.setBodyString (p, val);
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.308">get __get_h () {return __get__ (this, function (self) {
-    var p = self;
-    return p.headString ();
-});},
-</t>
-<t tx="ekr.20201227092411.309">get __set_h () {return __get__ (this, function (self, val) {
-    var p = self;
-    var c = p.v &amp;&amp; p.v.context;
-    if (c) {
-        c.setHeadString (p, val);
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.31">get runAskOkDialog () {return __get__ (this, function (self, c, title, message, text) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof text == 'undefined' || (text != null &amp;&amp; text.hasOwnProperty ("__kwargtrans__"))) {;
-        var text = 'Ok';
-    };
-    return self.simulateDialog ('okDialog', 'Ok');
-});},
-</t>
-<t tx="ekr.20201227092411.310">get __get_gnx () {return __get__ (this, function (self) {
-    var p = self;
-    return p.v.fileIndex;
-});},
-</t>
-<t tx="ekr.20201227092411.311">get __get_script () {return __get__ (this, function (self) {
-    var p = self;
-    return g.getScript (p.v.context, p, __kwargtrans__ ({useSelectedText: false, forcePythonSentinels: true, useSentinels: false}));
-});},
-</t>
-<t tx="ekr.20201227092411.312">get __get_nosentinels () {return __get__ (this, function (self) {
-    var p = self;
-    return ''.join ((function () {
-        var __accu0__ = [];
-        for (var z of g.splitLines (p.b)) {
-            if (!(g.isDirective (z))) {
-                __accu0__.append (z);
-            }
-        }
-        return __accu0__;
-    }) ());
-});},
-</t>
-<t tx="ekr.20201227092411.314">get __get_u () {return __get__ (this, function (self) {
-    var p = self;
-    return p.v.u;
-});},
-</t>
-<t tx="ekr.20201227092411.315">get __set_u () {return __get__ (this, function (self, val) {
-    var p = self;
-    p.v.u = val;
-});},
-</t>
-<t tx="ekr.20201227092411.316">get contract () {return __get__ (this, function (self) {
-    var __left0__ = tuple ([self, self.v]);
-    var p = __left0__ [0];
-    var v = __left0__ [1];
-    v.expandedPositions = (function () {
-        var __accu0__ = [];
-        for (var z of v.expandedPositions) {
-            if (z != p) {
-                __accu0__.append (z);
-            }
-        }
-        return __accu0__;
-    }) ();
-    v.contract ();
-});},
-</t>
-<t tx="ekr.20201227092411.318">get expand () {return __get__ (this, function (self) {
-    var p = self;
-    var v = self.v;
-    v.expandedPositions = (function () {
-        var __accu0__ = [];
-        for (var z of v.expandedPositions) {
-            if (z != p) {
-                __accu0__.append (z);
-            }
-        }
-        return __accu0__;
-    }) ();
-    var __break0__ = false;
-    for (var p2 of v.expandedPositions) {
-        if (p == p2) {
-            __break0__ = true;
-            break;
-        }
-    }
-    if (!__break0__) {
-        v.expandedPositions.append (p.copy ());
-    }
-    v.expand ();
-});},
-</t>
-<t tx="ekr.20201227092411.32">get runAskOkCancelNumberDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText) {
-    if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelButtonText = null;
-    };
-    if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var okButtonText = null;
-    };
-    return self.simulateDialog ('numberDialog', -(1));
-});},
-</t>
-<t tx="ekr.20201227092411.320">get isExpanded () {return __get__ (this, function (self) {
-    var p = self;
-    if (p.isCloned ()) {
-        var c = p.v.context;
-        return c.shouldBeExpanded (p);
-    }
-    return p.v.isExpanded ();
-});},
-</t>
-<t tx="ekr.20201227092411.321">get clearMarked () {return __get__ (this, function (self) {
-    return self.v.clearMarked ();
-});},
-</t>
-<t tx="ekr.20201227092411.322">get clearOrphan () {return __get__ (this, function (self) {
-    return self.v.clearOrphan ();
-});},
-</t>
-<t tx="ekr.20201227092411.323">get clearVisited () {return __get__ (this, function (self) {
-    return self.v.clearVisited ();
-});},
-</t>
-<t tx="ekr.20201227092411.324">get initExpandedBit () {return __get__ (this, function (self) {
-    return self.v.initExpandedBit ();
-});},
-</t>
-<t tx="ekr.20201227092411.325">get initMarkedBit () {return __get__ (this, function (self) {
-    return self.v.initMarkedBit ();
-});},
-</t>
-<t tx="ekr.20201227092411.326">get initStatus () {return __get__ (this, function (self, status) {
-    return self.v.initStatus (status);
-});},
-</t>
-<t tx="ekr.20201227092411.327">get setMarked () {return __get__ (this, function (self) {
-    return self.v.setMarked ();
-});},
-</t>
-<t tx="ekr.20201227092411.328">get setOrphan () {return __get__ (this, function (self) {
-    return self.v.setOrphan ();
-});},
-</t>
-<t tx="ekr.20201227092411.329">get setSelected () {return __get__ (this, function (self) {
-    return self.v.setSelected ();
-});},
-</t>
-<t tx="ekr.20201227092411.33">get runAskOkCancelStringDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText, py_default, wide) {
-    if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelButtonText = null;
-    };
-    if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
-        var okButtonText = null;
-    };
-    if (typeof py_default == 'undefined' || (py_default != null &amp;&amp; py_default.hasOwnProperty ("__kwargtrans__"))) {;
-        var py_default = '';
-    };
-    if (typeof wide == 'undefined' || (wide != null &amp;&amp; wide.hasOwnProperty ("__kwargtrans__"))) {;
-        var wide = false;
-    };
-    return self.simulateDialog ('stringDialog', '');
-});},
-</t>
-<t tx="ekr.20201227092411.330">get setVisited () {return __get__ (this, function (self) {
-    return self.v.setVisited ();
-});},
-</t>
-<t tx="ekr.20201227092411.331">get computeIcon () {return __get__ (this, function (self) {
-    return self.v.computeIcon ();
-});},
-</t>
-<t tx="ekr.20201227092411.332">get setIcon () {return __get__ (this, function (self) {
-    // pass;
-});},
-</t>
-<t tx="ekr.20201227092411.333">get setSelection () {return __get__ (this, function (self, start, length) {
-    return self.v.setSelection (start, length);
-});},
-</t>
-<t tx="ekr.20201227092411.334">get restoreCursorAndScroll () {return __get__ (this, function (self) {
-    self.v.restoreCursorAndScroll ();
-});},
-</t>
-<t tx="ekr.20201227092411.335">get saveCursorAndScroll () {return __get__ (this, function (self) {
-    self.v.saveCursorAndScroll ();
-});},
-</t>
-<t tx="ekr.20201227092411.336">get setBodyString () {return __get__ (this, function (self, s) {
-    var p = self;
-    return p.v.setBodyString (s);
-});},
-initBodyString: setBodyString,
-setTnodeText: setBodyString,
-scriptSetBodyString: setBodyString,
-</t>
-<t tx="ekr.20201227092411.337">get initHeadString () {return __get__ (this, function (self, s) {
-    var p = self;
-    p.v.initHeadString (s);
-});},
-</t>
-<t tx="ekr.20201227092411.338">get setHeadString () {return __get__ (this, function (self, s) {
-    var p = self;
-    p.v.initHeadString (s);
-    p.setDirty ();
-});},
-</t>
-<t tx="ekr.20201227092411.339">get clearVisitedInTree () {return __get__ (this, function (self) {
-    for (var p of self.self_and_subtree (__kwargtrans__ ({copy: false}))) {
-        p.clearVisited ();
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.34">get runCompareDialog () {return __get__ (this, function (self, c) {
-    return self.simulateDialog ('compareDialog', '');
-});},
-</t>
-<t tx="ekr.20201227092411.340">get clearAllVisitedInTree () {return __get__ (this, function (self) {
-    for (var p of self.self_and_subtree (__kwargtrans__ ({copy: false}))) {
-        p.v.clearVisited ();
-        p.v.clearWriteBit ();
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.341">get clearDirty () {return __get__ (this, function (self) {
-    var p = self;
-    p.v.clearDirty ();
-});},
-</t>
-<t tx="ekr.20201227092411.342">get inAtIgnoreRange () {return __get__ (this, function (self) {
-    var p = self;
-    for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (p.isAtIgnoreNode ()) {
-            return true;
-        }
-    }
-    return false;
-});},
-</t>
-<t tx="ekr.20201227092411.343">get setAllAncestorAtFileNodesDirty () {return __get__ (this, function (self) {
-    var p = self;
-    p.v.setAllAncestorAtFileNodesDirty ();
-});},
-</t>
-<t tx="ekr.20201227092411.344">get setDirty () {return __get__ (this, function (self) {
-    var p = self;
-    p.v.setAllAncestorAtFileNodesDirty ();
-    p.v.setDirty ();
-});},
-</t>
-<t tx="ekr.20201227092411.345">get is_at_all () {return __get__ (this, function (self) {
-    var p = self;
-    return p.isAnyAtFileNode () &amp;&amp; any ((function () {
-        var __accu0__ = [];
-        for (var s of g.splitLines (p.b)) {
-            __accu0__.append (g.match_word (s, 0, '@all'));
-        }
-        return __accu0__;
-    }) ());
-});},
-</t>
-<t tx="ekr.20201227092411.347">get in_at_all_tree () {return __get__ (this, function (self) {
-    var p = self;
-    for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-        if (p.is_at_all ()) {
-            return true;
-        }
-    }
-    return false;
-});},
-</t>
-<t tx="ekr.20201227092411.348">get is_at_ignore () {return __get__ (this, function (self) {
-    var p = self;
-    return g.match_word (p.h, 0, '@ignore');
-});},
-</t>
-<t tx="ekr.20201227092411.349">    get in_at_ignore_tree () {return __get__ (this, function (self) {
-        var p = self;
-        for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
-            if (g.match_word (p.h, 0, '@ignore')) {
-                return true;
-            }
-        }
-        return false;
-    });}
+	__module__: __name__,
+</t>
+<t tx="ekr.20201227092411.270">	get moveToBack () {return __get__ (this, function (self) {
+		var p = self;
+		var n = p._childIndex;
+		var parent_v = p._parentVnode ();
+		if (parent_v &amp;&amp; p.v &amp;&amp; (0 &lt; n &amp;&amp; n &lt;= len (parent_v.children))) {
+			p._childIndex--;
+			p.v = parent_v.children [n - 1];
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.271">	get moveToFirstChild () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v &amp;&amp; p.v.children) {
+			p.stack.append (tuple ([p.v, p._childIndex]));
+			p.v = p.v.children [0];
+			p._childIndex = 0;
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.272">	get moveToLastChild () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v &amp;&amp; p.v.children) {
+			p.stack.append (tuple ([p.v, p._childIndex]));
+			var n = len (p.v.children);
+			p.v = p.v.children [n - 1];
+			p._childIndex = n - 1;
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.273">	get moveToLastNode () {return __get__ (this, function (self) {
+		var p = self;
+		while (p.hasChildren ()) {
+			p.moveToLastChild ();
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.274">	get moveToNext () {return __get__ (this, function (self) {
+		var p = self;
+		var n = p._childIndex;
+		var parent_v = p._parentVnode ();
+		if (!(p.v)) {
+			g.trace ('no p.v:', p, g.callers ());
+		}
+		if (p.v &amp;&amp; parent_v &amp;&amp; len (parent_v.children) &gt; n + 1) {
+			p._childIndex = n + 1;
+			p.v = parent_v.children [n + 1];
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.275">	get moveToNodeAfterTree () {return __get__ (this, function (self) {
+		var p = self;
+		while (p) {
+			if (p.hasNext ()) {
+p.moveToNext ();
+break;
+			}
+			p.moveToParent ();
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.276">	get moveToNthChild () {return __get__ (this, function (self, n) {
+		var p = self;
+		if (p.v &amp;&amp; len (p.v.children) &gt; n) {
+			p.stack.append (tuple ([p.v, p._childIndex]));
+			p.v = p.v.children [n];
+			p._childIndex = n;
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.277">	get moveToParent () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v &amp;&amp; p.stack) {
+			var __left0__ = p.stack.py_pop ();
+			p.v = __left0__ [0];
+			p._childIndex = __left0__ [1];
+		}
+		else {
+			p.v = null;
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.278">	get moveToThreadBack () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.hasBack ()) {
+			p.moveToBack ();
+			p.moveToLastNode ();
+		}
+		else {
+			p.moveToParent ();
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.279">	get moveToThreadNext () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v) {
+			if (p.v.children) {
+p.moveToFirstChild ();
+			}
+			else if (p.hasNext ()) {
+p.moveToNext ();
+			}
+			else {
+p.moveToParent ();
+while (p) {
+	if (p.hasNext ()) {
+		p.moveToNext ();
+		break;
+	}
+	p.moveToParent ();
+}
+			}
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.28">	get __init__ () {return __get__ (this, function (self, guiName) {
+		if (typeof guiName == 'undefined' || (guiName != null &amp;&amp; guiName.hasOwnProperty ("__kwargtrans__"))) {;
+			var guiName = 'nullGui';
+		};
+		__super__ (NullGui, '__init__') (self, guiName);
+		self.clipboardContents = '';
+		self.focusWidget = null;
+		self.script = null;
+		self.lastFrame = null;
+		self.isNullGui = true;
+		self.idleTimeClass = g.NullObject;
+	});},
+</t>
+<t tx="ekr.20201227092411.280">	get moveToVisBack () {return __get__ (this, function (self, c) {
+		var p = self;
+		var __left0__ = c.visLimit ();
+		var limit = __left0__ [0];
+		var limitIsVisible = __left0__ [1];
+		while (p) {
+			var back = p.back ();
+			if (back &amp;&amp; back.hasChildren () &amp;&amp; back.isExpanded ()) {
+p.moveToThreadBack ();
+			}
+			else if (back) {
+p.moveToBack ();
+			}
+			else {
+p.moveToParent ();
+			}
+			if (p) {
+if (limit) {
+	var __left0__ = self.checkVisBackLimit (limit, limitIsVisible, p);
+	var done = __left0__ [0];
+	var val = __left0__ [1];
+	if (done) {
+		return val;
+	}
+}
+if (p.isVisible (c)) {
+	return p;
+}
+			}
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.281">	get checkVisBackLimit () {return __get__ (this, function (self, limit, limitIsVisible, p) {
+		var c = p.v.context;
+		if (limit == p) {
+			if (limitIsVisible &amp;&amp; p.isVisible (c)) {
+return tuple ([true, p]);
+			}
+			return tuple ([true, null]);
+		}
+		if (limit.isAncestorOf (p)) {
+			return tuple ([false, null]);
+		}
+		return tuple ([true, null]);
+	});},
+</t>
+<t tx="ekr.20201227092411.282">	get moveToVisNext () {return __get__ (this, function (self, c) {
+		var p = self;
+		var __left0__ = c.visLimit ();
+		var limit = __left0__ [0];
+		var limitIsVisible = __left0__ [1];
+		while (p) {
+			if (p.hasChildren ()) {
+if (p.isExpanded ()) {
+	p.moveToFirstChild ();
+}
+else {
+	p.moveToNodeAfterTree ();
+}
+			}
+			else if (p.hasNext ()) {
+p.moveToNext ();
+			}
+			else {
+p.moveToThreadNext ();
+			}
+			if (p) {
+if (limit &amp;&amp; self.checkVisNextLimit (limit, p)) {
+	return null;
+}
+if (p.isVisible (c)) {
+	return p;
+}
+			}
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.283">	get checkVisNextLimit () {return __get__ (this, function (self, limit, p) {
+		return limit != p &amp;&amp; !(limit.isAncestorOf (p));
+	});},
+</t>
+<t tx="ekr.20201227092411.284">	get safeMoveToThreadNext () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.v) {
+			var child_v = p.v.children &amp;&amp; p.v.children [0];
+			if (child_v) {
+var __break0__ = false;
+for (var parent of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+	if (child_v == parent.v) {
+		g.app.structure_errors++;
+		g.error ('vnode: {} is its own parent'.format (child_v));
+		parent.v.children = (function () {
+			var __accu0__ = [];
+			for (var v2 of parent.v.children) {
+				if (!(v2 == child_v)) {
+					__accu0__.append (v2);
+				}
+			}
+			return __accu0__;
+		}) ();
+		if (__in__ (parent.v, child_v.parents)) {
+			child_v.parents.remove (parent.v);
+		}
+		p.moveToParent ();
+		__break0__ = true;
+		break;
+	}
+	else if (child_v.fileIndex == parent.v.fileIndex) {
+		g.app.structure_errors++;
+		g.error ('duplicate gnx: {} v: {} parent: {}'.format (child_v.fileIndex, child_v, parent.v));
+		child_v.fileIndex = g.app.nodeIndices.getNewIndex (__kwargtrans__ ({v: child_v}));
+		p.moveToFirstChild ();
+		__break0__ = true;
+		break;
+	}
+}
+if (!__break0__) {
+	p.moveToFirstChild ();
+}
+			}
+			else if (p.hasNext ()) {
+p.moveToNext ();
+			}
+			else {
+p.moveToParent ();
+while (p) {
+	if (p.hasNext ()) {
+		p.moveToNext ();
+		break;
+	}
+	p.moveToParent ();
+}
+			}
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.286">	get clone () {return __get__ (this, function (self) {
+		var p = self;
+		var p2 = p.copy ();
+		p2._linkAfter (p);
+		return p2;
+	});},
+</t>
+<t tx="ekr.20201227092411.287">	get copy () {return __get__ (this, function (self) {
+		return Position (self.v, self._childIndex, self.stack);
+	});},
+</t>
+<t tx="ekr.20201227092411.288">	get copyTreeAfter () {return __get__ (this, function (self, copyGnxs) {
+		if (typeof copyGnxs == 'undefined' || (copyGnxs != null &amp;&amp; copyGnxs.hasOwnProperty ("__kwargtrans__"))) {;
+			var copyGnxs = false;
+		};
+		var p = self;
+		var p2 = p.insertAfter ();
+		p.copyTreeFromSelfTo (p2, __kwargtrans__ ({copyGnxs: copyGnxs}));
+		return p2;
+	});},
+</t>
+<t tx="ekr.20201227092411.289">	get copyTreeFromSelfTo () {return __get__ (this, function (self, p2, copyGnxs) {
+		if (typeof copyGnxs == 'undefined' || (copyGnxs != null &amp;&amp; copyGnxs.hasOwnProperty ("__kwargtrans__"))) {;
+			var copyGnxs = false;
+		};
+		var p = self;
+		p2.v._headString = g.toUnicode (p.h, __kwargtrans__ ({reportErrors: true}));
+		p2.v._bodyString = g.toUnicode (p.b, __kwargtrans__ ({reportErrors: true}));
+		if (copyGnxs) {
+			p2.v.fileIndex = p.v.fileIndex;
+		}
+		for (var child of p.children ()) {
+			var child2 = p2.insertAsLastChild ();
+			child.copyTreeFromSelfTo (child2, __kwargtrans__ ({copyGnxs: copyGnxs}));
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.29">	get runAboutLeoDialog () {return __get__ (this, function (self, c, version, theCopyright, url, email) {
+		return self.simulateDialog ('aboutLeoDialog', null);
+	});},
+</t>
+<t tx="ekr.20201227092411.290">	get copyWithNewVnodes () {return __get__ (this, function (self, copyMarked) {
+		if (typeof copyMarked == 'undefined' || (copyMarked != null &amp;&amp; copyMarked.hasOwnProperty ("__kwargtrans__"))) {;
+			var copyMarked = false;
+		};
+		var p = self;
+		return Position (__kwargtrans__ ({v: p.v.copyTree (copyMarked)}));
+	});},
+</t>
+<t tx="ekr.20201227092411.291">	get createNodeHierarchy () {return __get__ (this, function (self, heads, forcecreate) {
+		if (typeof forcecreate == 'undefined' || (forcecreate != null &amp;&amp; forcecreate.hasOwnProperty ("__kwargtrans__"))) {;
+			var forcecreate = false;
+		};
+		var c = self.v.context;
+		return c.createNodeHierarchy (heads, __kwargtrans__ ({parent: self, forcecreate: forcecreate}));
+	});},
+</t>
+<t tx="ekr.20201227092411.292">	get deleteAllChildren () {return __get__ (this, function (self) {
+		var p = self;
+		p.setDirty ();
+		while (p.hasChildren ()) {
+			p.firstChild ().doDelete ();
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.293">	get doDelete () {return __get__ (this, function (self, newNode) {
+		if (typeof newNode == 'undefined' || (newNode != null &amp;&amp; newNode.hasOwnProperty ("__kwargtrans__"))) {;
+			var newNode = null;
+		};
+		var p = self;
+		p.setDirty ();
+		var sib = p.copy ();
+		while (sib.hasNext ()) {
+			sib.moveToNext ();
+			if (sib == newNode) {
+newNode._childIndex--;
+break;
+			}
+		}
+		p._unlink ();
+	});},
+</t>
+<t tx="ekr.20201227092411.294">	get insertAfter () {return __get__ (this, function (self) {
+		var p = self;
+		var context = p.v.context;
+		var p2 = self.copy ();
+		p2.v = VNode (__kwargtrans__ ({context: context}));
+		p2.v.iconVal = 0;
+		p2._linkAfter (p);
+		return p2;
+	});},
+</t>
+<t tx="ekr.20201227092411.295">	get insertAsLastChild () {return __get__ (this, function (self) {
+		var p = self;
+		var n = p.numberOfChildren ();
+		return p.insertAsNthChild (n);
+	});},
+</t>
+<t tx="ekr.20201227092411.296">	get insertAsNthChild () {return __get__ (this, function (self, n) {
+		var p = self;
+		var context = p.v.context;
+		var p2 = self.copy ();
+		p2.v = VNode (__kwargtrans__ ({context: context}));
+		p2.v.iconVal = 0;
+		p2._linkAsNthChild (p, n);
+		return p2;
+	});},
+</t>
+<t tx="ekr.20201227092411.297">	get insertBefore () {return __get__ (this, function (self) {
+		var p = self;
+		var parent = p.parent ();
+		if (p.hasBack ()) {
+			var back = p.getBack ();
+			var p = back.insertAfter ();
+		}
+		else if (parent) {
+			var p = parent.insertAsNthChild (0);
+		}
+		else {
+			var p = p.insertAfter ();
+			p.moveToRoot ();
+		}
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.298">	get invalidOutline () {return __get__ (this, function (self, message) {
+		var p = self;
+		if (p.hasParent ()) {
+			var node = p.parent ();
+		}
+		else {
+			var node = p;
+		}
+		p.v.context.alert ('invalid outline: {}\n{}'.format (message, node));
+	});},
+</t>
+<t tx="ekr.20201227092411.299">	get moveAfter () {return __get__ (this, function (self, a) {
+		var p = self;
+		a._adjustPositionBeforeUnlink (p);
+		p._unlink ();
+		p._linkAfter (a);
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.3">	get createLeoFrame () {return __get__ (this, function (self, c, title) {
+		self.oops ();
+	});},
+</t>
+<t tx="ekr.20201227092411.30">	get runAskLeoIDDialog () {return __get__ (this, function (self) {
+		return self.simulateDialog ('leoIDDialog', null);
+	});},
+</t>
+<t tx="ekr.20201227092411.300">	get moveToFirstChildOf () {return __get__ (this, function (self, parent) {
+		var p = self;
+		return p.moveToNthChildOf (parent, 0);
+	});},
+</t>
+<t tx="ekr.20201227092411.301">	get moveToLastChildOf () {return __get__ (this, function (self, parent) {
+		var p = self;
+		var n = parent.numberOfChildren ();
+		if (p.parent () == parent) {
+			n--;
+		}
+		return p.moveToNthChildOf (parent, n);
+	});},
+</t>
+<t tx="ekr.20201227092411.302">	get moveToNthChildOf () {return __get__ (this, function (self, parent, n) {
+		var p = self;
+		parent._adjustPositionBeforeUnlink (p);
+		p._unlink ();
+		p._linkAsNthChild (parent, n);
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.303">	get moveToRoot () {return __get__ (this, function (self) {
+		var p = self;
+		p._unlink ();
+		p._linkAsRoot ();
+		return p;
+	});},
+</t>
+<t tx="ekr.20201227092411.304">	get promote () {return __get__ (this, function (self) {
+		var p = self;
+		var parent_v = p._parentVnode ();
+		var children = p.v.children;
+		var n = p.childIndex () + 1;
+		var z = parent_v.children.__getslice__ (0, null, 1);
+		parent_v.children = z.__getslice__ (0, n, 1);
+		parent_v.children.extend (children);
+		parent_v.children.extend (z.__getslice__ (n, null, 1));
+		p.v.children = [];
+		for (var child of children) {
+			child.parents.remove (p.v);
+			child.parents.append (parent_v);
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.305">	get validateOutlineWithParent () {return __get__ (this, function (self, pv) {
+		var p = self;
+		var result = true;
+		var parent = p.getParent ();
+		var childIndex = p._childIndex;
+		if (parent != pv) {
+			p.invalidOutline ('Invalid parent link: ' + repr (parent));
+		}
+		if (pv) {
+			if (childIndex &lt; 0) {
+p.invalidOutline ('missing childIndex' + childIndex);
+			}
+			else if (childIndex &gt;= pv.numberOfChildren ()) {
+p.invalidOutline ('missing children entry for index: ' + childIndex);
+			}
+		}
+		else if (childIndex &lt; 0) {
+			p.invalidOutline ('negative childIndex' + childIndex);
+		}
+		if (!(p.v) &amp;&amp; pv) {
+			self.invalidOutline ('Empty t');
+		}
+		for (var child of p.children ()) {
+			var r = child.validateOutlineWithParent (p);
+			if (!(r)) {
+var result = false;
+			}
+		}
+		return result;
+	});},
+</t>
+<t tx="ekr.20201227092411.306">	get __get_b () {return __get__ (this, function (self) {
+		var p = self;
+		return p.bodyString ();
+	});},
+</t>
+<t tx="ekr.20201227092411.307">	get __set_b () {return __get__ (this, function (self, val) {
+		var p = self;
+		var c = p.v &amp;&amp; p.v.context;
+		if (c) {
+			c.setBodyString (p, val);
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.308">	get __get_h () {return __get__ (this, function (self) {
+		var p = self;
+		return p.headString ();
+	});},
+</t>
+<t tx="ekr.20201227092411.309">	get __set_h () {return __get__ (this, function (self, val) {
+		var p = self;
+		var c = p.v &amp;&amp; p.v.context;
+		if (c) {
+			c.setHeadString (p, val);
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.31">	get runAskOkDialog () {return __get__ (this, function (self, c, title, message, text) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof text == 'undefined' || (text != null &amp;&amp; text.hasOwnProperty ("__kwargtrans__"))) {;
+			var text = 'Ok';
+		};
+		return self.simulateDialog ('okDialog', 'Ok');
+	});},
+</t>
+<t tx="ekr.20201227092411.310">	get __get_gnx () {return __get__ (this, function (self) {
+		var p = self;
+		return p.v.fileIndex;
+	});},
+</t>
+<t tx="ekr.20201227092411.311">	get __get_script () {return __get__ (this, function (self) {
+		var p = self;
+		return g.getScript (p.v.context, p, __kwargtrans__ ({useSelectedText: false, forcePythonSentinels: true, useSentinels: false}));
+	});},
+</t>
+<t tx="ekr.20201227092411.312">	get __get_nosentinels () {return __get__ (this, function (self) {
+		var p = self;
+		return ''.join ((function () {
+			var __accu0__ = [];
+			for (var z of g.splitLines (p.b)) {
+if (!(g.isDirective (z))) {
+	__accu0__.append (z);
+}
+			}
+			return __accu0__;
+		}) ());
+	});},
+</t>
+<t tx="ekr.20201227092411.314">	get __get_u () {return __get__ (this, function (self) {
+		var p = self;
+		return p.v.u;
+	});},
+</t>
+<t tx="ekr.20201227092411.315">	get __set_u () {return __get__ (this, function (self, val) {
+		var p = self;
+		p.v.u = val;
+	});},
+</t>
+<t tx="ekr.20201227092411.316">	get contract () {return __get__ (this, function (self) {
+		var __left0__ = tuple ([self, self.v]);
+		var p = __left0__ [0];
+		var v = __left0__ [1];
+		v.expandedPositions = (function () {
+			var __accu0__ = [];
+			for (var z of v.expandedPositions) {
+if (z != p) {
+	__accu0__.append (z);
+}
+			}
+			return __accu0__;
+		}) ();
+		v.contract ();
+	});},
+</t>
+<t tx="ekr.20201227092411.318">	get expand () {return __get__ (this, function (self) {
+		var p = self;
+		var v = self.v;
+		v.expandedPositions = (function () {
+			var __accu0__ = [];
+			for (var z of v.expandedPositions) {
+if (z != p) {
+	__accu0__.append (z);
+}
+			}
+			return __accu0__;
+		}) ();
+		var __break0__ = false;
+		for (var p2 of v.expandedPositions) {
+			if (p == p2) {
+__break0__ = true;
+break;
+			}
+		}
+		if (!__break0__) {
+			v.expandedPositions.append (p.copy ());
+		}
+		v.expand ();
+	});},
+</t>
+<t tx="ekr.20201227092411.32">	get runAskOkCancelNumberDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText) {
+		if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelButtonText = null;
+		};
+		if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var okButtonText = null;
+		};
+		return self.simulateDialog ('numberDialog', -(1));
+	});},
+</t>
+<t tx="ekr.20201227092411.320">	get isExpanded () {return __get__ (this, function (self) {
+		var p = self;
+		if (p.isCloned ()) {
+			var c = p.v.context;
+			return c.shouldBeExpanded (p);
+		}
+		return p.v.isExpanded ();
+	});},
+</t>
+<t tx="ekr.20201227092411.321">	get clearMarked () {return __get__ (this, function (self) {
+		return self.v.clearMarked ();
+	});},
+</t>
+<t tx="ekr.20201227092411.322">	get clearOrphan () {return __get__ (this, function (self) {
+		return self.v.clearOrphan ();
+	});},
+</t>
+<t tx="ekr.20201227092411.323">	get clearVisited () {return __get__ (this, function (self) {
+		return self.v.clearVisited ();
+	});},
+</t>
+<t tx="ekr.20201227092411.324">	get initExpandedBit () {return __get__ (this, function (self) {
+		return self.v.initExpandedBit ();
+	});},
+</t>
+<t tx="ekr.20201227092411.325">	get initMarkedBit () {return __get__ (this, function (self) {
+		return self.v.initMarkedBit ();
+	});},
+</t>
+<t tx="ekr.20201227092411.326">	get initStatus () {return __get__ (this, function (self, status) {
+		return self.v.initStatus (status);
+	});},
+</t>
+<t tx="ekr.20201227092411.327">	get setMarked () {return __get__ (this, function (self) {
+		return self.v.setMarked ();
+	});},
+</t>
+<t tx="ekr.20201227092411.328">	get setOrphan () {return __get__ (this, function (self) {
+		return self.v.setOrphan ();
+	});},
+</t>
+<t tx="ekr.20201227092411.329">	get setSelected () {return __get__ (this, function (self) {
+		return self.v.setSelected ();
+	});},
+</t>
+<t tx="ekr.20201227092411.33">	get runAskOkCancelStringDialog () {return __get__ (this, function (self, c, title, message, cancelButtonText, okButtonText, py_default, wide) {
+		if (typeof cancelButtonText == 'undefined' || (cancelButtonText != null &amp;&amp; cancelButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelButtonText = null;
+		};
+		if (typeof okButtonText == 'undefined' || (okButtonText != null &amp;&amp; okButtonText.hasOwnProperty ("__kwargtrans__"))) {;
+			var okButtonText = null;
+		};
+		if (typeof py_default == 'undefined' || (py_default != null &amp;&amp; py_default.hasOwnProperty ("__kwargtrans__"))) {;
+			var py_default = '';
+		};
+		if (typeof wide == 'undefined' || (wide != null &amp;&amp; wide.hasOwnProperty ("__kwargtrans__"))) {;
+			var wide = false;
+		};
+		return self.simulateDialog ('stringDialog', '');
+	});},
+</t>
+<t tx="ekr.20201227092411.330">	get setVisited () {return __get__ (this, function (self) {
+		return self.v.setVisited ();
+	});},
+</t>
+<t tx="ekr.20201227092411.331">	get computeIcon () {return __get__ (this, function (self) {
+		return self.v.computeIcon ();
+	});},
+</t>
+<t tx="ekr.20201227092411.332">	get setIcon () {return __get__ (this, function (self) {
+		// pass;
+	});},
+</t>
+<t tx="ekr.20201227092411.333">	get setSelection () {return __get__ (this, function (self, start, length) {
+		return self.v.setSelection (start, length);
+	});},
+</t>
+<t tx="ekr.20201227092411.334">	get restoreCursorAndScroll () {return __get__ (this, function (self) {
+		self.v.restoreCursorAndScroll ();
+	});},
+</t>
+<t tx="ekr.20201227092411.335">	get saveCursorAndScroll () {return __get__ (this, function (self) {
+		self.v.saveCursorAndScroll ();
+	});},
+</t>
+<t tx="ekr.20201227092411.336">	get setBodyString () {return __get__ (this, function (self, s) {
+		var p = self;
+		return p.v.setBodyString (s);
+	});},
+	initBodyString: setBodyString,
+	setTnodeText: setBodyString,
+	scriptSetBodyString: setBodyString,
+</t>
+<t tx="ekr.20201227092411.337">	get initHeadString () {return __get__ (this, function (self, s) {
+		var p = self;
+		p.v.initHeadString (s);
+	});},
+</t>
+<t tx="ekr.20201227092411.338">	get setHeadString () {return __get__ (this, function (self, s) {
+		var p = self;
+		p.v.initHeadString (s);
+		p.setDirty ();
+	});},
+</t>
+<t tx="ekr.20201227092411.339">	get clearVisitedInTree () {return __get__ (this, function (self) {
+		for (var p of self.self_and_subtree (__kwargtrans__ ({copy: false}))) {
+			p.clearVisited ();
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.34">	get runCompareDialog () {return __get__ (this, function (self, c) {
+		return self.simulateDialog ('compareDialog', '');
+	});},
+</t>
+<t tx="ekr.20201227092411.340">	get clearAllVisitedInTree () {return __get__ (this, function (self) {
+		for (var p of self.self_and_subtree (__kwargtrans__ ({copy: false}))) {
+			p.v.clearVisited ();
+			p.v.clearWriteBit ();
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.341">	get clearDirty () {return __get__ (this, function (self) {
+		var p = self;
+		p.v.clearDirty ();
+	});},
+</t>
+<t tx="ekr.20201227092411.342">	get inAtIgnoreRange () {return __get__ (this, function (self) {
+		var p = self;
+		for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (p.isAtIgnoreNode ()) {
+return true;
+			}
+		}
+		return false;
+	});},
+</t>
+<t tx="ekr.20201227092411.343">	get setAllAncestorAtFileNodesDirty () {return __get__ (this, function (self) {
+		var p = self;
+		p.v.setAllAncestorAtFileNodesDirty ();
+	});},
+</t>
+<t tx="ekr.20201227092411.344">	get setDirty () {return __get__ (this, function (self) {
+		var p = self;
+		p.v.setAllAncestorAtFileNodesDirty ();
+		p.v.setDirty ();
+	});},
+</t>
+<t tx="ekr.20201227092411.345">	get is_at_all () {return __get__ (this, function (self) {
+		var p = self;
+		return p.isAnyAtFileNode () &amp;&amp; any ((function () {
+			var __accu0__ = [];
+			for (var s of g.splitLines (p.b)) {
+__accu0__.append (g.match_word (s, 0, '@all'));
+			}
+			return __accu0__;
+		}) ());
+	});},
+</t>
+<t tx="ekr.20201227092411.347">	get in_at_all_tree () {return __get__ (this, function (self) {
+		var p = self;
+		for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (p.is_at_all ()) {
+return true;
+			}
+		}
+		return false;
+	});},
+</t>
+<t tx="ekr.20201227092411.348">	get is_at_ignore () {return __get__ (this, function (self) {
+		var p = self;
+		return g.match_word (p.h, 0, '@ignore');
+	});},
+</t>
+<t tx="ekr.20201227092411.349">	get in_at_ignore_tree () {return __get__ (this, function (self) {
+		var p = self;
+		for (var p of p.self_and_parents (__kwargtrans__ ({copy: false}))) {
+			if (g.match_word (p.h, 0, '@ignore')) {
+return true;
+			}
+		}
+		return false;
+	});}
 });
 Object.defineProperty (Position, 'b', property.call (Position, Position.__get_b, Position.__set_b));
 Object.defineProperty (Position, 'h', property.call (Position, Position.__get_h, Position.__set_h));
@@ -17539,888 +17541,888 @@ Object.defineProperty (Position, 'nosentinels', property.call (Position, Positio
 Object.defineProperty (Position, 'u', property.call (Position, Position.__get_u, Position.__set_u));
 export var position = Position;
 export var PosList =  __class__ ('PosList', [list], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.35">get runOpenFileDialog () {return __get__ (this, function (self, c, title, filetypes, defaultextension, multiple, startpath) {
-    if (typeof multiple == 'undefined' || (multiple != null &amp;&amp; multiple.hasOwnProperty ("__kwargtrans__"))) {;
-        var multiple = false;
-    };
-    if (typeof startpath == 'undefined' || (startpath != null &amp;&amp; startpath.hasOwnProperty ("__kwargtrans__"))) {;
-        var startpath = null;
-    };
-    return self.simulateDialog ('openFileDialog', null);
-});},
+<t tx="ekr.20201227092411.35">	get runOpenFileDialog () {return __get__ (this, function (self, c, title, filetypes, defaultextension, multiple, startpath) {
+		if (typeof multiple == 'undefined' || (multiple != null &amp;&amp; multiple.hasOwnProperty ("__kwargtrans__"))) {;
+			var multiple = false;
+		};
+		if (typeof startpath == 'undefined' || (startpath != null &amp;&amp; startpath.hasOwnProperty ("__kwargtrans__"))) {;
+			var startpath = null;
+		};
+		return self.simulateDialog ('openFileDialog', null);
+	});},
 </t>
-<t tx="ekr.20201227092411.350">get children () {return __get__ (this, function (self) {
-    var res = PosList ();
-    for (var p of self) {
-        for (var child_p of p.children ()) {
-            res.append (child_p.copy ());
-        }
-    }
-    return res;
-});},
+<t tx="ekr.20201227092411.350">	get children () {return __get__ (this, function (self) {
+		var res = PosList ();
+		for (var p of self) {
+			for (var child_p of p.children ()) {
+res.append (child_p.copy ());
+			}
+		}
+		return res;
+	});},
 </t>
-<t tx="ekr.20201227092411.351">get filter_h () {return __get__ (this, function (self, regex, flags) {
-    if (typeof flags == 'undefined' || (flags != null &amp;&amp; flags.hasOwnProperty ("__kwargtrans__"))) {;
-        var flags = re.IGNORECASE;
-    };
-    var pat = re.compile (regex, flags);
-    var res = PosList ();
-    for (var p of self) {
-        var mo = re.match (pat, p.h);
-        if (mo) {
-            var pc = p.copy ();
-            pc.mo = mo;
-            res.append (pc);
-        }
-    }
-    return res;
-});},
+<t tx="ekr.20201227092411.351">	get filter_h () {return __get__ (this, function (self, regex, flags) {
+		if (typeof flags == 'undefined' || (flags != null &amp;&amp; flags.hasOwnProperty ("__kwargtrans__"))) {;
+			var flags = re.IGNORECASE;
+		};
+		var pat = re.compile (regex, flags);
+		var res = PosList ();
+		for (var p of self) {
+			var mo = re.match (pat, p.h);
+			if (mo) {
+var pc = p.copy ();
+pc.mo = mo;
+res.append (pc);
+			}
+		}
+		return res;
+	});},
 </t>
-<t tx="ekr.20201227092411.352">    get filter_b () {return __get__ (this, function (self, regex, flags) {
-        if (typeof flags == 'undefined' || (flags != null &amp;&amp; flags.hasOwnProperty ("__kwargtrans__"))) {;
-            var flags = re.IGNORECASE;
-        };
-        var pat = re.compile (regex, flags);
-        var res = PosList ();
-        for (var p of self) {
-            var m = re.finditer (pat, p.b);
-            var __left0__ = itertools.tee (m, 2);
-            var t1 = __left0__ [0];
-            var t2 = __left0__ [1];
-            try {
-                t1.__next__ ();
-                var pc = p.copy ();
-                pc.matchiter = t2;
-                res.append (pc);
-            }
-            catch (__except0__) {
-                if (isinstance (__except0__, StopIteration)) {
-                    // pass;
-                }
-                else {
-                    throw __except0__;
-                }
-            }
-        }
-        return res;
-    });}
+<t tx="ekr.20201227092411.352">	get filter_b () {return __get__ (this, function (self, regex, flags) {
+		if (typeof flags == 'undefined' || (flags != null &amp;&amp; flags.hasOwnProperty ("__kwargtrans__"))) {;
+			var flags = re.IGNORECASE;
+		};
+		var pat = re.compile (regex, flags);
+		var res = PosList ();
+		for (var p of self) {
+			var m = re.finditer (pat, p.b);
+			var __left0__ = itertools.tee (m, 2);
+			var t1 = __left0__ [0];
+			var t2 = __left0__ [1];
+			try {
+t1.__next__ ();
+var pc = p.copy ();
+pc.matchiter = t2;
+res.append (pc);
+			}
+			catch (__except0__) {
+if (isinstance (__except0__, StopIteration)) {
+	// pass;
+}
+else {
+	throw __except0__;
+}
+			}
+		}
+		return res;
+	});}
 });
 export var Poslist = PosList;
 export var VNode =  __class__ ('VNode', [object], {
-    __module__: __name__,
-    clonedBit: 1,
-    expandedBit: 4,
-    markedBit: 8,
-    selectedBit: 32,
-    topBit: 64,
-    richTextBit: 128,
-    visitedBit: 256,
-    dirtyBit: 512,
-    writeBit: 1024,
-    orphanBit: 2048,
-</t>
-<t tx="ekr.20201227092411.353">get __init__ () {return __get__ (this, function (self, context, gnx) {
-    if (typeof gnx == 'undefined' || (gnx != null &amp;&amp; gnx.hasOwnProperty ("__kwargtrans__"))) {;
-        var gnx = null;
-    };
-    self._headString = 'newHeadline';
-    self._bodyString = '';
-    self.children = [];
-    self.parents = [];
-    self.fileIndex = null;
-    self.iconVal = 0;
-    self.statusBits = 0;
-    self.context = context;
-    self.expandedPositions = [];
-    self.insertSpot = null;
-    self.scrollBarSpot = null;
-    self.selectionLength = 0;
-    self.selectionStart = 0;
-    g.app.nodeIndices.new_vnode_helper (context, gnx, self);
-});},
-</t>
-<t tx="ekr.20201227092411.354">get __repr__ () {return __get__ (this, function (self) {
-    return '&lt;VNode {} {}&gt;'.format (self.gnx, self.headString ());
-});},
-__str__: __repr__,
-</t>
-<t tx="ekr.20201227092411.355">get dumpLink () {return __get__ (this, function (self, link) {
-    return (link ? link : '&lt;none&gt;');
-});},
-</t>
-<t tx="ekr.20201227092411.356">get dump () {return __get__ (this, function (self, label) {
-    if (typeof label == 'undefined' || (label != null &amp;&amp; label.hasOwnProperty ("__kwargtrans__"))) {;
-        var label = '';
-    };
-    var v = self;
-    var s = '-' * 10;
-    print ('{} {} {}'.format (s, label, v));
-    print ('len(parents): {}'.format (len (v.parents)));
-    print ('len(children): {}'.format (len (v.children)));
-    print ('parents: {}'.format (g.listToString (v.parents)));
-    print ('children: {}'.format (g.listToString (v.children)));
-});},
-</t>
-<t tx="ekr.20201227092411.357">get findAtFileName () {return __get__ (this, function (self, names, h) {
-    if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
-        var h = '';
-    };
-    if (!(h)) {
-        var h = self.headString ();
-    }
-    if (!(g.match (h, 0, '@'))) {
-        return '';
-    }
-    var i = g.skip_id (h, 1, '-');
-    var word = h.__getslice__ (0, i, 1);
-    if (__in__ (word, names) &amp;&amp; g.match_word (h, 0, word)) {
-        var py_name = h.__getslice__ (i, null, 1).strip ();
-        return py_name;
-    }
-    return '';
-});},
-</t>
-<t tx="ekr.20201227092411.358">get anyAtFileNodeName () {return __get__ (this, function (self) {
-    return self.findAtFileName (g.app.atAutoNames) || self.findAtFileName (g.app.atFileNames);
-});},
-</t>
-<t tx="ekr.20201227092411.359">get atAutoNodeName () {return __get__ (this, function (self, h) {
-    if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
-        var h = null;
-    };
-    return self.findAtFileName (g.app.atAutoNames, __kwargtrans__ ({h: h}));
-});},
-</t>
-<t tx="ekr.20201227092411.36">get runSaveFileDialog () {return __get__ (this, function (self, c, initialfile, title, filetypes, defaultextension) {
-    return self.simulateDialog ('saveFileDialog', null);
-});},
-</t>
-<t tx="ekr.20201227092411.360">get atAutoRstNodeName () {return __get__ (this, function (self, h) {
-    if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
-        var h = null;
-    };
-    var names = tuple (['@auto-rst']);
-    return self.findAtFileName (names, __kwargtrans__ ({h: h}));
-});},
-</t>
-<t tx="ekr.20201227092411.361">get atCleanNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@clean']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.362">get atEditNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@edit']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.363">get atFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@file', '@thin']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.364">get atNoSentinelsFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@nosent', '@file-nosent']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.365">get atRstFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@rst']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.366">get atShadowFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@shadow']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.367">get atSilentFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@asis', '@file-asis']);
-    return self.findAtFileName (names);
-});},
-</t>
-<t tx="ekr.20201227092411.368">get atThinFileNodeName () {return __get__ (this, function (self) {
-    var names = tuple (['@thin', '@file-thin']);
-    return self.findAtFileName (names);
-});},
-atNoSentFileNodeName: atNoSentinelsFileNodeName,
-atAsisFileNodeName: atSilentFileNodeName,
-</t>
-<t tx="ekr.20201227092411.369">get isAtAllNode () {return __get__ (this, function (self) {
-    var __left0__ = g.is_special (self._bodyString, '@all');
-    var flag = __left0__ [0];
-    var i = __left0__ [1];
-    return flag;
-});},
-</t>
-<t tx="ekr.20201227092411.37">get runAskYesNoDialog () {return __get__ (this, function (self, c, title, message, yes_all, no_all) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof yes_all == 'undefined' || (yes_all != null &amp;&amp; yes_all.hasOwnProperty ("__kwargtrans__"))) {;
-        var yes_all = false;
-    };
-    if (typeof no_all == 'undefined' || (no_all != null &amp;&amp; no_all.hasOwnProperty ("__kwargtrans__"))) {;
-        var no_all = false;
-    };
-    return self.simulateDialog ('yesNoDialog', 'no');
-});},
-</t>
-<t tx="ekr.20201227092411.370">get isAnyAtFileNode () {return __get__ (this, function (self) {
-    var h = self.headString ();
-    return h &amp;&amp; h [0] == '@' &amp;&amp; self.anyAtFileNodeName ();
-});},
-</t>
-<t tx="ekr.20201227092411.371">get isAtAutoNode () {return __get__ (this, function (self) {
-    return bool (self.atAutoNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.372">get isAtAutoRstNode () {return __get__ (this, function (self) {
-    return bool (self.atAutoRstNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.373">get isAtCleanNode () {return __get__ (this, function (self) {
-    return bool (self.atCleanNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.374">get isAtEditNode () {return __get__ (this, function (self) {
-    return bool (self.atEditNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.375">get isAtFileNode () {return __get__ (this, function (self) {
-    return bool (self.atFileNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.376">get isAtRstFileNode () {return __get__ (this, function (self) {
-    return bool (self.atRstFileNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.377">get isAtNoSentinelsFileNode () {return __get__ (this, function (self) {
-    return bool (self.atNoSentinelsFileNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.378">get isAtSilentFileNode () {return __get__ (this, function (self) {
-    return bool (self.atSilentFileNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.379">get isAtShadowFileNode () {return __get__ (this, function (self) {
-    return bool (self.atShadowFileNodeName ());
-});},
-</t>
-<t tx="ekr.20201227092411.38">get runAskYesNoCancelDialog () {return __get__ (this, function (self, c, title, message, yesMessage, noMessage, yesToAllMessage, defaultButton, cancelMessage) {
-    if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
-        var message = null;
-    };
-    if (typeof yesMessage == 'undefined' || (yesMessage != null &amp;&amp; yesMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var yesMessage = 'Yes';
-    };
-    if (typeof noMessage == 'undefined' || (noMessage != null &amp;&amp; noMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var noMessage = 'No';
-    };
-    if (typeof yesToAllMessage == 'undefined' || (yesToAllMessage != null &amp;&amp; yesToAllMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var yesToAllMessage = null;
-    };
-    if (typeof defaultButton == 'undefined' || (defaultButton != null &amp;&amp; defaultButton.hasOwnProperty ("__kwargtrans__"))) {;
-        var defaultButton = 'Yes';
-    };
-    if (typeof cancelMessage == 'undefined' || (cancelMessage != null &amp;&amp; cancelMessage.hasOwnProperty ("__kwargtrans__"))) {;
-        var cancelMessage = null;
-    };
-    return self.simulateDialog ('yesNoCancelDialog', 'cancel');
-});},
-</t>
-<t tx="ekr.20201227092411.380">get isAtThinFileNode () {return __get__ (this, function (self) {
-    return bool (self.atThinFileNodeName ());
-});},
-isAtNoSentFileNode: isAtNoSentinelsFileNode,
-isAtAsisFileNode: isAtSilentFileNode,
-</t>
-<t tx="ekr.20201227092411.381">get isAtIgnoreNode () {return __get__ (this, function (self) {
-    if (g.match_word (self._headString, 0, '@ignore')) {
-        return true;
-    }
-    var __left0__ = g.is_special (self._bodyString, '@ignore');
-    var flag = __left0__ [0];
-    var i = __left0__ [1];
-    return flag;
-});},
-</t>
-<t tx="ekr.20201227092411.382">get isAtOthersNode () {return __get__ (this, function (self) {
-    var __left0__ = g.is_special (self._bodyString, '@others');
-    var flag = __left0__ [0];
-    var i = __left0__ [1];
-    return flag;
-});},
-</t>
-<t tx="ekr.20201227092411.383">get matchHeadline () {return __get__ (this, function (self, pattern) {
-    var v = self;
-    var h = g.toUnicode (v.headString ());
-    var h = h.lower ().py_replace (' ', '').py_replace ('\t', '');
-    var h = h.lstrip ('.');
-    var pattern = g.toUnicode (pattern);
-    var pattern = pattern.lower ().py_replace (' ', '').py_replace ('\t', '');
-    return h.startswith (pattern);
-});},
-</t>
-<t tx="ekr.20201227092411.384">get copyTree () {return __get__ (this, function (self, copyMarked) {
-    if (typeof copyMarked == 'undefined' || (copyMarked != null &amp;&amp; copyMarked.hasOwnProperty ("__kwargtrans__"))) {;
-        var copyMarked = false;
-    };
-    var v = self;
-    var v2 = VNode (__kwargtrans__ ({context: v.context, gnx: null}));
-    v2._headString = g.toUnicode (v._headString, __kwargtrans__ ({reportErrors: true}));
-    v2._bodyString = g.toUnicode (v._bodyString, __kwargtrans__ ({reportErrors: true}));
-    if (copyMarked &amp;&amp; v.isMarked ()) {
-        v2.setMarked ();
-    }
-    for (var child of v.children) {
-        v2.children.append (child.copyTree (copyMarked));
-    }
-    return v2;
-});},
-body_unicode_warning: false,
-</t>
-<t tx="ekr.20201227092411.385">get bodyString () {return __get__ (this, function (self) {
-    if (isinstance (self._bodyString, str)) {
-        return self._bodyString;
-    }
-    if (!(self.body_unicode_warning)) {
-        self.body_unicode_warning = true;
-        g.internalError ('not unicode:', repr (self._bodyString), self._headString);
-    }
-    return g.toUnicode (self._bodyString);
-});},
-getBody: bodyString,
-</t>
-<t tx="ekr.20201227092411.386">get firstChild () {return __get__ (this, function (self) {
-    var v = self;
-    return v.children &amp;&amp; v.children [0];
-});},
-</t>
-<t tx="ekr.20201227092411.387">get hasChildren () {return __get__ (this, function (self) {
-    var v = self;
-    return len (v.children) &gt; 0;
-});},
-hasFirstChild: hasChildren,
-</t>
-<t tx="ekr.20201227092411.388">get lastChild () {return __get__ (this, function (self) {
-    var v = self;
-    return (v.children ? v.children [-(1)] : null);
-});},
-</t>
-<t tx="ekr.20201227092411.389">get nthChild () {return __get__ (this, function (self, n) {
-    var v = self;
-    if ((0 &lt;= n &amp;&amp; n &lt; len (v.children))) {
-        return v.children [n];
-    }
-    return null;
-});},
-</t>
-<t tx="ekr.20201227092411.39">get simulateDialog () {return __get__ (this, function (self, key, defaultVal) {
-    return defaultVal;
-});},
-</t>
-<t tx="ekr.20201227092411.390">get numberOfChildren () {return __get__ (this, function (self) {
-    var v = self;
-    return len (v.children);
-});},
-</t>
-<t tx="ekr.20201227092411.391">get directParents () {return __get__ (this, function (self) {
-    var v = self;
-    return v.parents;
-});},
-</t>
-<t tx="ekr.20201227092411.392">get hasBody () {return __get__ (this, function (self) {
-    var s = self._bodyString;
-    return s &amp;&amp; len (s) &gt; 0;
-});},
-head_unicode_warning: false,
-</t>
-<t tx="ekr.20201227092411.393">get headString () {return __get__ (this, function (self) {
-    if (isinstance (self._headString, str)) {
-        return self._headString;
-    }
-    if (!(self.head_unicode_warning)) {
-        self.head_unicode_warning = true;
-        g.internalError ('not a string', repr (self._headString));
-    }
-    return g.toUnicode (self._headString);
-});},
-</t>
-<t tx="ekr.20201227092411.394">get isNthChildOf () {return __get__ (this, function (self, n, parent_v) {
-    var v = self;
-    var children = parent_v &amp;&amp; parent_v.children;
-    return children &amp;&amp; (0 &lt;= n &amp;&amp; n &lt; len (children)) &amp;&amp; children [n] == v;
-});},
-</t>
-<t tx="ekr.20201227092411.395">get isCloned () {return __get__ (this, function (self) {
-    return len (self.parents) &gt; 1;
-});},
-</t>
-<t tx="ekr.20201227092411.396">get isDirty () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; self.dirtyBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.397">get isMarked () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; VNode.markedBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.398">get isOrphan () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; VNode.orphanBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.399">get isSelected () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; VNode.selectedBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.4">get runMainLoop () {return __get__ (this, function (self) {
-    self.oops ();
-});},
-</t>
-<t tx="ekr.20201227092411.40">get get_focus () {return __get__ (this, function (self) {
-    var args = tuple ([].slice.apply (arguments).slice (1));
-    return self.focusWidget;
-});},
-</t>
-<t tx="ekr.20201227092411.400">get isTopBitSet () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; self.topBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.401">get isVisited () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; VNode.visitedBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.402">get isWriteBit () {return __get__ (this, function (self) {
-    var v = self;
-    return (v.statusBits &amp; v.writeBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.403">get status () {return __get__ (this, function (self) {
-    return self.statusBits;
-});},
-</t>
-<t tx="ekr.20201227092411.404">get clearDirty () {return __get__ (this, function (self) {
-    var v = self;
-    v.statusBits &amp;= ~(v.dirtyBit);
-});},
-</t>
-<t tx="ekr.20201227092411.405">get setDirty () {return __get__ (this, function (self) {
-    self.statusBits |= self.dirtyBit;
-});},
-</t>
-<t tx="ekr.20201227092411.406">get clearClonedBit () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.clonedBit);
-});},
-</t>
-<t tx="ekr.20201227092411.407">get clearMarked () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.markedBit);
-});},
-</t>
-<t tx="ekr.20201227092411.408">get clearWriteBit () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.writeBit);
-});},
-</t>
-<t tx="ekr.20201227092411.409">get clearOrphan () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.orphanBit);
-});},
-</t>
-<t tx="ekr.20201227092411.41">get getTextFromClipboard () {return __get__ (this, function (self) {
-    return self.clipboardContents;
-});},
-</t>
-<t tx="ekr.20201227092411.410">get clearVisited () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.visitedBit);
-});},
-</t>
-<t tx="ekr.20201227092411.411">get contract () {return __get__ (this, function (self) {
-    self.statusBits &amp;= ~(self.expandedBit);
-});},
-</t>
-<t tx="ekr.20201227092411.412">get expand () {return __get__ (this, function (self) {
-    self.statusBits |= self.expandedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.413">get initExpandedBit () {return __get__ (this, function (self) {
-    self.statusBits |= self.expandedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.414">get isExpanded () {return __get__ (this, function (self) {
-    return (self.statusBits &amp; self.expandedBit) != 0;
-});},
-</t>
-<t tx="ekr.20201227092411.415">get initStatus () {return __get__ (this, function (self, status) {
-    self.statusBits = status;
-});},
-</t>
-<t tx="ekr.20201227092411.416">get setClonedBit () {return __get__ (this, function (self) {
-    self.statusBits |= self.clonedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.417">get initClonedBit () {return __get__ (this, function (self, val) {
-    if (val) {
-        self.statusBits |= self.clonedBit;
-    }
-    else {
-        self.statusBits &amp;= ~(self.clonedBit);
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.418">get setMarked () {return __get__ (this, function (self) {
-    self.statusBits |= self.markedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.419">get initMarkedBit () {return __get__ (this, function (self) {
-    self.statusBits |= self.markedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.42">get replaceClipboardWith () {return __get__ (this, function (self, s) {
-    self.clipboardContents = s;
-});},
-</t>
-<t tx="ekr.20201227092411.420">get setOrphan () {return __get__ (this, function (self) {
-    self.statusBits |= self.orphanBit;
-});},
-</t>
-<t tx="ekr.20201227092411.421">get setSelected () {return __get__ (this, function (self) {
-    self.statusBits |= self.selectedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.422">get setVisited () {return __get__ (this, function (self) {
-    self.statusBits |= self.visitedBit;
-});},
-</t>
-<t tx="ekr.20201227092411.423">get setWriteBit () {return __get__ (this, function (self) {
-    self.statusBits |= self.writeBit;
-});},
-</t>
-<t tx="ekr.20201227092411.424">get childrenModified () {return __get__ (this, function (self) {
-    g.childrenModifiedSet.add (self);
-});},
-</t>
-<t tx="ekr.20201227092411.425">get computeIcon () {return __get__ (this, function (self) {
-    var val = 0;
-    var v = self;
-    if (v.hasBody ()) {
-        val++;
-    }
-    if (v.isMarked ()) {
-        val += 2;
-    }
-    if (v.isCloned ()) {
-        val += 4;
-    }
-    if (v.isDirty ()) {
-        val += 8;
-    }
-    return val;
-});},
-</t>
-<t tx="ekr.20201227092411.426">get setIcon () {return __get__ (this, function (self) {
-    // pass;
-});},
-</t>
-<t tx="ekr.20201227092411.427">get contentModified () {return __get__ (this, function (self) {
-    g.contentModifiedSet.add (self);
-});},
-</t>
-<t tx="ekr.20201227092411.428">get restoreCursorAndScroll () {return __get__ (this, function (self) {
-    var traceTime = false &amp;&amp; !(g.unitTesting);
-    var v = self;
-    var ins = v.insertSpot;
-    var spot = v.scrollBarSpot;
-    var body = self.context.frame.body;
-    var w = body.wrapper;
-    if (ins === null) {
-        var ins = 0;
-    }
-    if (traceTime) {
-        var t1 = time.time ();
-    }
-    if (hasattr (body.wrapper, 'setInsertPoint')) {
-        w.setInsertPoint (ins);
-    }
-    if (traceTime) {
-        var delta_t = time.time () - t1;
-        if (delta_t &gt; 0.1) {
-            g.trace ('{} sec'.format (delta_t));
-        }
-    }
-    if (spot !== null) {
-        w.setYScrollPosition (spot);
-        v.scrollBarSpot = spot;
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.429">get saveCursorAndScroll () {return __get__ (this, function (self) {
-    var v = self;
-    var c = v.context;
-    var w = c.frame.body;
-    if (!(w)) {
-        return ;
-    }
-    try {
-        v.scrollBarSpot = w.getYScrollPosition ();
-        v.insertSpot = w.getInsertPoint ();
-    }
-    catch (__except0__) {
-        if (isinstance (__except0__, AttributeError)) {
-            // pass;
-        }
-        else {
-            throw __except0__;
-        }
-    }
-});},
-unicode_warning_given: false,
-</t>
-<t tx="ekr.20201227092411.43">get set_focus () {return __get__ (this, function (self, commander, widget) {
-    self.focusWidget = widget;
-});},
-</t>
-<t tx="ekr.20201227092411.430">get setBodyString () {return __get__ (this, function (self, s) {
-    var v = self;
-    if (isinstance (s, str)) {
-        v._bodyString = s;
-        return ;
-    }
-    try {
-        v._bodyString = g.toUnicode (s, __kwargtrans__ ({reportErrors: true}));
-    }
-    catch (__except0__) {
-        if (isinstance (__except0__, Exception)) {
-            if (!(self.unicode_warning_given)) {
-                self.unicode_warning_given = true;
-                g.internalError (s);
-                g.es_exception ();
-            }
-        }
-        else {
-            throw __except0__;
-        }
-    }
-    self.contentModified ();
-    signal_manager.emit (self.context, 'body_changed', self);
-});},
-</t>
-<t tx="ekr.20201227092411.431">get setHeadString () {return __get__ (this, function (self, s) {
-    var v = self;
-    if (g.isUnicode (s)) {
-        v._headString = s.py_replace ('\n', '');
-        return ;
-    }
-    var s = g.toUnicode (s, __kwargtrans__ ({reportErrors: true}));
-    v._headString = s.py_replace ('\n', '');
-    self.contentModified ();
-});},
-initBodyString: setBodyString,
-initHeadString: setHeadString,
-setHeadText: setHeadString,
-setTnodeText: setBodyString,
-</t>
-<t tx="ekr.20201227092411.432">get setSelection () {return __get__ (this, function (self, start, length) {
-    var v = self;
-    v.selectionStart = start;
-    v.selectionLength = length;
-});},
-</t>
-<t tx="ekr.20201227092411.433">get setAllAncestorAtFileNodesDirty () {return __get__ (this, function (self) {
-    var v = self;
-    var hiddenRootVnode = v.context.hiddenRootNode;
-    var v_and_parents = function* (v) {
-        if (v != hiddenRootVnode) {
-            yield v;
-            for (var parent_v of v.parents) {
-                yield* v_and_parents (parent_v);
-            }
-        }
-        };
-    for (var v2 of v_and_parents (v)) {
-        if (v2.isAnyAtFileNode ()) {
-            v2.setDirty ();
-        }
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.435">get cloneAsNthChild () {return __get__ (this, function (self, parent_v, n) {
-    var v = self;
-    v._linkAsNthChild (parent_v, n);
-    return v;
-});},
-</t>
-<t tx="ekr.20201227092411.436">get insertAsFirstChild () {return __get__ (this, function (self) {
-    var v = self;
-    return v.insertAsNthChild (0);
-});},
-</t>
-<t tx="ekr.20201227092411.437">get insertAsLastChild () {return __get__ (this, function (self) {
-    var v = self;
-    return v.insertAsNthChild (len (v.children));
-});},
-</t>
-<t tx="ekr.20201227092411.438">get insertAsNthChild () {return __get__ (this, function (self, n) {
-    var v = self;
-    var v2 = VNode (v.context);
-    v2._linkAsNthChild (v, n);
-    return v2;
-});},
-</t>
-<t tx="ekr.20201227092411.439">get _addCopiedLink () {return __get__ (this, function (self, childIndex, parent_v) {
-    var v = self;
-    v.context.frame.tree.generation++;
-    parent_v.childrenModified ();
-    parent_v.children.insert (childIndex, v);
-    v.parents.append (parent_v);
-    v._p_changed = 1;
-    parent_v._p_changed = 1;
-});},
-</t>
-<t tx="ekr.20201227092411.44">get alert () {return __get__ (this, function (self, c, message) {
-    // pass;
-});},
-</t>
-<t tx="ekr.20201227092411.440">get _addLink () {return __get__ (this, function (self, childIndex, parent_v) {
-    var v = self;
-    v.context.frame.tree.generation++;
-    parent_v.childrenModified ();
-    parent_v.children.insert (childIndex, v);
-    v.parents.append (parent_v);
-    v._p_changed = 1;
-    parent_v._p_changed = 1;
-    if (len (v.parents) == 1) {
-        for (var child of v.children) {
-            child._addParentLinks (__kwargtrans__ ({parent: v}));
-        }
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.441">get _addParentLinks () {return __get__ (this, function (self, parent) {
-    var v = self;
-    v.parents.append (parent);
-    if (len (v.parents) == 1) {
-        for (var child of v.children) {
-            child._addParentLinks (__kwargtrans__ ({parent: v}));
-        }
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.442">get _cutLink () {return __get__ (this, function (self, childIndex, parent_v) {
-    var v = self;
-    v.context.frame.tree.generation++;
-    parent_v.childrenModified ();
-    delete parent_v.children [childIndex];
-    if (__in__ (parent_v, v.parents)) {
-        try {
-            v.parents.remove (parent_v);
-        }
-        catch (__except0__) {
-            if (isinstance (__except0__, ValueError)) {
-                g.internalError ('{} not in parents of {}'.format (parent_v, v));
-                g.trace ('v.parents:');
-                g.printObj (v.parents);
-            }
-            else {
-                throw __except0__;
-            }
-        }
-    }
-    v._p_changed = 1;
-    parent_v._p_changed = 1;
-    if (!(v.parents)) {
-        for (var child of v.children) {
-            child._cutParentLinks (__kwargtrans__ ({parent: v}));
-        }
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.443">get _cutParentLinks () {return __get__ (this, function (self, parent) {
-    var v = self;
-    v.parents.remove (parent);
-    if (!(v.parents)) {
-        for (var child of v.children) {
-            child._cutParentLinks (__kwargtrans__ ({parent: v}));
-        }
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.444">get _deleteAllChildren () {return __get__ (this, function (self) {
-    var v = self;
-    for (var v2 of v.children) {
-        try {
-            v2.parents.remove (v);
-        }
-        catch (__except0__) {
-            if (isinstance (__except0__, ValueError)) {
-                g.internalError ('{} not in parents of {}'.format (v, v2));
-                g.trace ('v2.parents:');
-                g.printObj (v2.parents);
-            }
-            else {
-                throw __except0__;
-            }
-        }
-    }
-    v.children = [];
-});},
-</t>
-<t tx="ekr.20201227092411.445">get _linkAsNthChild () {return __get__ (this, function (self, parent_v, n) {
-    var v = self;
-    v._addLink (n, parent_v);
-});},
-</t>
-<t tx="ekr.20201227092411.446">get __get_b () {return __get__ (this, function (self) {
-    var v = self;
-    return v.bodyString ();
-});},
-</t>
-<t tx="ekr.20201227092411.447">get __set_b () {return __get__ (this, function (self, val) {
-    var v = self;
-    v.setBodyString (val);
-});},
-</t>
-<t tx="ekr.20201227092411.448">get __get_h () {return __get__ (this, function (self) {
-    var v = self;
-    return v.headString ();
-});},
-</t>
-<t tx="ekr.20201227092411.449">get __set_h () {return __get__ (this, function (self, val) {
-    var v = self;
-    v.setHeadString (val);
-});},
-</t>
-<t tx="ekr.20201227092411.45">get attachLeoIcon () {return __get__ (this, function (self, window) {
-    // pass;
-});},
-</t>
-<t tx="ekr.20201227092411.450">get __get_u () {return __get__ (this, function (self) {
-    var v = self;
-    if (!(hasattr (v, 'unknownAttributes'))) {
-        v.unknownAttributes = dict ({});
-    }
-    return v.unknownAttributes;
-});},
-</t>
-<t tx="ekr.20201227092411.451">get __set_u () {return __get__ (this, function (self, val) {
-    var v = self;
-    if (val === null) {
-        if (hasattr (v, 'unknownAttributes')) {
-            delattr (v, 'unknownAttributes');
-        }
-    }
-    else if (isinstance (val, dict)) {
-        v.unknownAttributes = val;
-    }
-    else {
-        var __except0__ = ValueError;
-        __except0__.__cause__ = null;
-        throw __except0__;
-    }
-});},
-</t>
-<t tx="ekr.20201227092411.452">    get __get_gnx () {return __get__ (this, function (self) {
-        var v = self;
-        return v.fileIndex;
-    });}
+	__module__: __name__,
+	clonedBit: 1,
+	expandedBit: 4,
+	markedBit: 8,
+	selectedBit: 32,
+	topBit: 64,
+	richTextBit: 128,
+	visitedBit: 256,
+	dirtyBit: 512,
+	writeBit: 1024,
+	orphanBit: 2048,
+</t>
+<t tx="ekr.20201227092411.353">	get __init__ () {return __get__ (this, function (self, context, gnx) {
+		if (typeof gnx == 'undefined' || (gnx != null &amp;&amp; gnx.hasOwnProperty ("__kwargtrans__"))) {;
+			var gnx = null;
+		};
+		self._headString = 'newHeadline';
+		self._bodyString = '';
+		self.children = [];
+		self.parents = [];
+		self.fileIndex = null;
+		self.iconVal = 0;
+		self.statusBits = 0;
+		self.context = context;
+		self.expandedPositions = [];
+		self.insertSpot = null;
+		self.scrollBarSpot = null;
+		self.selectionLength = 0;
+		self.selectionStart = 0;
+		g.app.nodeIndices.new_vnode_helper (context, gnx, self);
+	});},
+</t>
+<t tx="ekr.20201227092411.354">	get __repr__ () {return __get__ (this, function (self) {
+		return '&lt;VNode {} {}&gt;'.format (self.gnx, self.headString ());
+	});},
+	__str__: __repr__,
+</t>
+<t tx="ekr.20201227092411.355">	get dumpLink () {return __get__ (this, function (self, link) {
+		return (link ? link : '&lt;none&gt;');
+	});},
+</t>
+<t tx="ekr.20201227092411.356">	get dump () {return __get__ (this, function (self, label) {
+		if (typeof label == 'undefined' || (label != null &amp;&amp; label.hasOwnProperty ("__kwargtrans__"))) {;
+			var label = '';
+		};
+		var v = self;
+		var s = '-' * 10;
+		print ('{} {} {}'.format (s, label, v));
+		print ('len(parents): {}'.format (len (v.parents)));
+		print ('len(children): {}'.format (len (v.children)));
+		print ('parents: {}'.format (g.listToString (v.parents)));
+		print ('children: {}'.format (g.listToString (v.children)));
+	});},
+</t>
+<t tx="ekr.20201227092411.357">	get findAtFileName () {return __get__ (this, function (self, names, h) {
+		if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
+			var h = '';
+		};
+		if (!(h)) {
+			var h = self.headString ();
+		}
+		if (!(g.match (h, 0, '@'))) {
+			return '';
+		}
+		var i = g.skip_id (h, 1, '-');
+		var word = h.__getslice__ (0, i, 1);
+		if (__in__ (word, names) &amp;&amp; g.match_word (h, 0, word)) {
+			var py_name = h.__getslice__ (i, null, 1).strip ();
+			return py_name;
+		}
+		return '';
+	});},
+</t>
+<t tx="ekr.20201227092411.358">	get anyAtFileNodeName () {return __get__ (this, function (self) {
+		return self.findAtFileName (g.app.atAutoNames) || self.findAtFileName (g.app.atFileNames);
+	});},
+</t>
+<t tx="ekr.20201227092411.359">	get atAutoNodeName () {return __get__ (this, function (self, h) {
+		if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
+			var h = null;
+		};
+		return self.findAtFileName (g.app.atAutoNames, __kwargtrans__ ({h: h}));
+	});},
+</t>
+<t tx="ekr.20201227092411.36">	get runSaveFileDialog () {return __get__ (this, function (self, c, initialfile, title, filetypes, defaultextension) {
+		return self.simulateDialog ('saveFileDialog', null);
+	});},
+</t>
+<t tx="ekr.20201227092411.360">	get atAutoRstNodeName () {return __get__ (this, function (self, h) {
+		if (typeof h == 'undefined' || (h != null &amp;&amp; h.hasOwnProperty ("__kwargtrans__"))) {;
+			var h = null;
+		};
+		var names = tuple (['@auto-rst']);
+		return self.findAtFileName (names, __kwargtrans__ ({h: h}));
+	});},
+</t>
+<t tx="ekr.20201227092411.361">	get atCleanNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@clean']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.362">	get atEditNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@edit']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.363">	get atFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@file', '@thin']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.364">	get atNoSentinelsFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@nosent', '@file-nosent']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.365">	get atRstFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@rst']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.366">	get atShadowFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@shadow']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.367">	get atSilentFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@asis', '@file-asis']);
+		return self.findAtFileName (names);
+	});},
+</t>
+<t tx="ekr.20201227092411.368">	get atThinFileNodeName () {return __get__ (this, function (self) {
+		var names = tuple (['@thin', '@file-thin']);
+		return self.findAtFileName (names);
+	});},
+	atNoSentFileNodeName: atNoSentinelsFileNodeName,
+	atAsisFileNodeName: atSilentFileNodeName,
+</t>
+<t tx="ekr.20201227092411.369">	get isAtAllNode () {return __get__ (this, function (self) {
+		var __left0__ = g.is_special (self._bodyString, '@all');
+		var flag = __left0__ [0];
+		var i = __left0__ [1];
+		return flag;
+	});},
+</t>
+<t tx="ekr.20201227092411.37">	get runAskYesNoDialog () {return __get__ (this, function (self, c, title, message, yes_all, no_all) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof yes_all == 'undefined' || (yes_all != null &amp;&amp; yes_all.hasOwnProperty ("__kwargtrans__"))) {;
+			var yes_all = false;
+		};
+		if (typeof no_all == 'undefined' || (no_all != null &amp;&amp; no_all.hasOwnProperty ("__kwargtrans__"))) {;
+			var no_all = false;
+		};
+		return self.simulateDialog ('yesNoDialog', 'no');
+	});},
+</t>
+<t tx="ekr.20201227092411.370">	get isAnyAtFileNode () {return __get__ (this, function (self) {
+		var h = self.headString ();
+		return h &amp;&amp; h [0] == '@' &amp;&amp; self.anyAtFileNodeName ();
+	});},
+</t>
+<t tx="ekr.20201227092411.371">	get isAtAutoNode () {return __get__ (this, function (self) {
+		return bool (self.atAutoNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.372">	get isAtAutoRstNode () {return __get__ (this, function (self) {
+		return bool (self.atAutoRstNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.373">	get isAtCleanNode () {return __get__ (this, function (self) {
+		return bool (self.atCleanNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.374">	get isAtEditNode () {return __get__ (this, function (self) {
+		return bool (self.atEditNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.375">	get isAtFileNode () {return __get__ (this, function (self) {
+		return bool (self.atFileNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.376">	get isAtRstFileNode () {return __get__ (this, function (self) {
+		return bool (self.atRstFileNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.377">	get isAtNoSentinelsFileNode () {return __get__ (this, function (self) {
+		return bool (self.atNoSentinelsFileNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.378">	get isAtSilentFileNode () {return __get__ (this, function (self) {
+		return bool (self.atSilentFileNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.379">	get isAtShadowFileNode () {return __get__ (this, function (self) {
+		return bool (self.atShadowFileNodeName ());
+	});},
+</t>
+<t tx="ekr.20201227092411.38">	get runAskYesNoCancelDialog () {return __get__ (this, function (self, c, title, message, yesMessage, noMessage, yesToAllMessage, defaultButton, cancelMessage) {
+		if (typeof message == 'undefined' || (message != null &amp;&amp; message.hasOwnProperty ("__kwargtrans__"))) {;
+			var message = null;
+		};
+		if (typeof yesMessage == 'undefined' || (yesMessage != null &amp;&amp; yesMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var yesMessage = 'Yes';
+		};
+		if (typeof noMessage == 'undefined' || (noMessage != null &amp;&amp; noMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var noMessage = 'No';
+		};
+		if (typeof yesToAllMessage == 'undefined' || (yesToAllMessage != null &amp;&amp; yesToAllMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var yesToAllMessage = null;
+		};
+		if (typeof defaultButton == 'undefined' || (defaultButton != null &amp;&amp; defaultButton.hasOwnProperty ("__kwargtrans__"))) {;
+			var defaultButton = 'Yes';
+		};
+		if (typeof cancelMessage == 'undefined' || (cancelMessage != null &amp;&amp; cancelMessage.hasOwnProperty ("__kwargtrans__"))) {;
+			var cancelMessage = null;
+		};
+		return self.simulateDialog ('yesNoCancelDialog', 'cancel');
+	});},
+</t>
+<t tx="ekr.20201227092411.380">	get isAtThinFileNode () {return __get__ (this, function (self) {
+		return bool (self.atThinFileNodeName ());
+	});},
+	isAtNoSentFileNode: isAtNoSentinelsFileNode,
+	isAtAsisFileNode: isAtSilentFileNode,
+</t>
+<t tx="ekr.20201227092411.381">	get isAtIgnoreNode () {return __get__ (this, function (self) {
+		if (g.match_word (self._headString, 0, '@ignore')) {
+			return true;
+		}
+		var __left0__ = g.is_special (self._bodyString, '@ignore');
+		var flag = __left0__ [0];
+		var i = __left0__ [1];
+		return flag;
+	});},
+</t>
+<t tx="ekr.20201227092411.382">	get isAtOthersNode () {return __get__ (this, function (self) {
+		var __left0__ = g.is_special (self._bodyString, '@others');
+		var flag = __left0__ [0];
+		var i = __left0__ [1];
+		return flag;
+	});},
+</t>
+<t tx="ekr.20201227092411.383">	get matchHeadline () {return __get__ (this, function (self, pattern) {
+		var v = self;
+		var h = g.toUnicode (v.headString ());
+		var h = h.lower ().py_replace (' ', '').py_replace ('\t', '');
+		var h = h.lstrip ('.');
+		var pattern = g.toUnicode (pattern);
+		var pattern = pattern.lower ().py_replace (' ', '').py_replace ('\t', '');
+		return h.startswith (pattern);
+	});},
+</t>
+<t tx="ekr.20201227092411.384">	get copyTree () {return __get__ (this, function (self, copyMarked) {
+		if (typeof copyMarked == 'undefined' || (copyMarked != null &amp;&amp; copyMarked.hasOwnProperty ("__kwargtrans__"))) {;
+			var copyMarked = false;
+		};
+		var v = self;
+		var v2 = VNode (__kwargtrans__ ({context: v.context, gnx: null}));
+		v2._headString = g.toUnicode (v._headString, __kwargtrans__ ({reportErrors: true}));
+		v2._bodyString = g.toUnicode (v._bodyString, __kwargtrans__ ({reportErrors: true}));
+		if (copyMarked &amp;&amp; v.isMarked ()) {
+			v2.setMarked ();
+		}
+		for (var child of v.children) {
+			v2.children.append (child.copyTree (copyMarked));
+		}
+		return v2;
+	});},
+	body_unicode_warning: false,
+</t>
+<t tx="ekr.20201227092411.385">	get bodyString () {return __get__ (this, function (self) {
+		if (isinstance (self._bodyString, str)) {
+			return self._bodyString;
+		}
+		if (!(self.body_unicode_warning)) {
+			self.body_unicode_warning = true;
+			g.internalError ('not unicode:', repr (self._bodyString), self._headString);
+		}
+		return g.toUnicode (self._bodyString);
+	});},
+	getBody: bodyString,
+</t>
+<t tx="ekr.20201227092411.386">	get firstChild () {return __get__ (this, function (self) {
+		var v = self;
+		return v.children &amp;&amp; v.children [0];
+	});},
+</t>
+<t tx="ekr.20201227092411.387">	get hasChildren () {return __get__ (this, function (self) {
+		var v = self;
+		return len (v.children) &gt; 0;
+	});},
+	hasFirstChild: hasChildren,
+</t>
+<t tx="ekr.20201227092411.388">	get lastChild () {return __get__ (this, function (self) {
+		var v = self;
+		return (v.children ? v.children [-(1)] : null);
+	});},
+</t>
+<t tx="ekr.20201227092411.389">	get nthChild () {return __get__ (this, function (self, n) {
+		var v = self;
+		if ((0 &lt;= n &amp;&amp; n &lt; len (v.children))) {
+			return v.children [n];
+		}
+		return null;
+	});},
+</t>
+<t tx="ekr.20201227092411.39">	get simulateDialog () {return __get__ (this, function (self, key, defaultVal) {
+		return defaultVal;
+	});},
+</t>
+<t tx="ekr.20201227092411.390">	get numberOfChildren () {return __get__ (this, function (self) {
+		var v = self;
+		return len (v.children);
+	});},
+</t>
+<t tx="ekr.20201227092411.391">	get directParents () {return __get__ (this, function (self) {
+		var v = self;
+		return v.parents;
+	});},
+</t>
+<t tx="ekr.20201227092411.392">	get hasBody () {return __get__ (this, function (self) {
+		var s = self._bodyString;
+		return s &amp;&amp; len (s) &gt; 0;
+	});},
+	head_unicode_warning: false,
+</t>
+<t tx="ekr.20201227092411.393">	get headString () {return __get__ (this, function (self) {
+		if (isinstance (self._headString, str)) {
+			return self._headString;
+		}
+		if (!(self.head_unicode_warning)) {
+			self.head_unicode_warning = true;
+			g.internalError ('not a string', repr (self._headString));
+		}
+		return g.toUnicode (self._headString);
+	});},
+</t>
+<t tx="ekr.20201227092411.394">	get isNthChildOf () {return __get__ (this, function (self, n, parent_v) {
+		var v = self;
+		var children = parent_v &amp;&amp; parent_v.children;
+		return children &amp;&amp; (0 &lt;= n &amp;&amp; n &lt; len (children)) &amp;&amp; children [n] == v;
+	});},
+</t>
+<t tx="ekr.20201227092411.395">	get isCloned () {return __get__ (this, function (self) {
+		return len (self.parents) &gt; 1;
+	});},
+</t>
+<t tx="ekr.20201227092411.396">	get isDirty () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; self.dirtyBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.397">	get isMarked () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; VNode.markedBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.398">	get isOrphan () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; VNode.orphanBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.399">	get isSelected () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; VNode.selectedBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.4">	get runMainLoop () {return __get__ (this, function (self) {
+		self.oops ();
+	});},
+</t>
+<t tx="ekr.20201227092411.40">	get get_focus () {return __get__ (this, function (self) {
+		var args = tuple ([].slice.apply (arguments).slice (1));
+		return self.focusWidget;
+	});},
+</t>
+<t tx="ekr.20201227092411.400">	get isTopBitSet () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; self.topBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.401">	get isVisited () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; VNode.visitedBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.402">	get isWriteBit () {return __get__ (this, function (self) {
+		var v = self;
+		return (v.statusBits &amp; v.writeBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.403">	get status () {return __get__ (this, function (self) {
+		return self.statusBits;
+	});},
+</t>
+<t tx="ekr.20201227092411.404">	get clearDirty () {return __get__ (this, function (self) {
+		var v = self;
+		v.statusBits &amp;= ~(v.dirtyBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.405">	get setDirty () {return __get__ (this, function (self) {
+		self.statusBits |= self.dirtyBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.406">	get clearClonedBit () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.clonedBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.407">	get clearMarked () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.markedBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.408">	get clearWriteBit () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.writeBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.409">	get clearOrphan () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.orphanBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.41">	get getTextFromClipboard () {return __get__ (this, function (self) {
+		return self.clipboardContents;
+	});},
+</t>
+<t tx="ekr.20201227092411.410">	get clearVisited () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.visitedBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.411">	get contract () {return __get__ (this, function (self) {
+		self.statusBits &amp;= ~(self.expandedBit);
+	});},
+</t>
+<t tx="ekr.20201227092411.412">	get expand () {return __get__ (this, function (self) {
+		self.statusBits |= self.expandedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.413">	get initExpandedBit () {return __get__ (this, function (self) {
+		self.statusBits |= self.expandedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.414">	get isExpanded () {return __get__ (this, function (self) {
+		return (self.statusBits &amp; self.expandedBit) != 0;
+	});},
+</t>
+<t tx="ekr.20201227092411.415">	get initStatus () {return __get__ (this, function (self, status) {
+		self.statusBits = status;
+	});},
+</t>
+<t tx="ekr.20201227092411.416">	get setClonedBit () {return __get__ (this, function (self) {
+		self.statusBits |= self.clonedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.417">	get initClonedBit () {return __get__ (this, function (self, val) {
+		if (val) {
+			self.statusBits |= self.clonedBit;
+		}
+		else {
+			self.statusBits &amp;= ~(self.clonedBit);
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.418">	get setMarked () {return __get__ (this, function (self) {
+		self.statusBits |= self.markedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.419">	get initMarkedBit () {return __get__ (this, function (self) {
+		self.statusBits |= self.markedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.42">	get replaceClipboardWith () {return __get__ (this, function (self, s) {
+		self.clipboardContents = s;
+	});},
+</t>
+<t tx="ekr.20201227092411.420">	get setOrphan () {return __get__ (this, function (self) {
+		self.statusBits |= self.orphanBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.421">	get setSelected () {return __get__ (this, function (self) {
+		self.statusBits |= self.selectedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.422">	get setVisited () {return __get__ (this, function (self) {
+		self.statusBits |= self.visitedBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.423">	get setWriteBit () {return __get__ (this, function (self) {
+		self.statusBits |= self.writeBit;
+	});},
+</t>
+<t tx="ekr.20201227092411.424">	get childrenModified () {return __get__ (this, function (self) {
+		g.childrenModifiedSet.add (self);
+	});},
+</t>
+<t tx="ekr.20201227092411.425">	get computeIcon () {return __get__ (this, function (self) {
+		var val = 0;
+		var v = self;
+		if (v.hasBody ()) {
+			val++;
+		}
+		if (v.isMarked ()) {
+			val += 2;
+		}
+		if (v.isCloned ()) {
+			val += 4;
+		}
+		if (v.isDirty ()) {
+			val += 8;
+		}
+		return val;
+	});},
+</t>
+<t tx="ekr.20201227092411.426">	get setIcon () {return __get__ (this, function (self) {
+		// pass;
+	});},
+</t>
+<t tx="ekr.20201227092411.427">	get contentModified () {return __get__ (this, function (self) {
+		g.contentModifiedSet.add (self);
+	});},
+</t>
+<t tx="ekr.20201227092411.428">	get restoreCursorAndScroll () {return __get__ (this, function (self) {
+		var traceTime = false &amp;&amp; !(g.unitTesting);
+		var v = self;
+		var ins = v.insertSpot;
+		var spot = v.scrollBarSpot;
+		var body = self.context.frame.body;
+		var w = body.wrapper;
+		if (ins === null) {
+			var ins = 0;
+		}
+		if (traceTime) {
+			var t1 = time.time ();
+		}
+		if (hasattr (body.wrapper, 'setInsertPoint')) {
+			w.setInsertPoint (ins);
+		}
+		if (traceTime) {
+			var delta_t = time.time () - t1;
+			if (delta_t &gt; 0.1) {
+g.trace ('{} sec'.format (delta_t));
+			}
+		}
+		if (spot !== null) {
+			w.setYScrollPosition (spot);
+			v.scrollBarSpot = spot;
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.429">	get saveCursorAndScroll () {return __get__ (this, function (self) {
+		var v = self;
+		var c = v.context;
+		var w = c.frame.body;
+		if (!(w)) {
+			return ;
+		}
+		try {
+			v.scrollBarSpot = w.getYScrollPosition ();
+			v.insertSpot = w.getInsertPoint ();
+		}
+		catch (__except0__) {
+			if (isinstance (__except0__, AttributeError)) {
+// pass;
+			}
+			else {
+throw __except0__;
+			}
+		}
+	});},
+	unicode_warning_given: false,
+</t>
+<t tx="ekr.20201227092411.43">	get set_focus () {return __get__ (this, function (self, commander, widget) {
+		self.focusWidget = widget;
+	});},
+</t>
+<t tx="ekr.20201227092411.430">	get setBodyString () {return __get__ (this, function (self, s) {
+		var v = self;
+		if (isinstance (s, str)) {
+			v._bodyString = s;
+			return ;
+		}
+		try {
+			v._bodyString = g.toUnicode (s, __kwargtrans__ ({reportErrors: true}));
+		}
+		catch (__except0__) {
+			if (isinstance (__except0__, Exception)) {
+if (!(self.unicode_warning_given)) {
+	self.unicode_warning_given = true;
+	g.internalError (s);
+	g.es_exception ();
+}
+			}
+			else {
+throw __except0__;
+			}
+		}
+		self.contentModified ();
+		signal_manager.emit (self.context, 'body_changed', self);
+	});},
+</t>
+<t tx="ekr.20201227092411.431">	get setHeadString () {return __get__ (this, function (self, s) {
+		var v = self;
+		if (g.isUnicode (s)) {
+			v._headString = s.py_replace ('\n', '');
+			return ;
+		}
+		var s = g.toUnicode (s, __kwargtrans__ ({reportErrors: true}));
+		v._headString = s.py_replace ('\n', '');
+		self.contentModified ();
+	});},
+	initBodyString: setBodyString,
+	initHeadString: setHeadString,
+	setHeadText: setHeadString,
+	setTnodeText: setBodyString,
+</t>
+<t tx="ekr.20201227092411.432">	get setSelection () {return __get__ (this, function (self, start, length) {
+		var v = self;
+		v.selectionStart = start;
+		v.selectionLength = length;
+	});},
+</t>
+<t tx="ekr.20201227092411.433">	get setAllAncestorAtFileNodesDirty () {return __get__ (this, function (self) {
+		var v = self;
+		var hiddenRootVnode = v.context.hiddenRootNode;
+		var v_and_parents = function* (v) {
+			if (v != hiddenRootVnode) {
+yield v;
+for (var parent_v of v.parents) {
+	yield* v_and_parents (parent_v);
+}
+			}
+			};
+		for (var v2 of v_and_parents (v)) {
+			if (v2.isAnyAtFileNode ()) {
+v2.setDirty ();
+			}
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.435">	get cloneAsNthChild () {return __get__ (this, function (self, parent_v, n) {
+		var v = self;
+		v._linkAsNthChild (parent_v, n);
+		return v;
+	});},
+</t>
+<t tx="ekr.20201227092411.436">	get insertAsFirstChild () {return __get__ (this, function (self) {
+		var v = self;
+		return v.insertAsNthChild (0);
+	});},
+</t>
+<t tx="ekr.20201227092411.437">	get insertAsLastChild () {return __get__ (this, function (self) {
+		var v = self;
+		return v.insertAsNthChild (len (v.children));
+	});},
+</t>
+<t tx="ekr.20201227092411.438">	get insertAsNthChild () {return __get__ (this, function (self, n) {
+		var v = self;
+		var v2 = VNode (v.context);
+		v2._linkAsNthChild (v, n);
+		return v2;
+	});},
+</t>
+<t tx="ekr.20201227092411.439">	get _addCopiedLink () {return __get__ (this, function (self, childIndex, parent_v) {
+		var v = self;
+		v.context.frame.tree.generation++;
+		parent_v.childrenModified ();
+		parent_v.children.insert (childIndex, v);
+		v.parents.append (parent_v);
+		v._p_changed = 1;
+		parent_v._p_changed = 1;
+	});},
+</t>
+<t tx="ekr.20201227092411.44">	get alert () {return __get__ (this, function (self, c, message) {
+		// pass;
+	});},
+</t>
+<t tx="ekr.20201227092411.440">	get _addLink () {return __get__ (this, function (self, childIndex, parent_v) {
+		var v = self;
+		v.context.frame.tree.generation++;
+		parent_v.childrenModified ();
+		parent_v.children.insert (childIndex, v);
+		v.parents.append (parent_v);
+		v._p_changed = 1;
+		parent_v._p_changed = 1;
+		if (len (v.parents) == 1) {
+			for (var child of v.children) {
+child._addParentLinks (__kwargtrans__ ({parent: v}));
+			}
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.441">	get _addParentLinks () {return __get__ (this, function (self, parent) {
+		var v = self;
+		v.parents.append (parent);
+		if (len (v.parents) == 1) {
+			for (var child of v.children) {
+child._addParentLinks (__kwargtrans__ ({parent: v}));
+			}
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.442">	get _cutLink () {return __get__ (this, function (self, childIndex, parent_v) {
+		var v = self;
+		v.context.frame.tree.generation++;
+		parent_v.childrenModified ();
+		delete parent_v.children [childIndex];
+		if (__in__ (parent_v, v.parents)) {
+			try {
+v.parents.remove (parent_v);
+			}
+			catch (__except0__) {
+if (isinstance (__except0__, ValueError)) {
+	g.internalError ('{} not in parents of {}'.format (parent_v, v));
+	g.trace ('v.parents:');
+	g.printObj (v.parents);
+}
+else {
+	throw __except0__;
+}
+			}
+		}
+		v._p_changed = 1;
+		parent_v._p_changed = 1;
+		if (!(v.parents)) {
+			for (var child of v.children) {
+child._cutParentLinks (__kwargtrans__ ({parent: v}));
+			}
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.443">	get _cutParentLinks () {return __get__ (this, function (self, parent) {
+		var v = self;
+		v.parents.remove (parent);
+		if (!(v.parents)) {
+			for (var child of v.children) {
+child._cutParentLinks (__kwargtrans__ ({parent: v}));
+			}
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.444">	get _deleteAllChildren () {return __get__ (this, function (self) {
+		var v = self;
+		for (var v2 of v.children) {
+			try {
+v2.parents.remove (v);
+			}
+			catch (__except0__) {
+if (isinstance (__except0__, ValueError)) {
+	g.internalError ('{} not in parents of {}'.format (v, v2));
+	g.trace ('v2.parents:');
+	g.printObj (v2.parents);
+}
+else {
+	throw __except0__;
+}
+			}
+		}
+		v.children = [];
+	});},
+</t>
+<t tx="ekr.20201227092411.445">	get _linkAsNthChild () {return __get__ (this, function (self, parent_v, n) {
+		var v = self;
+		v._addLink (n, parent_v);
+	});},
+</t>
+<t tx="ekr.20201227092411.446">	get __get_b () {return __get__ (this, function (self) {
+		var v = self;
+		return v.bodyString ();
+	});},
+</t>
+<t tx="ekr.20201227092411.447">	get __set_b () {return __get__ (this, function (self, val) {
+		var v = self;
+		v.setBodyString (val);
+	});},
+</t>
+<t tx="ekr.20201227092411.448">	get __get_h () {return __get__ (this, function (self) {
+		var v = self;
+		return v.headString ();
+	});},
+</t>
+<t tx="ekr.20201227092411.449">	get __set_h () {return __get__ (this, function (self, val) {
+		var v = self;
+		v.setHeadString (val);
+	});},
+</t>
+<t tx="ekr.20201227092411.45">	get attachLeoIcon () {return __get__ (this, function (self, window) {
+		// pass;
+	});},
+</t>
+<t tx="ekr.20201227092411.450">	get __get_u () {return __get__ (this, function (self) {
+		var v = self;
+		if (!(hasattr (v, 'unknownAttributes'))) {
+			v.unknownAttributes = dict ({});
+		}
+		return v.unknownAttributes;
+	});},
+</t>
+<t tx="ekr.20201227092411.451">	get __set_u () {return __get__ (this, function (self, val) {
+		var v = self;
+		if (val === null) {
+			if (hasattr (v, 'unknownAttributes')) {
+delattr (v, 'unknownAttributes');
+			}
+		}
+		else if (isinstance (val, dict)) {
+			v.unknownAttributes = val;
+		}
+		else {
+			var __except0__ = ValueError;
+			__except0__.__cause__ = null;
+			throw __except0__;
+		}
+	});},
+</t>
+<t tx="ekr.20201227092411.452">	get __get_gnx () {return __get__ (this, function (self) {
+		var v = self;
+		return v.fileIndex;
+	});}
 });
 Object.defineProperty (VNode, 'b', property.call (VNode, VNode.__get_b, VNode.__set_b));
 Object.defineProperty (VNode, 'h', property.call (VNode, VNode.__get_h, VNode.__set_h));
@@ -18525,9 +18527,9 @@ export var _srcfile = null;
 };
 export var _lock = null;
 </t>
-<t tx="ekr.20201227092411.46">get destroySelf () {return __get__ (this, function (self) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.46">	get destroySelf () {return __get__ (this, function (self) {
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.460">export var _acquireLock = function () {
     if (_lock) {
@@ -18632,9 +18634,9 @@ export var PercentStyle =  __class__ ('PercentStyle', [object], {
     asctime_format: '%(asctime)s',
     asctime_search: '%(asctime)',
 </t>
-<t tx="ekr.20201227092411.47">get finishCreate () {return __get__ (this, function (self) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.47">	get finishCreate () {return __get__ (this, function (self) {
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.470">get __init__ () {return __get__ (this, function (self, fmt) {
     self._fmt = fmt || self.default_format;
@@ -18769,12 +18771,12 @@ default_msec_format: '{},{:03d}',
     return str (ei);
 });},
 </t>
-<t tx="ekr.20201227092411.48">get getFontFromParams () {return __get__ (this, function (self, family, size, slant, weight, defaultSize) {
-    if (typeof defaultSize == 'undefined' || (defaultSize != null &amp;&amp; defaultSize.hasOwnProperty ("__kwargtrans__"))) {;
-        var defaultSize = 12;
-    };
-    return g.app.config.defaultFont;
-});},
+<t tx="ekr.20201227092411.48">	get getFontFromParams () {return __get__ (this, function (self, family, size, slant, weight, defaultSize) {
+		if (typeof defaultSize == 'undefined' || (defaultSize != null &amp;&amp; defaultSize.hasOwnProperty ("__kwargtrans__"))) {;
+			var defaultSize = 12;
+		};
+		return g.app.config.defaultFont;
+	});},
 </t>
 <t tx="ekr.20201227092411.480">get usesTime () {return __get__ (this, function (self) {
     return self._style.usesTime ();
@@ -18877,9 +18879,9 @@ export var Filter =  __class__ ('Filter', [object], {
 export var Filterer =  __class__ ('Filterer', [object], {
     __module__: __name__,
 </t>
-<t tx="ekr.20201227092411.49">get getIconImage () {return __get__ (this, function (self, py_name) {
-    return null;
-});},
+<t tx="ekr.20201227092411.49">	get getIconImage () {return __get__ (this, function (self, py_name) {
+		return null;
+	});},
 </t>
 <t tx="ekr.20201227092411.490">get __init__ () {return __get__ (this, function (self) {
     self.filters = [];
@@ -18978,13 +18980,13 @@ export var Handler =  __class__ ('Handler', [Filterer], {
     return self._name;
 });},
 </t>
-<t tx="ekr.20201227092411.5">get replaceClipboardWith () {return __get__ (this, function (self, s) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.5">	get replaceClipboardWith () {return __get__ (this, function (self, s) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.50">get getImageImage () {return __get__ (this, function (self, py_name) {
-    return null;
-});},
+<t tx="ekr.20201227092411.50">	get getImageImage () {return __get__ (this, function (self, py_name) {
+		return null;
+	});},
 </t>
 <t tx="ekr.20201227092411.500">get set_name () {return __get__ (this, function (self, py_name) {
     _acquireLock ();
@@ -19060,9 +19062,9 @@ export var Handler =  __class__ ('Handler', [Filterer], {
     // pass;
 });},
 </t>
-<t tx="ekr.20201227092411.51">get getTreeImage () {return __get__ (this, function (self, c, path) {
-    return null;
-});},
+<t tx="ekr.20201227092411.51">	get getTreeImage () {return __get__ (this, function (self, c, path) {
+		return null;
+	});},
 </t>
 <t tx="ekr.20201227092411.510">get close () {return __get__ (this, function (self) {
     _acquireLock ();
@@ -19188,9 +19190,9 @@ export var lastResort = _defaultLastResort;
 export var PlaceHolder =  __class__ ('PlaceHolder', [object], {
     __module__: __name__,
 </t>
-<t tx="ekr.20201227092411.52">get get_window_info () {return __get__ (this, function (self, window) {
-    return tuple ([600, 500, 20, 20]);
-});},
+<t tx="ekr.20201227092411.52">	get get_window_info () {return __get__ (this, function (self, window) {
+		return tuple ([600, 500, 20, 20]);
+	});},
 </t>
 <t tx="ekr.20201227092411.520">get __init__ () {return __get__ (this, function (self, alogger) {
     var n = alogger.py_name;
@@ -19320,10 +19322,10 @@ export var Manager =  __class__ ('Manager', [object], {
 export var Logger =  __class__ ('Logger', [Filterer], {
     __module__: __name__,
 </t>
-<t tx="ekr.20201227092411.53">get onActivateEvent () {return __get__ (this, function (self) {
-    var args = tuple ([].slice.apply (arguments).slice (1));
-    // pass;
-});},
+<t tx="ekr.20201227092411.53">	get onActivateEvent () {return __get__ (this, function (self) {
+		var args = tuple ([].slice.apply (arguments).slice (1));
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.530">get __init__ () {return __get__ (this, function (self, py_name, level) {
     if (typeof level == 'undefined' || (level != null &amp;&amp; level.hasOwnProperty ("__kwargtrans__"))) {;
@@ -19553,10 +19555,10 @@ export var Logger =  __class__ ('Logger', [Filterer], {
     }
 });},
 </t>
-<t tx="ekr.20201227092411.54">get onDeactivateEvent () {return __get__ (this, function (self) {
-    var args = tuple ([].slice.apply (arguments).slice (1));
-    // pass;
-});},
+<t tx="ekr.20201227092411.54">	get onDeactivateEvent () {return __get__ (this, function (self) {
+		var args = tuple ([].slice.apply (arguments).slice (1));
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.540">get findCaller () {return __get__ (this, function (self, stack_info) {
     if (typeof stack_info == 'undefined' || (stack_info != null &amp;&amp; stack_info.hasOwnProperty ("__kwargtrans__"))) {;
@@ -19728,9 +19730,9 @@ export var Logger =  __class__ ('Logger', [Filterer], {
     return level &gt;= self.getEffectiveLevel ();
 });},
 </t>
-<t tx="ekr.20201227092411.55">get set_top_geometry () {return __get__ (this, function (self, w, h, x, y) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.55">	get set_top_geometry () {return __get__ (this, function (self, w, h, x, y) {
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.550">get getChild () {return __get__ (this, function (self, suffix) {
     if (self.root !== self) {
@@ -19881,9 +19883,9 @@ export var LoggerAdapter =  __class__ ('LoggerAdapter', [object], {
     self.log (ERROR, msg, ...args, __kwargtrans__ (kwargs));
 });},
 </t>
-<t tx="ekr.20201227092411.56">get isTextWidget () {return __get__ (this, function (self, w) {
-    return true;
-});},
+<t tx="ekr.20201227092411.56">	get isTextWidget () {return __get__ (this, function (self, w) {
+		return true;
+	});},
 </t>
 <t tx="ekr.20201227092411.560">get exception () {return __get__ (this, function (self, msg) {
     var exc_info = true;
@@ -20065,9 +20067,9 @@ root.manager = Logger.manager;
     }
 };
 </t>
-<t tx="ekr.20201227092411.57">get isTextWrapper () {return __get__ (this, function (self, w) {
-    return w &amp;&amp; getattr (w, 'supportsHighLevelInterface', null);
-});},
+<t tx="ekr.20201227092411.57">	get isTextWrapper () {return __get__ (this, function (self, w) {
+		return w &amp;&amp; getattr (w, 'supportsHighLevelInterface', null);
+	});},
 </t>
 <t tx="ekr.20201227092411.570">export var getLogger = function (py_name) {
     if (typeof py_name == 'undefined' || (py_name != null &amp;&amp; py_name.hasOwnProperty ("__kwargtrans__"))) {;
@@ -20284,9 +20286,9 @@ export var fatal = critical;
     root.manager.disable = level;
 };
 </t>
-<t tx="ekr.20201227092411.58">get oops () {return __get__ (this, function (self) {
-    g.trace ('NullGui', g.callers (4));
-});},
+<t tx="ekr.20201227092411.58">	get oops () {return __get__ (this, function (self) {
+		g.trace ('NullGui', g.callers (4));
+	});},
 </t>
 <t tx="ekr.20201227092411.580">export var shutdown = function (handlerList) {
     if (typeof handlerList == 'undefined' || (handlerList != null &amp;&amp; handlerList.hasOwnProperty ("__kwargtrans__"))) {;
@@ -21000,9 +21002,9 @@ export function zip () {
     }
     var shortest = args.length == 0 ? [] : args.reduce (
 </t>
-<t tx="ekr.20201227092411.59">get createComparePanel () {return __get__ (this, function (self, c) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.59">	get createComparePanel () {return __get__ (this, function (self, c) {
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.590">    function (array0, array1) {
         return array0.length &lt; array1.length ? array0 : array1;
@@ -21178,13 +21180,13 @@ Array.prototype.__str__ = Array.prototype.__repr__;
     this.splice (index, 0, element);
 };
 </t>
-<t tx="ekr.20201227092411.6">get getTextFromClipboard () {return __get__ (this, function (self) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.6">	get getTextFromClipboard () {return __get__ (this, function (self) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.60">get createFindTab () {return __get__ (this, function (self, c, parentFrame) {
-    // pass;
-});},
+<t tx="ekr.20201227092411.60">	get createFindTab () {return __get__ (this, function (self, c, parentFrame) {
+		// pass;
+	});},
 </t>
 <t tx="ekr.20201227092411.600">Array.prototype.remove = function (element) {
     let index = this.indexOf (element);
@@ -21286,11 +21288,11 @@ set.__bases__ = [object];
     return true;
 };
 </t>
-<t tx="ekr.20201227092411.61">get createLeoFrame () {return __get__ (this, function (self, c, title) {
-    var gui = self;
-    self.lastFrame = leoFrame.NullFrame (c, title, gui);
-    return self.lastFrame;
-});},
+<t tx="ekr.20201227092411.61">	get createLeoFrame () {return __get__ (this, function (self, c, title) {
+		var gui = self;
+		self.lastFrame = leoFrame.NullFrame (c, title, gui);
+		return self.lastFrame;
+	});},
 </t>
 <t tx="ekr.20201227092411.610">Array.prototype.issuperset = function (other) {
     this.sort ();
@@ -21389,19 +21391,19 @@ set.__bases__ = [object];
     }
 };
 </t>
-<t tx="ekr.20201227092411.62">    get runMainLoop () {return __get__ (this, function (self) {
-        if (self.script) {
-            var frame = self.lastFrame;
-            g.app.log = frame.log;
-            self.lastFrame.c.executeScript (__kwargtrans__ ({script: self.script}));
-        }
-        else {
-            print ('**** NullGui.runMainLoop: terminating Leo.');
-        }
-    });}
+<t tx="ekr.20201227092411.62">	get runMainLoop () {return __get__ (this, function (self) {
+		if (self.script) {
+			var frame = self.lastFrame;
+			g.app.log = frame.log;
+			self.lastFrame.c.executeScript (__kwargtrans__ ({script: self.script}));
+		}
+		else {
+			print ('**** NullGui.runMainLoop: terminating Leo.');
+		}
+	});}
 });
 export var NullScriptingControllerClass =  __class__ ('NullScriptingControllerClass', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
 <t tx="ekr.20201227092411.620">Array.prototype.__ge__ = function (other) {
     if (this.__class__ == set) {
@@ -21525,13 +21527,13 @@ String.prototype.__iter__ = function () {new __PyIterator__ (this);};
     return this.indexOf (sub, start);
 };
 </t>
-<t tx="ekr.20201227092411.63">get __init__ () {return __get__ (this, function (self, c, iconBar) {
-    if (typeof iconBar == 'undefined' || (iconBar != null &amp;&amp; iconBar.hasOwnProperty ("__kwargtrans__"))) {;
-        var iconBar = null;
-    };
-    self.c = c;
-    self.iconBar = iconBar;
-});},
+<t tx="ekr.20201227092411.63">	get __init__ () {return __get__ (this, function (self, c, iconBar) {
+		if (typeof iconBar == 'undefined' || (iconBar != null &amp;&amp; iconBar.hasOwnProperty ("__kwargtrans__"))) {;
+			var iconBar = null;
+		};
+		self.c = c;
+		self.iconBar = iconBar;
+	});},
 </t>
 <t tx="ekr.20201227092411.630">String.prototype.__getslice__ = function (start, stop, step) {
     if (start &lt; 0) {
@@ -21607,12 +21609,12 @@ __setproperty__ (String.prototype, 'format', {
     return /^[\s]{1,}$/.test(this)
 }
 </t>
-<t tx="ekr.20201227092411.64">    get createAllButtons () {return __get__ (this, function (self) {
-        // pass;
-    });}
+<t tx="ekr.20201227092411.64">	get createAllButtons () {return __get__ (this, function (self) {
+		// pass;
+	});}
 });
 export var StringCheckBox =  __class__ ('StringCheckBox', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
 <t tx="ekr.20201227092411.640">String.prototype.isnumeric = function () {
     return !isNaN (parseFloat (this)) &amp;&amp; isFinite (this);
@@ -21699,11 +21701,11 @@ export var StringCheckBox =  __class__ ('StringCheckBox', [object], {
     return false;
 };
 </t>
-<t tx="ekr.20201227092411.65">get __init__ () {return __get__ (this, function (self, py_name, label) {
-    self.label = label;
-    self.py_name = py_name;
-    self.value = true;
-});},
+<t tx="ekr.20201227092411.65">	get __init__ () {return __get__ (this, function (self, py_name, label) {
+		self.label = label;
+		self.py_name = py_name;
+		self.value = true;
+	});},
 </t>
 <t tx="ekr.20201227092411.650">String.prototype.strip = function () {
     return this.trim ();
@@ -21774,9 +21776,9 @@ String.prototype.__rmul__ = String.prototype.__mul__;
     return val;
 }
 </t>
-<t tx="ekr.20201227092411.66">get checkState () {return __get__ (this, function (self) {
-    return self.value;
-});},
+<t tx="ekr.20201227092411.66">	get checkState () {return __get__ (this, function (self) {
+		return self.value;
+	});},
 </t>
 <t tx="ekr.20201227092411.660">function __pop__ (aKey, aDefault) {
     var result = this [aKey];
@@ -22388,9 +22390,9 @@ export var Exception =  __class__ ('Exception', [BaseException], {
 export var IterableError =  __class__ ('IterableError', [Exception], {
     __module__: __name__,
 </t>
-<t tx="ekr.20201227092411.67">get objectName () {return __get__ (this, function (self) {
-    return self.py_name;
-});},
+<t tx="ekr.20201227092411.67">	get objectName () {return __get__ (this, function (self) {
+		return self.py_name;
+	});},
 </t>
 <t tx="ekr.20201227092411.670">    get __init__ () {return __get__ (this, function (self, error) {
         Exception.__init__ (self, "Can't iterate over non-iterable", __kwargtrans__ ({error: error}));
@@ -22519,105 +22521,105 @@ export var RuntimeWarning =  __class__ ('RuntimeWarning', [Warning], {
     }
 };
 </t>
-<t tx="ekr.20201227092411.68">get setCheckState () {return __get__ (this, function (self, value) {
-    self.value = value;
-});},
+<t tx="ekr.20201227092411.68">	get setCheckState () {return __get__ (this, function (self, value) {
+		self.value = value;
+	});},
 </t>
-<t tx="ekr.20201227092411.69">    get toggle () {return __get__ (this, function (self) {
-        self.value = !(self.value);
-    });}
+<t tx="ekr.20201227092411.69">	get toggle () {return __get__ (this, function (self) {
+		self.value = !(self.value);
+	});}
 });
 export var StringGui =  __class__ ('StringGui', [LeoGui], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.7">get attachLeoIcon () {return __get__ (this, function (self, window) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.7">	get attachLeoIcon () {return __get__ (this, function (self, window) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.70">get oops () {return __get__ (this, function (self) {
-    g.trace ('StringGui', g.callers (4));
-});},
+<t tx="ekr.20201227092411.70">	get oops () {return __get__ (this, function (self) {
+		g.trace ('StringGui', g.callers (4));
+	});},
 </t>
-<t tx="ekr.20201227092411.71">    get runMainLoop () {return __get__ (this, function (self) {
-        self.oops ();
-    });}
+<t tx="ekr.20201227092411.71">	get runMainLoop () {return __get__ (this, function (self) {
+		self.oops ();
+	});}
 });
 export var StringLineEdit =  __class__ ('StringLineEdit', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.72">get __init__ () {return __get__ (this, function (self, py_name, disabled) {
-    self.disabled = disabled;
-    self.py_name = py_name;
-    self.pos = 0;
-    self.s = '';
-});},
+<t tx="ekr.20201227092411.72">	get __init__ () {return __get__ (this, function (self, py_name, disabled) {
+		self.disabled = disabled;
+		self.py_name = py_name;
+		self.pos = 0;
+		self.s = '';
+	});},
 </t>
-<t tx="ekr.20201227092411.73">get py_clear () {return __get__ (this, function (self) {
-    self.pos = 0;
-    self.s = '';
-});},
+<t tx="ekr.20201227092411.73">	get py_clear () {return __get__ (this, function (self) {
+		self.pos = 0;
+		self.s = '';
+	});},
 </t>
-<t tx="ekr.20201227092411.74">get insert () {return __get__ (this, function (self, s) {
-    if (s) {
-        var i = self.pos;
-        self.s = (self.s.__getslice__ (0, i, 1) + s) + self.s.__getslice__ (i, null, 1);
-        self.pos += len (s);
-    }
-});},
+<t tx="ekr.20201227092411.74">	get insert () {return __get__ (this, function (self, s) {
+		if (s) {
+			var i = self.pos;
+			self.s = (self.s.__getslice__ (0, i, 1) + s) + self.s.__getslice__ (i, null, 1);
+			self.pos += len (s);
+		}
+	});},
 </t>
-<t tx="ekr.20201227092411.75">get objectName () {return __get__ (this, function (self) {
-    return self.py_name;
-});},
+<t tx="ekr.20201227092411.75">	get objectName () {return __get__ (this, function (self) {
+		return self.py_name;
+	});},
 </t>
-<t tx="ekr.20201227092411.76">    get text () {return __get__ (this, function (self) {
-        return self.s;
-    });}
+<t tx="ekr.20201227092411.76">	get text () {return __get__ (this, function (self) {
+		return self.s;
+	});}
 });
 export var StringRadioButton =  __class__ ('StringRadioButton', [object], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.77">get __init__ () {return __get__ (this, function (self, py_name, label) {
-    self.label = label;
-    self.py_name = py_name;
-    self.value = true;
-});},
+<t tx="ekr.20201227092411.77">	get __init__ () {return __get__ (this, function (self, py_name, label) {
+		self.label = label;
+		self.py_name = py_name;
+		self.value = true;
+	});},
 </t>
-<t tx="ekr.20201227092411.78">get isChecked () {return __get__ (this, function (self) {
-    return self.value;
-});},
+<t tx="ekr.20201227092411.78">	get isChecked () {return __get__ (this, function (self) {
+		return self.value;
+	});},
 </t>
-<t tx="ekr.20201227092411.79">get objectName () {return __get__ (this, function (self) {
-    return self.py_name;
-});},
+<t tx="ekr.20201227092411.79">	get objectName () {return __get__ (this, function (self) {
+		return self.py_name;
+	});},
 </t>
-<t tx="ekr.20201227092411.8">get center_dialog () {return __get__ (this, function (self, dialog) {
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.8">	get center_dialog () {return __get__ (this, function (self, dialog) {
+		self.oops ();
+	});},
 </t>
-<t tx="ekr.20201227092411.80">    get toggle () {return __get__ (this, function (self) {
-        self.value = !(self.value);
-    });}
+<t tx="ekr.20201227092411.80">	get toggle () {return __get__ (this, function (self) {
+		self.value = !(self.value);
+	});}
 });
 export var UnitTestGui =  __class__ ('UnitTestGui', [NullGui], {
-    __module__: __name__,
+	__module__: __name__,
 </t>
-<t tx="ekr.20201227092411.81">get __init__ () {return __get__ (this, function (self, theDict) {
-    if (typeof theDict == 'undefined' || (theDict != null &amp;&amp; theDict.hasOwnProperty ("__kwargtrans__"))) {;
-        var theDict = null;
-    };
-    self.oldGui = g.app.gui;
-    __super__ (UnitTestGui, '__init__') (self, 'UnitTestGui');
-    self.theDict = (theDict === null ? dict ({}) : theDict);
-    g.app.gui = self;
-});},
+<t tx="ekr.20201227092411.81">	get __init__ () {return __get__ (this, function (self, theDict) {
+		if (typeof theDict == 'undefined' || (theDict != null &amp;&amp; theDict.hasOwnProperty ("__kwargtrans__"))) {;
+			var theDict = null;
+		};
+		self.oldGui = g.app.gui;
+		__super__ (UnitTestGui, '__init__') (self, 'UnitTestGui');
+		self.theDict = (theDict === null ? dict ({}) : theDict);
+		g.app.gui = self;
+	});},
 </t>
-<t tx="ekr.20201227092411.82">get destroySelf () {return __get__ (this, function (self) {
-    g.app.gui = self.oldGui;
-});},
+<t tx="ekr.20201227092411.82">	get destroySelf () {return __get__ (this, function (self) {
+		g.app.gui = self.oldGui;
+	});},
 </t>
-<t tx="ekr.20201227092411.83">    get createSpellTab () {return __get__ (this, function (self, c, spellHandler, tabName) {
-        // pass;
-    });}
+<t tx="ekr.20201227092411.83">	get createSpellTab () {return __get__ (this, function (self, c, spellHandler, tabName) {
+		// pass;
+	});}
 });
 
 //# sourceMappingURL=leo.core.leoGui.map
@@ -22720,24 +22722,24 @@ if (0) {
     }
 }
 </t>
-<t tx="ekr.20201227092411.9">get create_labeled_frame () {return __get__ (this, function (self, parent, caption, relief, bd, padx, pady) {
-    if (typeof caption == 'undefined' || (caption != null &amp;&amp; caption.hasOwnProperty ("__kwargtrans__"))) {;
-        var caption = null;
-    };
-    if (typeof relief == 'undefined' || (relief != null &amp;&amp; relief.hasOwnProperty ("__kwargtrans__"))) {;
-        var relief = 'groove';
-    };
-    if (typeof bd == 'undefined' || (bd != null &amp;&amp; bd.hasOwnProperty ("__kwargtrans__"))) {;
-        var bd = 2;
-    };
-    if (typeof padx == 'undefined' || (padx != null &amp;&amp; padx.hasOwnProperty ("__kwargtrans__"))) {;
-        var padx = 0;
-    };
-    if (typeof pady == 'undefined' || (pady != null &amp;&amp; pady.hasOwnProperty ("__kwargtrans__"))) {;
-        var pady = 0;
-    };
-    self.oops ();
-});},
+<t tx="ekr.20201227092411.9">	get create_labeled_frame () {return __get__ (this, function (self, parent, caption, relief, bd, padx, pady) {
+		if (typeof caption == 'undefined' || (caption != null &amp;&amp; caption.hasOwnProperty ("__kwargtrans__"))) {;
+			var caption = null;
+		};
+		if (typeof relief == 'undefined' || (relief != null &amp;&amp; relief.hasOwnProperty ("__kwargtrans__"))) {;
+			var relief = 'groove';
+		};
+		if (typeof bd == 'undefined' || (bd != null &amp;&amp; bd.hasOwnProperty ("__kwargtrans__"))) {;
+			var bd = 2;
+		};
+		if (typeof padx == 'undefined' || (padx != null &amp;&amp; padx.hasOwnProperty ("__kwargtrans__"))) {;
+			var padx = 0;
+		};
+		if (typeof pady == 'undefined' || (pady != null &amp;&amp; pady.hasOwnProperty ("__kwargtrans__"))) {;
+			var pady = 0;
+		};
+		self.oops ();
+	});},
 </t>
 <t tx="ekr.20201227092411.90">get oops () {return __get__ (this, function (self) {
     g.pr ('LeoMenu oops:', g.callers (4), 'should be overridden in subclass');
@@ -25283,5 +25285,6 @@ export var __lu = dict ({'Y': 0, 'm': 1, 'd': 2, 'H': 3, 'M': 4, 'S': 5});
     return 0;
 };
 </t>
+<t tx="ekr.20201227093049.1"></t>
 </tnodes>
 </leo_file>
