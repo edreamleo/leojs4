@@ -18,9 +18,14 @@
 <v t="ekr.20201227091533.155"><vh>previous tests</vh></v>
 <v t="ekr.20201227091533.156"><vh>not enabled</vh></v>
 </v>
+<v t="ekr.20201228133448.1"><vh>@button backup</vh></v>
 </v>
 </v>
 <v t="ekr.20201227091504.1"><vh> Recursive import script</vh></v>
+<v t="ekr.20201228133917.1"><vh>vs-code version</vh></v>
+<v t="ekr.20201228133757.1"><vh>leojs4</vh>
+<v t="ekr.20201227063438.1"><vh>@file coreNodes.py</vh></v>
+<v t="ekr.20201227040845.1"><vh>@file coreGlobals.py</vh></v>
 <v t="ekr.20201227092108.1"><vh>@clean package.json</vh></v>
 <v t="ekr.20201227092409.3"><vh>@clean dummyLeoApp.js</vh>
 <v t="ekr.20201227092409.4"><vh>var test</vh></v>
@@ -32,7 +37,8 @@
 <v t="ekr.20201227092409.8"><vh>@clean extension.js</vh>
 <v t="ekr.20201227092409.9"><vh>function activate</vh></v>
 </v>
-<v t="ekr.20201227092409.12"><vh>@path src</vh>
+</v>
+<v t="ekr.20201227092409.12"><vh>leojs4/src</vh>
 <v t="ekr.20201227093049.1"><vh> library</vh>
 <v t="ekr.20201227092409.13"><vh>@clean inspect.js</vh>
 <v t="ekr.20201227092409.14"><vh>export var isclass</vh></v>
@@ -25286,5 +25292,16 @@ export var __lu = dict ({'Y': 0, 'm': 1, 'd': 2, 'H': 3, 'M': 4, 'S': 5});
 };
 </t>
 <t tx="ekr.20201227093049.1"></t>
+<t tx="ekr.20201228133448.1">c.backup_helper(sub_dir='leojs4')
+</t>
+<t tx="ekr.20201228133757.1"></t>
+<t tx="ekr.20201228133917.1">Version: 1.52.1 (user setup)
+Commit: ea3859d4ba2f3e577a159bc91e3074c5d85c0523
+Date: 2020-12-16T16:34:46.910Z
+Electron: 9.3.5
+Chrome: 83.0.4103.122
+Node.js: 12.14.1
+V8: 8.3.110.13-electron.0
+OS: Windows_NT x64 10.0.19041</t>
 </tnodes>
 </leo_file>
