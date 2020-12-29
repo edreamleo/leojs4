@@ -20,24 +20,12 @@
 </v>
 <v t="ekr.20201228133448.1"><vh>@button backup</vh></v>
 </v>
-</v>
 <v t="ekr.20201227091504.1"><vh> Recursive import script</vh></v>
+</v>
+<v t="ekr.20201228141200.1"><vh>Notes</vh>
 <v t="ekr.20201228133917.1"><vh>vs-code version</vh></v>
-<v t="ekr.20201228133757.1"><vh>leojs4</vh>
-<v t="ekr.20201227063438.1"><vh>@file coreNodes.py</vh></v>
-<v t="ekr.20201227040845.1"><vh>@file coreGlobals.py</vh></v>
-<v t="ekr.20201227092108.1"><vh>@clean package.json</vh></v>
-<v t="ekr.20201227092409.3"><vh>@clean dummyLeoApp.js</vh>
-<v t="ekr.20201227092409.4"><vh>var test</vh></v>
 </v>
-<v t="ekr.20201227092409.5"><vh>@clean dummyLeoGlobals.js</vh>
-<v t="ekr.20201227092409.6"><vh>export var trace</vh></v>
-<v t="ekr.20201227092409.7"><vh>export var pr</vh></v>
-</v>
-<v t="ekr.20201227092409.8"><vh>@clean extension.js</vh>
-<v t="ekr.20201227092409.9"><vh>function activate</vh></v>
-</v>
-</v>
+<v t="ekr.20201228141205.1"><vh>** To do</vh></v>
 <v t="ekr.20201227092409.12"><vh>leojs4/src</vh>
 <v t="ekr.20201227093049.1"><vh> library</vh>
 <v t="ekr.20201227092409.13"><vh>@clean inspect.js</vh>
@@ -1822,6 +1810,22 @@
 <v t="ekr.20201227092411.454"><vh>var test</vh></v>
 </v>
 </v>
+<v t="ekr.20201228133757.1"><vh>leojs4</vh>
+<v t="ekr.20201227063438.1"><vh>@file coreNodes.py</vh></v>
+<v t="ekr.20201227040845.1"><vh>@file coreGlobals.py</vh></v>
+<v t="ekr.20201227092409.3"><vh>@clean dummyLeoApp.js</vh>
+<v t="ekr.20201227092409.4"><vh>var test</vh></v>
+</v>
+<v t="ekr.20201227092409.5"><vh>@clean dummyLeoGlobals.js</vh>
+<v t="ekr.20201227092409.6"><vh>export var trace</vh></v>
+<v t="ekr.20201227092409.7"><vh>export var pr</vh></v>
+</v>
+</v>
+<v t="ekr.20201227092108.1"><vh>@clean package.json</vh></v>
+<v t="ekr.20201227092409.8"><vh>@clean extension.js</vh>
+<v t="ekr.20201227092409.9"><vh>function activate</vh></v>
+</v>
+<v t="ekr.20201229092206.1"><vh>@clean leosrc/test.mjs</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20201227091441.1"></t>
@@ -2019,7 +2023,6 @@ wikiview.py
 <t tx="ekr.20201227091533.91"></t>
 <t tx="ekr.20201227092108.1">@language json
 {
-    "type": "module",
     "name": "leojs",
     "description": "leojs, based on minimal hello world example",
     "version": "0.0.1",
@@ -5547,17 +5550,18 @@ export var WrapperAPI =  __class__ ('WrapperAPI', [object], {
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
-const app = require('./dummyLeoApp')
+import {test} from './leosrc/test.mjs';
 
-// import {test} from './src/dummyLeoApp.js';
-
-// this method is called when your extension is activated
-// your extension is activated the very first time the command is executed
-
-/**
- * @param {vscode.ExtensionContext} context
- */
 @others
+
+function deactivate() {}
+
+// eslint-disable-next-line no-undef
+module.exports = {
+    activate,
+    deactivate
+}
+
 @language javascript
 @tabwidth -4
 </t>
@@ -5604,31 +5608,22 @@ const app = require('./dummyLeoApp')
     // pass;
 });},
 </t>
-<t tx="ekr.20201227092409.9">function activate(context) {
-    // Executed ONCE!
-    console.log('===== leojs active =====');
+<t tx="ekr.20201227092409.9">/**
+ * @param {vscode.ExtensionContext} context
+ */
+function activate(context) {
 
-    // leojs must match "command" field in package.json
+    console.log('===== leojs active =====');   // Executed ONCE!
+
+    // extension.leojs must match "command" field in package.json
     let disposable = vscode.commands.registerCommand('extension.leojs', () =&gt; {
-        // ===== Put command code here.
-        // import main from ".src/dummyLeoApp.js"
         console.log("Before")
         vscode.window.showInformationMessage('BEFORE');
-        app.test()
+        test()
         console.log("after")
         vscode.window.showInformationMessage('AFTER');
     });
-
     context.subscriptions.push(disposable);
-}
-
-// Called when the extension is deactivated
-function deactivate() {}
-
-// eslint-disable-next-line no-undef
-module.exports = {
-    activate,
-    deactivate
 }
 </t>
 <t tx="ekr.20201227092409.90">get setAllText () {return __get__ (this, function (self, s) {
@@ -25303,5 +25298,19 @@ Chrome: 83.0.4103.122
 Node.js: 12.14.1
 V8: 8.3.110.13-electron.0
 OS: Windows_NT x64 10.0.19041</t>
+<t tx="ekr.20201228141200.1"></t>
+<t tx="ekr.20201228141205.1">@language rest
+@wrap
+
+*** Get import working, or convert everything to 'require'
+
+@language python
+</t>
+<t tx="ekr.20201229092206.1">@language javascript
+
+function test() {
+    console.log('test.mjs.test')
+}
+</t>
 </tnodes>
 </leo_file>

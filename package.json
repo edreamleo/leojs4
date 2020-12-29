@@ -1,5 +1,4 @@
 {
-    "type": "module",
     "name": "leojs",
     "description": "leojs, based on minimal hello world example",
     "version": "0.0.1",
