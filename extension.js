@@ -1,24 +1,22 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
+// EKR: Executed when user chooses leojs command.
+const util = require('util');
 const vscode = require('vscode');
-import {test} from './leosrc/test.mjs';
+const leo = require('./leo/leo.js');
+// import { test } from "leo.mjs";
+const info = vscode.window.showInformationMessage;
+info("leo:" + util.inspect(leo));
+// info('after requires');
 
 /**
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
-
-    console.log('===== leojs active =====');   // Executed ONCE!
-
     // extension.leojs must match "command" field in package.json
     let disposable = vscode.commands.registerCommand('extension.leojs', () => {
-        console.log("Before")
-        vscode.window.showInformationMessage('BEFORE');
-        test()
-        console.log("after")
-        vscode.window.showInformationMessage('AFTER');
+        leo.test(info);
     });
     context.subscriptions.push(disposable);
+    info("activate done");
 }
 
 function deactivate() {}

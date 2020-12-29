@@ -1821,11 +1821,12 @@
 <v t="ekr.20201227092409.7"><vh>export var pr</vh></v>
 </v>
 </v>
+<v t="ekr.20201229092206.1"><vh>@clean leosrc/test.mjs</vh></v>
 <v t="ekr.20201227092108.1"><vh>@clean package.json</vh></v>
 <v t="ekr.20201227092409.8"><vh>@clean extension.js</vh>
 <v t="ekr.20201227092409.9"><vh>function activate</vh></v>
 </v>
-<v t="ekr.20201229092206.1"><vh>@clean leosrc/test.mjs</vh></v>
+<v t="ekr.20201229093720.1"><vh>@clean leo.js</vh></v>
 </vnodes>
 <tnodes>
 <t tx="ekr.20201227091441.1"></t>
@@ -5547,10 +5548,11 @@ export var WrapperAPI =  __class__ ('WrapperAPI', [object], {
 });},
 </t>
 <t tx="ekr.20201227092409.8">@path c:/vs-code-devel/leojs4/
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
 const vscode = require('vscode');
-import {test} from './leosrc/test.mjs';
+const leo = require('./leo')
+const info = vscode.window.showInformationMessage
+
+info("after requires")
 
 @others
 
@@ -5613,16 +5615,16 @@ module.exports = {
  */
 function activate(context) {
 
-    console.log('===== leojs active =====');   // Executed ONCE!
+    console.log('===== leojs active =====');
 
     // extension.leojs must match "command" field in package.json
     let disposable = vscode.commands.registerCommand('extension.leojs', () =&gt; {
-        console.log("Before")
         vscode.window.showInformationMessage('BEFORE');
-        test()
+        // leo.test(console)
         console.log("after")
         vscode.window.showInformationMessage('AFTER');
     });
+
     context.subscriptions.push(disposable);
 }
 </t>
@@ -25310,6 +25312,12 @@ OS: Windows_NT x64 10.0.19041</t>
 
 function test() {
     console.log('test.mjs.test')
+}
+</t>
+<t tx="ekr.20201229093720.1">@language javascript
+
+function test(console) {
+    // console.log('leo.js:test')
 }
 </t>
 </tnodes>
