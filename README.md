@@ -1,21 +1,19 @@
-# Hello World Minimal Sample
+# leojs4
 
-This is a minimal version of the [Hello World Sample](../helloworld-sample).
+Prototype for using transcrypt in leoInteg.
 
-It does not use TypeScript and only includes the `vscode` devDependency needed for extension development.
+## To do
 
-## VS Code API
+- Play with directory structure.
+  Will that help import statement?
 
-### `vscode` module
+  - Print vs-code vars.
 
-- [`commands.registerCommand`](https://code.visualstudio.com/api/references/vscode-api#commands.registerCommand)
-- [`window.showInformationMessage`](https://code.visualstudio.com/api/references/vscode-api#window.showInformationMessage)
+## Debug console message
 
-### Contribution Points
+(node:20556) Warning: require() of ES modules is not supported.
+require() of c:\vs-code-devel\leojs4\leo\leo.js from c:\vs-code-devel\leojs4\extension.js is an ES module file as it is a .js file whose nearest parent package.json contains "type": "module" which defines all .js files in that package scope as ES modules.
 
-- [`contributes.commands`](https://code.visualstudio.com/api/references/contribution-points#contributes.commands)
-
-## Running the Sample
-
-- Run `npm install` in terminal to install dependencies
-- Run the `Run Extension` target in the Debug View.
+Instead rename leo.js to end in .cjs,
+change the requiring code to use import(),
+or remove "type": "module" from c:\vs-code-devel\leojs4\leo\package.json.
