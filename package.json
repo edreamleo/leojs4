@@ -1,9 +1,9 @@
 {
     "name": "leojs",
-    "description": "leojs, based on minimal hello world example",
+    "description": "leojs: Leo in JS",
     "version": "0.0.1",
     "publisher": "edreamleo",
-    "repository": "",
+    "repository": "https://github.com/edreamleo/leojs4",
     "engines": {
         "vscode": "^1.32.0"
     },
