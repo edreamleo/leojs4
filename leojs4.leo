@@ -25,7 +25,6 @@
 <v t="ekr.20201228141200.1"><vh>Notes</vh>
 <v t="ekr.20201228133917.1"><vh>vs-code version</vh></v>
 </v>
-<v t="ekr.20201228141205.1"><vh>** To do</vh></v>
 <v t="ekr.20201227092108.1"><vh>@clean package.json</vh></v>
 <v t="ekr.20201227092409.8"><vh>@clean extension.js</vh>
 <v t="ekr.20201227092409.9"><vh>function activate</vh></v>
@@ -228,10 +227,10 @@ wikiview.py
 <t tx="ekr.20201227092108.1">@language json
 {
     "name": "leojs",
-    "description": "leojs, based on minimal hello world example",
+    "description": "leojs: Leo in JS",
     "version": "0.0.1",
     "publisher": "edreamleo",
-    "repository": "",
+    "repository": "https://github.com/edreamleo/leojs4",
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -255,13 +254,15 @@ wikiview.py
 </t>
 <t tx="ekr.20201227092409.8">@path c:/vs-code-devel/leojs4/
 // EKR: Executed when user chooses leojs command.
+const assert = require('assert').strict;
 const util = require('util');
+assert (util)
 const vscode = require('vscode');
-const leo = require('./leo/leo.js');
-// import { test } from "leo.mjs";
+// const leo = require('./leo/leo.js');
+import {leo} from '.leo/leo'
+assert (leo)
 const info = vscode.window.showInformationMessage;
-info("leo:" + util.inspect(leo));
-// info('after requires');
+// info("leo:" + util.inspect(leo));
 
 @others
 
@@ -281,11 +282,12 @@ module.exports = {
  */
 function activate(context) {
     // extension.leojs must match "command" field in package.json
-    let disposable = vscode.commands.registerCommand('extension.leojs', () =&gt; {
-        leo.test(info);
+    let disposable = vscode.commands.registerCommand(
+        'extension.leojs', () =&gt; {
+            leo.test(info);
     });
     context.subscriptions.push(disposable);
-    info("activate done");
+    // info("activate done");
 }
 </t>
 <t tx="ekr.20201228133448.1">c.backup_helper(sub_dir='leojs4')
@@ -299,12 +301,5 @@ Node.js: 12.14.1
 V8: 8.3.110.13-electron.0
 OS: Windows_NT x64 10.0.19041</t>
 <t tx="ekr.20201228141200.1"></t>
-<t tx="ekr.20201228141205.1">@language rest
-@wrap
-
-*** Get import working, or convert everything to 'require'
-
-@language python
-</t>
 </tnodes>
 </leo_file>

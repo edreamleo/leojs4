@@ -3,9 +3,9 @@ const assert = require('assert').strict;
 const util = require('util');
 assert (util)
 const vscode = require('vscode');
-// const leo = require('./leo/leo.js');
-import {leo} from '.leo/leo'
-assert (leo)
+const leo = require('./leo/leo.js');
+// import {leo} from '.leo/leo'
+assert (leo);
 const info = vscode.window.showInformationMessage;
 // info("leo:" + util.inspect(leo));
 
